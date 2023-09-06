@@ -1,69 +1,78 @@
-/* Reset some default styles */
-body, h1, h2, h3, p, ul, li {
-  margin: 0;
-  padding: 0;
-}
-
+/* Common Styles */
 body {
-  font-family: 'Roboto', sans-serif; /* Modern font */
-}
-
-/* Header and navigation styles */
-header {
-  background-color: #333;
+  background-color: #1f1f1f;
   color: #fff;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  min-height: 100vh; /* Ensure the body covers the entire viewport height */
+  position: relative; /* Set position to relative for proper footer placement */
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
+.navbar {
+  background-color: #111;
 }
 
-nav li {
-  margin-right: 20px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #fff;
-}
-
-/* Main content styles */
-main {
-  padding: 40px;
-}
-
-.cards-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 30px;
-}
-
-.card {
-  border: none;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.95);
-  border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-}
-
-/* Footer styles */
-footer {
+.error {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  padding: 20px;
-  background-color: #333;
+  width: 100%;
+}
+
+.btn-light {
+  background-color: transparent;
+  color: #9c27b0;
+  border: 2px solid #9c27b0;
+  border-radius: 25px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-light:hover {
+  background-color: #9c27b0;
   color: #fff;
-  font-size: 14px;
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 20px 0;
+  position: absolute; /* Position the footer absolutely */
+  bottom: 0; /* Stick the footer to the bottom of the viewport */
+  width: 100%; /* Ensure the footer spans the entire width of the viewport */
+}
+
+/* Hero Section */
+.hero {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+/* Content Section */
+.content {
+  padding: 40px 0;
+}
+
+/* Cards */
+.card {
+  background-color: #333;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+  color: #fff;
+}
+
+/* Support Section */
+.support {
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
 }
