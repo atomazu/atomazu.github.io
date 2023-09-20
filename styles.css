@@ -126,3 +126,51 @@ nav {
   margin-right: auto;
   display: block;
 }
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .content {
+    padding: 1em;
+    text-align: left; /* If you prefer the text to be left-aligned on mobile */
+  }
+
+  .btn {
+    width: 100%; /* Take up all horizontal space */
+    margin-right: 0;
+    margin-bottom: 5px; /* Adjust for better spacing */
+  }
+
+  .btn-blog {
+    margin-top: 15px;
+  }
+  
+  .img-sm, .img-me, .img-la {
+    width: 100%; /* Fill the entire horizontal space */
+    height: 150px; /* Set a fixed height, adjust as needed */
+    object-fit: cover; /* Make the image cover the div */
+  }
+
+  .center-screen {
+    min-height: 60vh;
+    text-align: left; /* If you prefer the text to be left-aligned on mobile */
+  }
+
+  /* For card content */
+  .card-full-content.expanded {
+    max-height: 2000px; /* Increase max height for better mobile viewing */
+  }
+
+  .img-sm, .img-me, .img-la {
+    width: 100%; /* Fill the entire horizontal space */
+    height: 150px; /* Set a fixed height, adjust as needed */
+    object-fit: cover; /* Make the image cover the div */
+    margin-bottom: 15px;
+  }
+
+  .img-le, .img-ri {
+    float: none;
+    margin: 15px auto;
+  }
+
+  /* Add more styles specific to mobile if needed */
+}
