@@ -3,18 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me - atomazu</title>
+    <title>atomazu.github.io / home</title>
     <link
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <link href="styles.css" rel="stylesheet" />
+    <style>
+      .card {
+          opacity: 0;
+      }
+  </style>
   </head>
   <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light justify-content-center">
-      <a class="navbar-brand" href="#" data-translate="title"
-        >atomazu's Portfolio</a
+      <a class="navbar-brand" href="index.html"
+        >atomazu.github.io / home</a
       >
     </nav>
 
@@ -24,14 +29,10 @@
       <div class="card mb-3">
         <div class="card-body">
           <h2 class="card-title" data-translate="online">Online Presence</h2>
-          <a
-            href="https://twitter.com/atomazu"
-            class="btn btn-secondary"
+          <a href="https://twitter.com/atomazu" class="btn btn-secondary"
             >Twitter</a
           >
-          <a
-            href="https://github.com/atomazu"
-            class="btn btn-secondary"
+          <a href="https://github.com/atomazu" class="btn btn-secondary"
             >GitHub</a
           >
           <a
@@ -39,23 +40,7 @@
             class="btn btn-secondary"
             >Royal Road</a
           >
-          <a
-            href="not_found.html"
-            class="btn btn-secondary"
-            >Documentation</a
-          >
-
-          <a
-            href="not_found.html"
-            class="btn btn-secondary"
-            >Blog</a
-          >
-
-          <a
-            href="not_found.html"
-            class="btn btn-secondary"
-            >Useful Resources</a
-          >
+          <a href="blog.html" class="btn btn-secondary">Blog</a>
         </div>
       </div>
 
@@ -63,6 +48,7 @@
         <div class="card-body">
           <h2 class="card-title" data-translate="about_me">About Me</h2>
           <p data-translate="about_paragraph1"></p>
+          <img src="https://th.bing.com/th/id/OIG.XtXUYlvx3YPMRDjwXTOI?pid=ImgGn" alt="Website Redesign" class="img-c img-la img-le">
           <p data-translate="about_paragraph2"></p>
           <p data-translate="about_paragraph3"></p>
           <p data-translate="about_paragraph4"></p>
@@ -77,18 +63,22 @@
           <p data-translate="contact_paragraph1"></p>
           <ul class="list-group">
             <li class="list-group-item">
-              Email: 
-              <a href="mailto:contact@dustymeadow.anonaddy.com" data-translate="email">
+              Email:
+              <a
+                href="mailto:contact@dustymeadow.anonaddy.com"
+                data-translate="email"
+              >
                 contact@dustymeadow.anonaddy.com
               </a>
             </li>
             <li class="list-group-item" data-translate="number"></li>
-          </ul>          
+          </ul>
         </div>
       </div>
 
       <div class="card mb-3">
         <div class="card-body">
+          <img src="https://th.bing.com/th/id/OIG.y3eGwbcLkQtDhkCEsLKu?pid=ImgGn" alt="Website Redesign" class="img-c img-me img-ri">
           <h2 class="card-title" data-translate="career_goals">Career Goals</h2>
           <p data-translate="career_goals_paragraph1"></p>
           <p data-translate="career_goals_paragraph2"></p>
@@ -119,7 +109,6 @@
     <script>
       // English translations (default)
       const en = {
-        title: "atomazu's Portfolio",
         online: "Online Presence",
         about_me: "About Me",
         about_paragraph1:
@@ -155,7 +144,6 @@
 
       // German translations
       const de = {
-        title: "atomazu's Portfolio",
         online: "Online-Präsenz",
         about_me: "Über mich",
         about_paragraph1:
@@ -200,6 +188,18 @@
         if (translations[key]) {
           el.innerHTML = translations[key];
         }
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const cards = document.querySelectorAll(".card");
+
+        // Ensure the DOM has been fully loaded
+        setTimeout(function () {
+          cards.forEach((card) => {
+            card.style.opacity = "1";
+          });
+        }, 100); // Adjust time as needed
       });
     </script>
   </body>

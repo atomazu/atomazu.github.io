@@ -74,5 +74,17 @@
           }
         });
       </script>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const cards = document.querySelectorAll(".card");
+  
+          // Ensure the DOM has been fully loaded
+          setTimeout(function () {
+            cards.forEach((card) => {
+              card.style.opacity = "1";
+            });
+          }, 100); // Adjust time as needed
+        });
+      </script>
   </body>
 </html>

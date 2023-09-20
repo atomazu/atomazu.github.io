@@ -37,6 +37,8 @@ footer {
 
 .card {
   border-radius: 15px;
+  opacity: 0;
+  transition: opacity 2s ease;
 }
 .center-screen {
   display: grid;
@@ -55,4 +57,72 @@ nav {
 
 .content {
   margin-bottom: 0;
+}
+
+.card-full-content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;  /* Start at fully transparent */
+  transition: max-height 1s ease, opacity 1s ease;
+}
+
+.card-full-content.expanded {
+  transition: max-height 1s ease, opacity 0.5s ease;
+  max-height: 1000px;  /* Set to a max value that's larger than any content */
+  opacity: 1;  /* Fade to fully opaque */
+}
+
+.card-teaser.hidden {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;  /* Start at fully transparent */
+  transition: max-height 1s ease, opacity 1s ease;
+}
+
+.card-teaser {
+  transition: max-height 0.5s ease, opacity 0.5s ease;
+  max-height: 30px;  /* Set to a max value that's larger than any content */
+  opacity: 1;  /* Fade to fully opaque */
+}
+
+/* Common style */
+.img-c {
+  margin: 15px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+/* Sizes: small (s), medium (m), large (l) */
+.img-sm {
+  width: 100px;
+  height: 100px;
+}
+
+.img-me {
+  width: 175px;
+  height: 175px;
+}
+
+.img-la {
+  width: 250px;
+  height: 250px;
+}
+
+/* Positions: left (l), right (r), center (c) */
+.img-le {
+  float: left;
+  margin-left: 0px;
+  margin-top: 15px;
+}
+
+.img-ri {
+  float: right;
+  margin-right: 0px;
+  margin-top: 60px;
+}
+
+.img-ce {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }

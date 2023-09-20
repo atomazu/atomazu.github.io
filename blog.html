@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>atomazu.github.io / blog</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+        .card {
+            opacity: 0;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-center">
+      <a class="navbar-brand" href="index.html" data-translate="title"
+        >atomazu.github.io / blog</a
+      >
+    </nav>
+
+    <p class="gradient_top fixed-top"></p>
+
+    <div class="container mt-5 content" id="blog-section">
+      <!-- Blog cards will go here -->
+    </div>
+
+    <p class="gradient_bottom fixed-bottom"></p>
+
+    <!-- Footer -->
+    <footer class="bottom">
+      <p data-translate="footer"></p>
+    </footer>
+
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Translation Script -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const blogSection = document.getElementById("blog-section");
+        const numberOfBlogPosts = 3; // Replace this with your dynamic number
+
+        for (let i = 1; i <= numberOfBlogPosts; i++) {
+          fetch(`./blog-posts/${i}.html`)
+            .then((response) => response.text())
+            .then((html) => {
+              const cardElement = new DOMParser().parseFromString(
+                html,
+                "text/html"
+              ).body.firstChild;
+              blogSection.appendChild(cardElement);
+
+              const expandButton = cardElement.querySelector(
+                ".card-expand-button"
+              );
+              const fullContent =
+                cardElement.querySelector(".card-full-content");
+
+              const cards = document.querySelectorAll(".card");
+
+              // Ensure the DOM has been fully loaded
+              setTimeout(function () {
+                cards.forEach((card) => {
+                  card.style.opacity = "1";
+                });
+              }, 100); // Adjust time as needed
+
+              expandButton.addEventListener("click", function () {
+                const teaser = cardElement.querySelector(".card-teaser");
+                if (fullContent.classList.contains("expanded")) {
+                  fullContent.classList.remove("expanded");
+                  teaser.classList.remove("hidden");
+                } else {
+                  fullContent.classList.add("expanded");
+                  teaser.classList.add("hidden");
+                }
+              });
+            });
+        }
+      });
+    </script>
+  </body>
+</html>
