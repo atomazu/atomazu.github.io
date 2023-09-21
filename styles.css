@@ -37,8 +37,6 @@ footer {
 
 .card {
   border-radius: 15px;
-  opacity: 0;
-  transition: opacity 2s ease;
 }
 .center-screen {
   display: grid;
@@ -67,7 +65,7 @@ nav {
 }
 
 .card-full-content.expanded {
-  transition: max-height 1s ease, opacity 0.5s ease;
+  transition: max-height 1s ease, opacity 1s ease;
   max-height: 1000px;  /* Set to a max value that's larger than any content */
   opacity: 1;  /* Fade to fully opaque */
 }
@@ -76,12 +74,12 @@ nav {
   max-height: 0;
   overflow: hidden;
   opacity: 0;  /* Start at fully transparent */
-  transition: max-height 1s ease, opacity 1s ease;
+  transition: max-height 0.67s ease, opacity 1s ease;
 }
 
 .card-teaser {
-  transition: max-height 0.5s ease, opacity 0.5s ease;
-  max-height: 30px;  /* Set to a max value that's larger than any content */
+  transition: max-height 2s ease, opacity 3s ease;
+  max-height: 1000px;  /* Set to a max value that's larger than any content */
   opacity: 1;  /* Fade to fully opaque */
 }
 
@@ -127,6 +125,11 @@ nav {
   display: block;
 }
 
+.fade {
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
 /* Mobile Styles */
 @media screen and (max-width: 768px) {
   .content {
@@ -141,7 +144,7 @@ nav {
   }
 
   .btn-blog {
-    margin-top: 15px;
+    margin-top: auto;
   }
   
   .img-sm, .img-me, .img-la {
