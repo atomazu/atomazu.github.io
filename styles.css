@@ -62,11 +62,13 @@ nav {
   overflow: hidden;
   opacity: 0;  /* Start at fully transparent */
   transition: max-height 1s ease, opacity 1s ease;
+  margin: 0px;
+  text-wrap:wrap;
 }
 
 .card-full-content.expanded {
   transition: max-height 1s ease, opacity 1s ease;
-  max-height: 1000px;  /* Set to a max value that's larger than any content */
+  max-height: 20000px;  /* Set to a max value that's larger than any content */
   opacity: 1;  /* Fade to fully opaque */
 }
 
@@ -123,11 +125,22 @@ nav {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  width: 100%; /* Fill the entire horizontal space */
+  height: 150px; /* Set a fixed height, adjust as needed */
+  object-fit: cover; /* Make the image cover the div */
+  margin-bottom: 15px;
 }
 
 .fade {
   opacity: 0;
   transition: opacity 2s ease;
+}
+
+.code-card {
+  background-color: #f4f2f0;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
 }
 
 /* Mobile Styles */
@@ -160,7 +173,7 @@ nav {
 
   /* For card content */
   .card-full-content.expanded {
-    max-height: 2000px; /* Increase max height for better mobile viewing */
+    max-height: 20000px; /* Increase max height for better mobile viewing */
   }
 
   .img-sm, .img-me, .img-la {
