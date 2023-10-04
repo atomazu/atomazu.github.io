@@ -67,7 +67,7 @@
           .then(response => response.text())
           .then(markdown => {
             // Separate front matter from content
-            const splitMd = markdown.split('⸻');
+            const splitMd = markdown.split('@metadata');
             const frontMatter = splitMd[1];
             const contentMd = splitMd[2];
     
