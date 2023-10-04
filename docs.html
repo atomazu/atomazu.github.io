@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>atomazu.github.io / blog</title>
+  <title>atomazu.github.io / docs</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
 </head>
@@ -12,12 +12,12 @@
 <body>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light justify-content-center">
-    <a class="navbar-brand" href="index.html">atomazu.github.io / blog</a>
+    <a class="navbar-brand" href="index.html">atomazu.github.io / docs</a>
   </nav>
 
   <div class="gradient_top fixed-top"></div>
 
-  <div class="container mt-5 content" id="blog-section">
+  <div class="container mt-5 content" id="docs-section">
     <noscript>
       <div class="container mt-5">
         <div class="card" style="opacity: 1; margin-top: -150px;">
@@ -51,7 +51,7 @@
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
 
-  <!-- Dynamic blog loading script -->
+  <!-- Dynamic docs loading script -->
   <script>
     const renderer = new marked.Renderer();
         renderer.code = (source, language) => {
@@ -59,11 +59,11 @@
         };
 
     document.addEventListener("DOMContentLoaded", function () {
-      const blogSection = document.getElementById("blog-section");
-      const numberOfBlogPosts = 2;
+      const docsSection = document.getElementById("docs-section");
+      const numberOfDocPosts = 2;
     
-      for (let i = 1; i <= numberOfBlogPosts; i++) {
-        fetch(`./blog-posts/${i}.md`)
+      for (let i = 1; i <= numberOfDocPosts; i++) {
+        fetch(`./documentation/${i}.md`)
           .then(response => response.text())
           .then(markdown => {
             // Separate front matter from content
@@ -101,7 +101,7 @@
             `;
     
             // Append card to doc section
-            blogSection.appendChild(cardElement);
+            docsSection.appendChild(cardElement);
 
             // Setup interactivity as before
             const expandButton = cardElement.querySelector(".card-expand-button");
