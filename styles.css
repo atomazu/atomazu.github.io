@@ -147,7 +147,7 @@ nav {
 @media screen and (max-width: 768px) {
   .content {
     padding: 1em;
-    text-align: left; /* If you prefer the text to be left-aligned on mobile */
+    text-align: left;
   }
 
   .btn {
@@ -187,6 +187,4 @@ nav {
     float: none;
     margin: 15px auto;
   }
-
-  /* Add more styles specific to mobile if needed */
 }
