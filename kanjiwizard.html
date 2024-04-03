@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KanjiWizard - Search Kanji</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light justify-content-center">
+    <a class="navbar-brand" href="index.html">atomazu.github.io / kanji-wizard</a>
+  </nav>
+
+  <p class="gradient_top fixed-top"></p>
+
+  <div class="container mt-5">
+    <h1>KanjiWizard</h1>
+    <p>Search for kanji and get results from various sources.</p>
+
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Enter kanji or keyword" id="searchInput">
+      <div class="input-group-append">
+        <button class="btn btn-primary" type="button" id="searchButton">Search</button>
+      </div>
+    </div>
+
+    <p>[NOTICE]: This is a work in progress and does not yet work.</p>
+
+    <ul class="nav nav-tabs" id="resultTabs" role="tablist">
+      <li class="nav-item" role="presentation">
+        <a class="nav-link active" id="google-tab" data-toggle="tab" href="#google" role="tab" aria-controls="google" aria-selected="true">Google</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="jisho-tab" data-toggle="tab" href="#jisho" role="tab" aria-controls="jisho" aria-selected="false">Jisho</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="wanikani-tab" data-toggle="tab" href="#wanikani" role="tab" aria-controls="wanikani" aria-selected="false">WaniKani</a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <a class="nav-link" id="chatbot-tab" data-toggle="tab" href="#chatbot" role="tab" aria-controls="chatbot" aria-selected="false">Chatbot</a>
+      </li>
+    </ul>
+
+    <div class="tab-content" id="resultTabsContent">
+      <div class="tab-pane fade show active" id="google" role="tabpanel" aria-labelledby="google-tab">
+        <!-- Google search results will be displayed here -->
+      </div>
+      <div class="tab-pane fade" id="jisho" role="tabpanel" aria-labelledby="jisho-tab">
+        <!-- Jisho search results will be displayed here -->
+      </div>
+      <div class="tab-pane fade" id="wanikani" role="tabpanel" aria-labelledby="wanikani-tab">
+        <!-- WaniKani search results will be displayed here -->
+      </div>
+      <div class="tab-pane fade" id="chatbot" role="tabpanel" aria-labelledby="chatbot-tab">
+        <!-- Chatbot interface will be displayed here -->
+      </div>
+    </div>
+  </div>
+
+  <p class="gradient_bottom fixed-bottom"></p>
+
+  <!-- Footer -->
+  <footer class="bottom">
+    <p>&copy; 2023 atomazu. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
