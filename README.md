@@ -25,4 +25,4 @@ Your contributions and suggestions are always welcome! If you'd like to contribu
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code, adhering to the license terms.
+This project is open-source and available under the [Apache License](https://opensource.org/license/apache-2-0). Feel free to use, modify, and distribute the code, adhering to the license terms.

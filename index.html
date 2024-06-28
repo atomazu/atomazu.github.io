@@ -4,119 +4,157 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Jonas's personal blog where he explores his passion for programming, writing, and gaming. Dive into a journey of continuous learning and exploration with Atomazu." />
-  <meta name="robots" content="index, follow">
-  <meta property="og:title" content="Atomazu - Jonas's Blog on Programming, Writing, and Gaming">
-  <meta property="og:description"
-    content="Jonas's personal blog where he explores his passion for programming, writing, and gaming. Dive into a journey of continuous learning and exploration with Atomazu.">
-  <meta property="og:image" content="https://th.bing.com/th/id/OIG.jIKuUa_1KhgjmqL0mDlT?pid=ImgGn">
-  <meta property="og:url" content="atomazu.github.io">
-  <meta name="twitter:card" content="summary_large_image">
   <title>atomazu.github.io / home</title>
+  <script>
+    (function () {
+      document.documentElement.setAttribute('data-theme', localStorage.getItem('theme') || 'light');
+    })();
+  </script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="styles.css" rel="stylesheet" />
-  <link rel="canonical" href="atomazu.github.io">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light justify-content-center">
-    <a class="navbar-brand" href="index.html">atomazu.github.io / home</a>
+  <nav class="navbar navbar-light justify-content-center">
+    <a class="navbar-brand" href="#" id="themeToggle" data-toggle="tooltip" data-placement="bottom"
+      title="Click me to change theme!">atomazu.github.io / home</a>
   </nav>
 
-  <p class="gradient_top fixed-top"></p>
+  <div class="content no-padding">
 
-  <div class="container mt-5 content">
-    <noscript>
-      <div class="container mt-5">
-        <div class="card" style="opacity: 1; margin-top: -150px;">
-          <div class="card-body">
-            <h5 class="card-title">JavaScript Required</h5>
-            <p class="card-text">
-              This webpage needs JavaScript to function properly. Please enable JavaScript in your browser settings.
-            </p>
-          </div>
-        </div>
-      </div>
-    </noscript>
-
-    <div class="card fade mb-3">
+    <div class="centered-footer no-margin no-padding fade-scroll">
       <div class="card-body">
-        <h2 class="card-title">Online Presence</h2>
-        <a href="https://twitter.com/atomazu" class="btn btn-secondary">Twitter</a>
-        <a href="https://github.com/atomazu" class="btn btn-secondary">GitHub</a>
-        <a href="https://www.royalroad.com/profile/391628" class="btn btn-secondary">Royal Road</a>
-        <a href="blog.html" class="btn btn-secondary">Blog</a>
-        <a href="docs.html" class="btn btn-secondary">Docs</a>
-        <a href="kanjiwizard.html" class="btn btn-secondary">KanjiWizard</a>
+        <a href="https://twitter.com/atomazu" class="btn btn-secondary no-margin">Twitter</a>
+        <a href="https://github.com/atomazu" class="btn btn-secondary no-margin">GitHub</a>
+        <a href="blog.html" class="btn btn-secondary no-margin">Blog</a>
+        <a href="kanjiwizard.html" class="btn btn-secondary no-margin">KanjiWizard</a>
       </div>
+    </div>
+
+    <!-- Quick Navigation -->
+    <div class="quick-nav fade-scroll">
+      <ul class="quick-nav-list">
+        <li class="quick-nav-item"><a class="quick-nav-link" href="#about">About</a></li>
+        <li class="quick-nav-item"><a class="quick-nav-link" href="#interests">Interests</a></li>
+        <li class="quick-nav-item"><a class="quick-nav-link" href="#projects">Projects</a></li>
+        <li class="quick-nav-item"><a class="quick-nav-link" href="#blog">Blog</a></li>
+      </ul>
     </div>
 
     <!-- Content -->
-    <div class="card fade mb-3">
+    <div id="about" class="card mb-3 fade-scroll">
       <div class="card-body">
         <h2 class="card-title">About Me</h2>
-        <p>Hey there! I'm Jonas, and welcome to my little corner of the internet.</p>
+        <p>Hey there! I'm Jonas, and welcome to my website.</p>
         <img src="./cover_image.jpg" alt="Quest for Knowledge" class="img-c img-la img-le">
-        <p>I'm a laid-back guy with a passion for computer science. While I'm not a seasoned expert, I love diving into
-          new topics and exploring all the amazing advancements in this field. It's fascinating to see how far we've
-          come and to learn about the people who have paved the way.</p>
-        <p>This site is a bit like my digital journal. It's where I jot down my thoughts, track my learning progress,
-          and share my experiences. I know I have a lot to learn, and I'm excited about the journey. After all, every
-          mistake is an opportunity to grow, right?</p>
-        <p>As I delve deeper into computer science, I hope to gain a better understanding of the world around me. I'm
-          taking things one day at a time and enjoying every moment of the ride.</p>
-        <p>Check out my blog if you're interested in my adventures in programming, writing, and gaming. It's a casual
-          space where I reflect on my journey. Maybe something will resonate with you.</p>
+        <p>I'm a 19-year-old student from Germany with a passion for technology and learning. While I'm still figuring
+          things out, I enjoy exploring various areas of computer science and technology. I'm particularly interested in
+          game development, app creation, and discovering new frameworks.</p>
+        <p>In addition to my tech pursuits, I'm also learning Japanese and have an appreciation for anime and manga
+          culture. It's been an interesting journey so far.</p>
+        <strong>You can press the page title and change the theme, by the way!</strong>
       </div>
     </div>
 
-    <div class="card fade mb-3">
+    <div id="interests" class="card mb-3 fade-scroll">
       <div class="card-body">
         <h2 class="card-title">What I'm Into</h2>
-        <p>I love diving into activities that challenge my mind and help me solve problems. Whether it's coding,
-          researching, or exploring new ideas, I thrive on the excitement of discovery.</p>
-        <p>Challenges are my fuel. Each problem I encounter is a new chance to learn something valuable, and that's what
-          keeps me going.</p>
-        <p>Here are a few things that I'm passionate about:</p>
+        <p>I'm fortunate to have a wide range of interests that keep me engaged and learning. Here are a few things that
+          I'm currently exploring:</p>
         <ul class="list-group">
-          <li class="list-group-item">Creating cool software that makes a difference</li>
-          <li class="list-group-item">Working on projects that have a positive impact</li>
-          <li class="list-group-item">Exploring research topics that spark my curiosity</li>
-          <li class="list-group-item">Helping others and learning from their experiences</li>
-          <li class="list-group-item">Constantly improving my skills and embracing new challenges</li>
+          <li class="list-group-item"><strong>Programming:</strong> I enjoy making games and apps, and I'm always trying
+            to learn new
+            frameworks and technologies.</li>
+          <li class="list-group-item"><strong>Artificial Intelligence:</strong> I'm particularly fascinated by Natural
+            Language
+            Processing (NLP) and try to keep up with the latest developments in the field.</li>
+          <li class="list-group-item"><strong>Physics and Electronics:</strong> While I'm not an expert, I find these
+            subjects intriguing
+            and try to stay informed about new developments.</li>
+          <li class="list-group-item"><strong>Mathematics:</strong> I appreciate the beauty and challenge of
+            mathematical concepts.</li>
+          <li class="list-group-item"><strong>Gaming:</strong> I enjoy playing games like Rocket League and osu!, and I
+            sometimes try my
+            hand at speedrunning.</li>
+          <li class="list-group-item"><strong>Language Learning:</strong> I'm currently learning Japanese, which has
+            been a rewarding
+            challenge. As well as Spanish.</li>
         </ul>
+        <p>I'm always open to learning new things and improving my skills. While I have a lot to learn in all these
+          areas, I'm excited about the journey ahead and the opportunities to grow and contribute in whatever way I can.
+        </p>
       </div>
     </div>
 
+    <div id="projects" class="card mb-3 fade-scroll">
+      <div class="card-body">
+        <h2 class="card-title">Personal Projects</h2>
+        <p>I'm always working on various projects to apply what I've learned and explore new technologies. Here are a
+          few projects I'm currently developing:</p>
+        <ul class="list-group">
+          <li class="list-group-item">
+            <strong>AniDesk:</strong> An AniList desktop client. This project allows me to work on creating
+            user-friendly interfaces for accessing and managing anime and manga lists.
+          </li>
+          <li class="list-group-item">
+            <strong>KanjiWizard:</strong> A Japanese dictionary that pulls from various sources. This combines my
+            interest in Japanese language learning with programming, creating a tool that I hope will be useful for
+            other language learners.
+          </li>
+          <li class="list-group-item">
+            <strong>Teabag:</strong> An FPS framework in the Godot game engine. I'm extremely inspired by Source
+            engine games, and I'm aiming to recreate some of their feel and functionality within the Godot environment.
+          </li>
+        </ul>
+        <p>These projects are currently in development and haven't been published yet. They represent my ongoing
+          learning process and my attempt to create practical applications of my skills and interests. I'm excited to
+          continue working on them and seeing where they lead!</p>
+      </div>
+    </div>
+
+    <!-- Recent Posts Section -->
+    <div id="blog" class="card mb-3 fade-scroll">
+      <div class="card-body">
+        <h2 class="card-title">Recent Posts</h2>
+        Note: These are placeholders.
+        <div class="recent-posts">
+          <a href="not_found.html" class="post-card">
+            <div class="post-title">Exploring the World of NLP</div>
+            <div class="post-date">June 20, 2024</div>
+          </a>
+          <a href="not_found.html" class="post-card">
+            <div class="post-title">My Journey in Learning Japanese</div>
+            <div class="post-date">June 15, 2024</div>
+          </a>
+          <a href="not_found.html" class="post-card">
+            <div class="post-title">Game Development with Godot</div>
+            <div class="post-date">June 10, 2024</div>
+          </a>
+        </div>
+        <a href="blog.html" class="btn">View All Posts</a>
+      </div>
+    </div>
 
   </div>
 
   <p class="gradient_bottom fixed-bottom"></p>
 
   <!-- Footer -->
-  <footer class="bottom">
-    <p>&copy; 2023 atomazu. All rights reserved.</p>
+  <footer class="bottom centered-footer">
+    <p>&copy; 2024 atomazu. This project is open source and available under the <a class="footer-copy"
+        href="https://opensource.org/license/apache-2-0" target="_blank" rel="noopener noreferrer">Apache-2.0
+        License</a>.</p>
   </footer>
 
   <!-- Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const cards = document.querySelectorAll(".fade");
+  <script src="./theme-toggle.js"></script>
+  <script src="./fade-effect.js"></script>
 
-      // Ensure the DOM has been fully loaded
-      setTimeout(function () {
-        cards.forEach((card) => {
-          card.style.opacity = "1";
-        });
-      }, 100);
-    });
-  </script>
 </body>
 
 </html>

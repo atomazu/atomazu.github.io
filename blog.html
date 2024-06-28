@@ -4,141 +4,51 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Jonas's personal blog where he explores his passion for programming, writing, and gaming. Dive into a journey of continuous learning and exploration with Atomazu." />
-  <meta name="robots" content="index, follow">
-  <meta property="og:title" content="Atomazu - Jonas's Blog on Programming, Writing, and Gaming">
-  <meta property="og:description"
-    content="Jonas's personal blog where he explores his passion for programming, writing, and gaming. Dive into a journey of continuous learning and exploration with Atomazu.">
-  <meta property="og:image" content="https://th.bing.com/th/id/OIG.jIKuUa_1KhgjmqL0mDlT?pid=ImgGn">
-  <meta property="og:url" content="atomazu.github.io">
-  <meta name="twitter:card" content="summary_large_image">
-  <title>atomazu.github.io / blog</title>
+  <title>atomazu.github.io / home</title>
+  <script>
+    (function () {
+      document.documentElement.setAttribute('data-theme', localStorage.getItem('theme') || 'light');
+    })();
+  </script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="styles.css" rel="stylesheet" />
-  <link rel="canonical" href="atomazu.github.io">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/default.min.css">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
+
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light justify-content-center">
-    <a class="navbar-brand" href="index.html">atomazu.github.io / blog</a>
+  <nav class="navbar navbar-light justify-content-center">
+    <a class="navbar-brand" href="#" id="themeToggle" data-toggle="tooltip" data-placement="bottom"
+      title="Click me to change theme!">atomazu.github.io / blog</a>
   </nav>
 
-  <div class="gradient_top fixed-top"></div>
-
-  <div class="container mt-5 content" id="blog-section">
-    <noscript>
-      <div class="container mt-5">
-        <div class="card" style="opacity: 1; margin-top: -150px;">
-          <div class="card-body">
-            <h5 class="card-title">JavaScript Required</h5>
-            <p class="card-text">
-              This webpage needs JavaScript to function properly. Please enable JavaScript in your browser settings.
-            </p>
-          </div>
-        </div>
+  <div class="content no-padding">
+    <div class="card mb-3 fade-scroll">
+      <div class="card-body">
+        <h2 class="card-title">Error 501:</h2>
+        Not implemented yet. Come back later. <br>
+        <a href="index.html" class="btn btn-secondary no-margin">Go to Homepage</a>
       </div>
-    </noscript>
-    <!-- Blog cards will be dynamically inserted here -->
+    </div>
   </div>
 
-  <div class="gradient_bottom fixed-bottom"></div>
+  <p class="gradient_bottom fixed-bottom"></p>
 
   <!-- Footer -->
-  <footer class="bottom">
-    <p></p>
+  <footer class="bottom centered-footer">
+    <p>&copy; 2024 atomazu. This project is open source and available under the <a class="footer-copy"
+        href="https://opensource.org/license/apache-2-0" target="_blank" rel="noopener noreferrer">Apache-2.0
+        License</a>.</p>
   </footer>
 
-  <!-- Scripts -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css" rel="stylesheet" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/prism.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-markdown.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-javascript.min.js"></script>
+  <!-- Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="./theme-toggle.js"></script>
+  <script src="./fade-effect.js"></script>
 
-
-  <!-- Dynamic blog loading script -->
-  <script>
-    const renderer = new marked.Renderer();
-    renderer.code = (source, language) => {
-      return `<pre class="code-card"><code class="language-${language}">${Prism.highlight(source, Prism.languages[language], language)}</code></pre>`;
-    };
-
-    document.addEventListener("DOMContentLoaded", function () {
-      const blogSection = document.getElementById("blog-section");
-      const numberOfBlogPosts = 2;
-
-      for (let i = 1; i <= numberOfBlogPosts; i++) {
-        fetch(`./blog-posts/${i}.md`)
-          .then(response => response.text())
-          .then(markdown => {
-            // Separate front matter from content
-            const splitMd = markdown.split('@metadata');
-            const frontMatter = splitMd[1];
-            const contentMd = splitMd[2];
-
-            // Parse front matter (YAML ideally, but simple key-value pairs for simplicity)
-            const metadata = {};
-            frontMatter.split('\n').forEach(line => {
-              const [key, value] = line.split(':').map(str => str.trim());
-              if (key && value) {
-                metadata[key] = value.replace(/['"]/g, '');
-              }
-            });
-
-            // Convert markdown content to HTML
-            const contentHtml = marked.marked(contentMd, { renderer });
-
-
-            // Create HTML structure
-            const cardElement = document.createElement('div');
-            cardElement.className = "card fade mb-3";
-            cardElement.innerHTML = `
-              <div class="card-body">
-                <h2 class="card-title">${metadata.title}</h2>
-                <p class="card-teaser">${metadata.teaser}</p>
-                <div class="card-full-content">
-                  ${contentHtml}
-                </div>
-                <button class="card-expand-button btn btn-secondary" type="button">
-                  Read More
-                </button>
-              </div>
-            `;
-
-            // Append card to doc section
-            blogSection.appendChild(cardElement);
-
-            // Setup interactivity as before
-            const expandButton = cardElement.querySelector(".card-expand-button");
-            const fullContent = cardElement.querySelector(".card-full-content");
-
-            setTimeout(() => {
-              document.querySelectorAll(".fade").forEach(card => {
-                card.style.opacity = "1";
-              });
-            }, 100);
-
-            if (expandButton) {
-              expandButton.addEventListener("click", function () {
-                const teaser = cardElement.querySelector(".card-teaser");
-                if (fullContent.classList.contains("expanded")) {
-                  fullContent.classList.remove("expanded");
-                  teaser.classList.remove("hidden");
-                } else {
-                  fullContent.classList.add("expanded");
-                  teaser.classList.add("hidden");
-                }
-              });
-            }
-          });
-      }
-    });
-  </script>
 </body>
 
 </html>
