@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>atomazu.github.io / blog post</title>
+    <script>
+      (function () {
+        document.documentElement.setAttribute(
+          "data-theme",
+          localStorage.getItem("theme") || "light"
+        );
+      })();
+    </script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-light justify-content-center">
+      <a
+        class="navbar-brand"
+        href="#"
+        id="themeToggle"
+        data-toggle="tooltip"
+        data-placement="bottom"
+        title="Click me to change theme!"
+        >atomazu.github.io / view-post</a
+      >
+    </nav>
+
+    <div class="content">
+      <a href="/src/html/blog.html" class="btn btn-secondary mb-3 fade-scroll"
+        >Back to Posts</a
+      >
+      <a href="/src/html/index.html" class="btn btn-secondary mb-3 fade-scroll"
+        >Go back Home</a
+      >
+      <div class="card mb-3 fade-scroll" id="post-content">
+        <div id="post-container">
+          <!-- Post content will be dynamically inserted here -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Error message template -->
+    <template id="error-template">
+      <h2>Error</h2>
+      <p>Sorry, we couldn't load the post. Please try again later.</p>
+    </template>
+
+    <!-- Footer -->
+    <footer class="bottom centered-footer">
+      <p>
+        &copy; 2024 atomazu. This project is open source and available under the
+        <a
+          class="footer-copy"
+          href="https://opensource.org/license/apache-2-0"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Apache-2.0 License</a
+        >.
+      </p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/src/js/theme-toggle.js"></script>
+    <script src="/src/js/fade-effect.js"></script>
+    <script src="/src/js/view-post.js"></script>
+  </body>
+</html>

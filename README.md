@@ -1,28 +1,40 @@
 # atomazu.github.io
 
-Welcome to the GitHub repository for [atomazu.github.io](https://atomazu.github.io), a personal website that serves as a digital presence and a point of contact for inquiries and support.
+This repository contains the source code for [atomazu.github.io](https://atomazu.github.io), a personal website serving as a digital portfolio and information hub.
 
-## Introduction
+## Website Content
 
-This website acts as a digital portfolio and information-sharing platform, offering insights about the owner and providing a structured support page for any inquiries or issues.
+- **Home Page (`index.html`):** Provides an overview of interests and projects.
+- **Blog (`blog.html`):** Placeholder for future blog posts.
+- **KanjiWizard (`kanjiwizard.html`):** Placeholder for the KanjiWizard project.
+- **404 Page (`not_found.html`):** Custom error page for non-existent URLs.
 
-## Website Structure
+## Features
 
-- **Homepage:** Accessible via the `index.html` file, this page shares information about the owner and possibly showcases work or projects.
-- **Blog:** Managed through the `blog.html` file and the `blog-posts` directory, this section shares updates, insights, or any relevant articles.
-- **Documentation:** Available through the `docs.html` file and the `documentation` directory, this section provides detailed information and guides related to various topics or projects.
-- **404 Page:** Managed through the `not_found.html` file, this page provides information and navigation options for users who land on non-existent pages.
+- **Theme Toggle:** Users can switch between light and dark themes. The chosen theme is saved in local storage for persistence across sessions.
+- **Scroll Effects:** Content fades in as the user scrolls down the page.
+- **Quick Navigation:** Allows easy access to different sections of the homepage.
 
-## Usage
+## JavaScript Functionality
 
-Feel free to explore the website by visiting [https://atomazu.github.io](https://atomazu.github.io). The website is structured to provide a seamless navigation experience, guiding you through various sections and information.
+The website uses vanilla JavaScript for its interactive features:
+
+- `theme-toggle.js`: Handles the theme switching functionality.
+- `fade-effect.js`: Manages the fade-in effect for content as the user scrolls.
+
+These scripts enhance the user experience without relying on heavy frameworks.
+
+## Development
+
+To work on this project locally:
+
+1. Clone the repository
+2. Open any HTML file in your browser to view it locally
 
 ## Contributing
 
-Your contributions and suggestions are always welcome! If you'd like to contribute to the development or improvement of the website, please feel free to:
-- **Open an Issue:** If you find a bug or have a suggestion, open an issue to discuss it.
-- **Submit a Pull Request:** If you have a feature or fix you'd like to contribute, submit a pull request for review.
+Contributions are welcome. Please feel free to submit a Pull Request.
 
 ## License
 
-This project is open-source and available under the [Apache License](https://opensource.org/license/apache-2-0). Feel free to use, modify, and distribute the code, adhering to the license terms.
+This project is open-source and available under the [Apache License 2.0](https://opensource.org/license/apache-2-0).

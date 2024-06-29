@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>atomazu.github.io / blog</title>
+    <script>
+      (function () {
+        document.documentElement.setAttribute(
+          "data-theme",
+          localStorage.getItem("theme") || "light"
+        );
+      })();
+    </script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-light justify-content-center">
+      <a
+        class="navbar-brand"
+        href="#"
+        id="themeToggle"
+        data-toggle="tooltip"
+        data-placement="bottom"
+        title="Click me to change theme!"
+        >atomazu.github.io / blog</a
+      >
+    </nav>
+
+    <div class="content">
+      <a href="/src/html/index.html" class="btn btn-secondary mb-3 fade-scroll"
+        >Back to Home</a
+      >
+
+      <div id="blog-posts" class="fade-scroll">
+        <!-- Blog posts will be dynamically inserted here -->
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bottom centered-footer">
+      <p>
+        &copy; 2024 atomazu. This project is open source and available under the
+        <a
+          class="footer-copy"
+          href="https://opensource.org/license/apache-2-0"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Apache-2.0 License</a
+        >.
+      </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/src/js/theme-toggle.js"></script>
+    <script src="/src/js/fade-effect.js"></script>
+    <script src="/src/js/blog.js"></script>
+  </body>
+</html>

@@ -1,8 +1,8 @@
 /* Credit: https://www.1001fonts.com/exo-2-0-font.html */
 @font-face {
-  font-family: 'Exo 2.0';
-  src: url('fonts/exo2.0-regular-webfont.woff2') format('woff2'),
-    url('fonts/exo2.0-regular-webfont.woff') format('woff');
+  font-family: "Exo 2.0";
+  src: url("/assets/fonts/exo2.0-regular-webfont.woff2") format("woff2"),
+    url("/assets/fonts/exo2.0-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -36,7 +36,7 @@
   --footer-color: #333;
   --navbar-text: #333;
   --max-content-width: 700px;
-  --min-content-width: 100px;
+  --min-content-width: 500px;
   --transition-speed: 0.3s;
   --border-radius: 15px;
   --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -96,7 +96,7 @@
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
-  font-family: 'Exo 2.0', Arial, Helvetica, sans-serif;
+  font-family: "Exo 2.0", Arial, Helvetica, sans-serif;
   transition: background-color var(--transition-speed) ease,
     color var(--transition-speed) ease;
   min-height: 100vh;
@@ -139,7 +139,7 @@ body {
 /* Gradient overlay */
 .content::before,
 .content::after {
-  content: '';
+  content: "";
   position: fixed;
   left: 0;
   right: 0;
@@ -150,7 +150,11 @@ body {
 
 .content::before {
   top: 0;
-  background-image: linear-gradient(to bottom, var(--gradient-color), transparent);
+  background-image: linear-gradient(
+    to bottom,
+    var(--gradient-color),
+    transparent
+  );
 }
 
 .content::after {
@@ -160,6 +164,12 @@ body {
 
 .footer-copy {
   color: var(--footer-color);
+  transition: brightness 0.3s ease;
+}
+
+.footer-copy:hover {
+  filter: brightness(1.2);
+  text-decoration: none;
 }
 
 .centered-footer {
@@ -305,7 +315,7 @@ body {
 }
 
 .quick-nav-link::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 2px;
@@ -436,4 +446,58 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* Blog styles */
+#blog-posts {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+
+.blog-post {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+
+.blog-post h2 {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+}
+
+.blog-post h2 a {
+  display: inline;
+  visibility: visible;
+  opacity: 1;
+  color: var(--blog-post-title);
+  text-decoration: none;
+}
+
+.blog-post h2 a:hover {
+  text-decoration: underline;
+}
+
+.post-meta {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  color: var(--blog-post-date);
+  font-size: 0.9em;
+}
+
+.blog-tag {
+  display: inline-block;
+  visibility: visible;
+  opacity: 1;
+  background-color: var(--blog-tag-bg);
+  color: var(--blog-tag-color);
+  border-radius: 4px;
+  font-size: 0.8em;
+}
+
+.blog-tag::before {
+  content: "#";
+  color: var(--blog-tag-symbol);
 }
