@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>atomazu.github.io / home</title>
+    <script>
+      (function () {
+        document.documentElement.setAttribute(
+          "data-theme",
+          localStorage.getItem("theme") || "light"
+        );
+      })();
+    </script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-light justify-content-center">
+      <a
+        class="navbar-brand"
+        href="#"
+        id="themeToggle"
+        data-toggle="tooltip"
+        data-placement="bottom"
+        title="Click me to change theme!"
+        >atomazu.github.io / home</a
+      >
+    </nav>
+
+    <div class="content no-padding">
+      <div class="centered-footer no-margin no-padding fade-scroll">
+        <div class="card-body">
+          <a
+            href="https://twitter.com/atomazu"
+            class="btn btn-secondary no-margin"
+            >Twitter</a
+          >
+          <a
+            href="https://github.com/atomazu"
+            class="btn btn-secondary no-margin"
+            >GitHub</a
+          >
+          <a href="/src/html/blog.html" class="btn btn-secondary no-margin"
+            >Blog</a
+          >
+          <a
+            href="/src/html/kanjiwizard.html"
+            class="btn btn-secondary no-margin"
+            >KanjiWizard</a
+          >
+        </div>
+      </div>
+
+      <!-- Quick Navigation -->
+      <div class="quick-nav fade-scroll">
+        <ul class="quick-nav-list">
+          <li class="quick-nav-item">
+            <a class="quick-nav-link" href="#about">About</a>
+          </li>
+          <li class="quick-nav-item">
+            <a class="quick-nav-link" href="#interests">Interests</a>
+          </li>
+          <li class="quick-nav-item">
+            <a class="quick-nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="quick-nav-item">
+            <a class="quick-nav-link" href="#blog">Blog</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Content -->
+      <div id="about" class="card mb-3 fade-scroll">
+        <div class="card-body">
+          <h2 class="card-title">About Me</h2>
+          <p>Hey there! I'm Jonas, and welcome to my website.</p>
+          <img
+            src="/assets/images/cover_image.jpg"
+            alt="cool image"
+            class="img-c img-la img-le"
+          />
+          <p>
+            I'm a 19-year-old student from Germany with a passion for technology
+            and learning. While I'm still figuring things out, I enjoy exploring
+            various areas of computer science and technology. I'm particularly
+            interested in game development, app creation, and discovering new
+            frameworks.
+          </p>
+          <p>
+            In addition to my tech pursuits, I'm also learning Japanese and have
+            an appreciation for anime and manga culture. It's been an
+            interesting journey so far.
+          </p>
+          <strong
+            >You can press the page title and change the theme, by the
+            way!</strong
+          >
+        </div>
+      </div>
+
+      <div id="interests" class="card mb-3 fade-scroll">
+        <div class="card-body">
+          <h2 class="card-title">Interests</h2>
+          <p>
+            I'm fortunate to have a wide range of interests that keep me engaged
+            and learning. Here are a few things that I'm currently exploring:
+          </p>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <strong>Programming:</strong> I enjoy making games and apps, and
+              I'm always trying to learn new frameworks and technologies.
+            </li>
+            <li class="list-group-item">
+              <strong>Artificial Intelligence:</strong> I'm particularly
+              fascinated by Natural Language Processing (NLP) and try to keep up
+              with the latest developments in the field.
+            </li>
+            <li class="list-group-item">
+              <strong>Physics and Electronics:</strong> While I'm not an expert,
+              I find these subjects intriguing and try to stay informed about
+              new developments.
+            </li>
+            <li class="list-group-item">
+              <strong>Mathematics:</strong> I appreciate the beauty and
+              challenge of mathematical concepts.
+            </li>
+            <li class="list-group-item">
+              <strong>Gaming:</strong> I enjoy playing games like Rocket League
+              and osu!, and I sometimes try my hand at speedrunning.
+            </li>
+            <li class="list-group-item">
+              <strong>Language Learning:</strong> I'm currently learning
+              Japanese, which has been a rewarding challenge. As well as
+              Spanish.
+            </li>
+          </ul>
+          <p>
+            I'm always open to learning new things and improving my skills.
+            While I have a lot to learn in all these areas, I'm excited about
+            the journey ahead and the opportunities to grow and contribute in
+            whatever way I can.
+          </p>
+        </div>
+      </div>
+
+      <div id="projects" class="card mb-3 fade-scroll">
+        <div class="card-body">
+          <h2 class="card-title">Personal Projects</h2>
+          <p>
+            I'm always working on various projects to apply what I've learned
+            and explore new technologies. Here are a few projects I'm currently
+            developing:
+          </p>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <strong>AniDesk:</strong> An AniList desktop client. This project
+              allows me to work on creating user-friendly interfaces for
+              accessing and managing anime and manga lists.
+            </li>
+            <li class="list-group-item">
+              <strong>KanjiWizard:</strong> A Japanese dictionary that pulls
+              from various sources. This combines my interest in Japanese
+              language learning with programming, creating a tool that I hope
+              will be useful for other language learners.
+            </li>
+            <li class="list-group-item">
+              <strong>Teabag:</strong> An FPS framework in the Godot game
+              engine. I'm extremely inspired by Source engine games, and I'm
+              aiming to recreate some of their feel and functionality within the
+              Godot environment.
+            </li>
+          </ul>
+          <p>
+            These projects are currently in development and haven't been
+            published yet. They represent my ongoing learning process and my
+            attempt to create practical applications of my skills and interests.
+            I'm excited to continue working on them and seeing where they lead!
+          </p>
+        </div>
+      </div>
+
+      <!-- Recent Posts Section -->
+      <div id="blog" class="card mb-3 fade-scroll">
+        <div class="card-body">
+          <h2 class="card-title">Recent Posts</h2>
+          <div id="recent-posts" class="recent-posts">
+            <!-- Recent posts will be dynamically inserted here -->
+          </div>
+          <a href="/src/html/blog.html" class="btn btn-primary"
+            >View All Posts</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <p class="gradient_bottom fixed-bottom"></p>
+
+    <!-- Footer -->
+    <footer class="bottom centered-footer">
+      <p>
+        &copy; 2024 atomazu. This project is open source and available under the
+        <a
+          class="footer-copy"
+          href="https://opensource.org/license/apache-2-0"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Apache-2.0 License</a
+        >.
+      </p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/src/js/theme-toggle.js"></script>
+    <script src="/src/js/fade-effect.js"></script>
+    <script src="/src/js/blog.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        getRecentPosts().then((recentPosts) => {
+          const recentPostsContainer = document.getElementById("recent-posts");
+          recentPosts.forEach((post) => {
+            const postElement = document.createElement("a");
+            postElement.href = `/src/html/view-post.html?post=${post.file}`;
+            postElement.className = "post-card";
+            postElement.innerHTML = `
+                    <div class="post-title">${post.title}</div>
+                    <div class="post-date">${post.date}</div>
+                `;
+            recentPostsContainer.appendChild(postElement);
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
