@@ -4,5 +4,11 @@
     "date": "June 29, 2024",
     "tags": ["Test", "Placeholder"],
     "file": "placeholder.md"
+  },
+  {
+    "title": "An Epic Tale of the Commit History",
+    "date": "June 29, 2024",
+    "tags": ["Epic", "Written by Claude 3.5"],
+    "file": "commit_tale.md"
   }
 ]
