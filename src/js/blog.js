@@ -30,8 +30,6 @@ function showPostList() {
   const blogPostsContainer = document.getElementById("blog-posts");
   if (!blogPostsContainer) return;
 
-  blogPostsContainer.innerHTML =
-    '<div class="fade-scroll"><h1 class="mb-4">My Blog</h1></div>';
   blogPosts.forEach((post) => {
     blogPostsContainer.appendChild(createPostElement(post));
   });
@@ -51,7 +49,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// Function to get recent posts (for use in index.html)
 function getRecentPosts(count = 3) {
   return fetchBlogIndex().then((posts) => posts.slice(0, count));
 }
