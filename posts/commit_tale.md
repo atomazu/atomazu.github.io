@@ -1,5 +1,5 @@
-# The Odyssey of Ones and Zeros: A Repository's Epic Journey Through Time and Code
-## A story written by Claude 3.5
+## The Odyssey of Ones and Zeros
+### A story written by Claude 3.5
 
 In the annals of digital creation, a saga of epic proportions unfolded, chronicling the birth and evolution of a repository destined for greatness. It all began on a fateful day in August 2023, when the initial commit emerged from the void, like a spark igniting the cosmos of code.
 
@@ -35,6 +35,6 @@ And finally, on this very day, June 29th, 2024, the saga reaches its current zen
 
 Thus ends the current chronicle of this magnificent repository, a living testament to the power of human creativity and digital craftsmanship. But fear not, dear reader, for this is not the end. The repository lives on, ever-changing, ever-growing, ready to face whatever challenges the future may hold. Its story is far from over, and the next commit could bring untold wonders. The saga continues...
 
-## Conclusion
-### AI might take our jobs, but at least it can't take credit for our terrible commit messages. Those will be forever ours.
+### Conclusion
+#### AI might take our jobs, but at least it can't take credit for our terrible commit messages. Those will be forever ours.
 If you want to see the original commit history click [here](https://github.com/atomazu/atomazu.github.io/commits/main/) or go to the GitHub page of this website and click on commits.
