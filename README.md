@@ -1,39 +1,43 @@
 # atomazu.github.io
 
-This repository contains the source code for [atomazu.github.io](https://atomazu.github.io), a personal website serving as a digital portfolio and information hub.
+Welcome to the source code repository for [atomazu.github.io](https://atomazu.github.io), a personal website serving as a digital portfolio and information hub.
+
+## Website Overview
+
+This website is a showcase of my projects, interests, and writings. It's a place where I share my experiences, knowledge, and creativity with the world.
 
 ## Website Content
 
-- **Home Page (`index.html`):** Provides an overview of interests and projects.
-- **Blog (`blog.html`):** Placeholder for future blog posts.
-- **KanjiWizard (`kanjiwizard.html`):** Placeholder for the KanjiWizard project.
-- **404 Page (`not_found.html`):** Custom error page for non-existent URLs.
+- **Home Page (`index.html`):** Get an overview of my interests, projects, and skills.
+- **Blog (`blog.html`):** Explore my articles and writings on various topics, from technology to personal growth.
+- **KanjiWizard (`kanjiwizard.html`):** Coming soon! A project dedicated to helping people learn and master Japanese kanji characters.
+- **404 Page (`not_found.html`):** A custom error page for when you stumble upon a non-existent URL.
 
 ## Features
 
-- **Theme Toggle:** Users can switch between light and dark themes. The chosen theme is saved in local storage for persistence across sessions.
-- **Scroll Effects:** Content fades in as the user scrolls down the page.
-- **Quick Navigation:** Allows easy access to different sections of the homepage.
+- **Theme Toggle:** Switch between light and dark themes with a click. Your preferred theme is saved in local storage for a seamless experience across sessions.
+- **Scroll Effects:** Content fades in as you scroll down the page, creating a smooth and engaging user experience.
+- **Quick Navigation:** Easily access different sections of the homepage with our intuitive navigation system.
 
 ## JavaScript Functionality
 
-The website uses vanilla JavaScript for its interactive features:
+This website uses vanilla JavaScript to provide an interactive and dynamic experience:
 
-- `theme-toggle.js`: Handles the theme switching functionality.
-- `fade-effect.js`: Manages the fade-in effect for content as the user scrolls.
+- `theme-toggle.js`: Handles theme switching and local storage.
+- `fade-effect.js`: Manages the fade-in effect for content as you scroll.
 
-These scripts enhance the user experience without relying on heavy frameworks.
+By using vanilla JavaScript, we've kept the website lightweight and fast, without relying on heavy frameworks.
 
 ## Development
 
-To work on this project locally:
+Want to contribute or work on this project locally? Here's how:
 
 1. Clone the repository
 2. Open any HTML file in your browser to view it locally
 
 ## Contributing
 
-Contributions are welcome. Please feel free to submit a Pull Request.
+Contributions are welcome! If you'd like to help improve this website, please submit a Pull Request.
 
 ## License
 
