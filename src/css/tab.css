@@ -1,0 +1,41 @@
+/* Tab Styles */
+.nav-tabs {
+  border-bottom: none;
+  margin-bottom: var(--tab-margin-bottom);
+}
+
+.nav-tabs .nav-item {
+  margin-right: var(--tab-margin-right);
+}
+
+.nav-tabs .nav-link {
+  color: var(--tab-text);
+  background-color: var(--tab-bg);
+  border: 1px solid var(--tab-border);
+  border-radius: var(--tab-border-radius);
+  padding: var(--tab-padding);
+  transition: var(--tab-transition);
+}
+
+.nav-tabs .nav-link:hover {
+  background-color: var(--tab-hover-bg);
+  border-color: var(--tab-hover-border);
+}
+
+.nav-tabs .nav-link.active {
+  color: var(--tab-text);
+  background-color: var(--tab-active-bg);
+  border-color: var(--tab-active-border);
+}
+
+/* Tab content styles */
+.tab-content {
+  background-color: var(--tab-content-bg);
+  border: 1px solid var(--tab-content-border);
+  border-radius: var(--tab-content-border-radius);
+  padding: var(--tab-content-padding);
+}
+
+.tab-pane {
+  color: var(--tab-text);
+}

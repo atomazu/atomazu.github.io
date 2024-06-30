@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>atomazu.github.io / home</title>
+    <title>atomazu.github.io / kanjiwizard</title>
     <script>
       (function () {
         document.documentElement.setAttribute(
@@ -38,13 +38,152 @@
     </nav>
 
     <div class="content no-padding">
+      <a href="/index.html" class="btn btn-secondary mt-3 fade-scroll"
+        >Go to Homepage</a
+      >
       <div class="card mb-3 fade-scroll">
         <div class="card-body">
-          <h2 class="card-title">Error 501:</h2>
-          Not implemented yet. Come back later. <br />
-          <a href="/index.html" class="btn btn-secondary no-margin"
-            >Go to Homepage</a
-          >
+          <h1 class="card-title text-center">KanjiWizard</h1>
+
+          <!-- Search bar, paste button, and search button -->
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="search-input"
+              placeholder="Search for kanji or words..."
+              aria-label="Search"
+              aria-describedby="search-button"
+              maxlength="50"
+            />
+            <div class="input-group-append">
+              <button
+                class="btn btn-outline-secondary btn-search"
+                type="button"
+                id="search-button"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+
+          <!-- Character count display -->
+          <div class="mb-3">
+            <small id="char-count" class="text-muted">0 / 50 characters</small>
+          </div>
+
+          <!-- Modern Auto Paste Toggle -->
+          <div class="toggle-container">
+            <label class="switch">
+              <input type="checkbox" id="autoPasteToggle" />
+              <span class="slider"></span>
+            </label>
+            <span class="toggle-label">Auto paste before search</span>
+          </div>
+          <!-- Tabs -->
+          <ul class="nav nav-tabs mb-3" id="kanjiwizard-tabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link active"
+                id="jisho-tab"
+                data-toggle="tab"
+                href="#jisho"
+                role="tab"
+                aria-controls="jisho"
+                aria-selected="true"
+                >Jisho</a
+              >
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                id="wanikani-tab"
+                data-toggle="tab"
+                href="#wanikani"
+                role="tab"
+                aria-controls="wanikani"
+                aria-selected="false"
+                >WaniKani</a
+              >
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                id="bookmarks-tab"
+                data-toggle="tab"
+                href="#bookmarks"
+                role="tab"
+                aria-controls="bookmarks"
+                aria-selected="false"
+                >Bookmarks</a
+              >
+            </li>
+          </ul>
+
+          <!-- Tab content -->
+          <div class="tab-content" id="kanjiwizard-tab-content">
+            <div
+              class="tab-pane fade show active"
+              id="jisho"
+              role="tabpanel"
+              aria-labelledby="jisho-tab"
+            >
+              <p>Jisho content will go here.</p>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="wanikani"
+              role="tabpanel"
+              aria-labelledby="wanikani-tab"
+            >
+              <p>WaniKani content will go here.</p>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="bookmarks"
+              role="tabpanel"
+              aria-labelledby="bookmarks-tab"
+            >
+              <p>Bookmarks content will go here.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Collapsible Search History -->
+      <div class="mb-3 fade-scroll">
+        <button
+          class="btn btn-outline-secondary btn-block"
+          type="button"
+          data-toggle="collapse"
+          data-target="#searchHistory"
+          aria-expanded="false"
+          aria-controls="searchHistory"
+        >
+          Toggle Search History
+        </button>
+        <div class="collapse mt-2" id="searchHistory">
+          <div class="card card-body">
+            <h5>Recent Searches</h5>
+            <ul id="search-history-list" class="list-group list-group-flush">
+              <!-- Search history items will be added here dynamically -->
+            </ul>
+            <div class="pagination-container">
+              <button id="prev-page" class="btn btn-sm btn-outline-secondary">
+                Previous
+              </button>
+              <span id="page-info"></span>
+              <button id="next-page" class="btn btn-sm btn-outline-secondary">
+                Next
+              </button>
+            </div>
+            <button
+              id="clear-history"
+              class="btn btn-sm btn-outline-danger mt-2"
+            >
+              Clear History
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -71,5 +210,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="/src/js/theme-toggle.js"></script>
     <script src="/src/js/fade-effect.js"></script>
+    <script src="/src/js/kanjiwizard.js"></script>
   </body>
 </html>
