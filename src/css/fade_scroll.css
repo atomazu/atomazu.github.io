@@ -1,0 +1,35 @@
+.fade-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 2s ease, transform 2s ease !important;
+}
+
+.fade-scroll.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.content::before,
+.content::after {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 100px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.content::before {
+  top: 0;
+  background-image: linear-gradient(
+    to bottom,
+    var(--gradient-color),
+    transparent
+  );
+}
+
+.content::after {
+  bottom: 0;
+  background-image: linear-gradient(to top, var(--gradient-color), transparent);
+}

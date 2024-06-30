@@ -1,0 +1,8 @@
+/* Credit: https://www.1001fonts.com/exo-2-0-font.html */
+@font-face {
+  font-family: "Exo 2.0";
+  src: url("/assets/fonts/exo2.0-regular-webfont.woff2") format("woff2"),
+    url("/assets/fonts/exo2.0-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

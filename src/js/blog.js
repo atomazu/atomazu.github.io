@@ -11,7 +11,7 @@ function fetchBlogIndex() {
 
 function createPostElement(post) {
   const article = document.createElement("article");
-  article.className = "blog-post fade-scroll";
+  article.className = "blog-post";
 
   article.innerHTML = `
         <div class="card mb-3"><h2><a href="view-post.html?post=${post.file}">${

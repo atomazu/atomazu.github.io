@@ -1,0 +1,38 @@
+.img-c {
+  margin: 15px;
+  border-radius: var(--border-radius);
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  box-shadow: var(--box-shadow);
+}
+
+.img-sm {
+  max-width: 100px;
+}
+
+.img-me {
+  max-width: 175px;
+}
+
+.img-la {
+  max-width: 250px;
+}
+
+.img-le {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.img-ri {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.img-ce {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
