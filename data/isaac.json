@@ -1,0 +1,2747 @@
+{
+  "gameVersion": "Repentance",
+  "lastUpdated": "2024-06-30",
+  "characters": [
+    {
+      "name": "Isaac",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Lost Baby"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Isaac's Tears"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The D20"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Mom's Knife"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Missing Poster"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Cry Baby",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Isaac's Head"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Fart Baby",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Lil' Chest",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "D1",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "D infinity",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Meat Cleaver",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Options?",
+          "availableSince": "Repentance"
+        }
+      ],
+      "allHardModeUnlock": "Godhead"
+    },
+    {
+      "name": "Magdalene",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Cute Baby"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "A Cross"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Celtic Cross"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Guardian Angel"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Maggy's Faith"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Red Baby",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Maggy's Bow"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Purity",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Censer",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Glyph of Balance",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Eucharist",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Yuck Heart",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Candy Heart",
+          "availableSince": "Repentance"
+        }
+      ],
+      "allHardModeUnlock": "Crown of Light"
+    },
+    {
+      "name": "Cain",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Glass Baby"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "A Bag of Pennies"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Cain's Eye"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "A Bag of Bombs"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Abel"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Green Baby",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Cain's Other Eye"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "D12",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Evil Eye",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Sack of Sacks",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Silver Dollar",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Guppy's Eye",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "A Pound of Flesh",
+          "availableSince": "Repentance"
+        }
+      ],
+      "allHardModeUnlock": "Cain's Other Other Eye"
+    },
+    {
+      "name": "Judas",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Shadow Baby"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Guillotine"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Left Hand"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Judas' Tongue"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Curved Horn"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Brown Baby",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Judas' Shadow"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Betrayal",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "My Shadow",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Eye of Belial",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Dark Prince's Crown",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Akeldama",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Redemption",
+          "availableSince": "Repentance"
+        }
+      ],
+      "allHardModeUnlock": "Belial"
+    },
+    {
+      "name": "???",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Dead Baby"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The D6"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Fate"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Forget Me Now"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "???'s Soul"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Blue Baby",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "???'s Only Friend"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Fate's Reward",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Cracked Dice",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Meconium",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "King Baby",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Eternal D6",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Montezuma's Revenge",
+          "availableSince": "Repentance"
+        }
+      ],
+      "allHardModeUnlock": "Death Certificate"
+    },
+    {
+      "name": "Eve",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Crow Baby"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Eve's Bird Foot"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Sacrificial Dagger"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Razor"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Black Lipstick"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Lil' Baby",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Eve's Mascara"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Athame",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Black Feather",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Crow Heart",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Dull Razor",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Bird Cage",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Cracked Orb",
+          "availableSince": "Repentance"
+        }
+      ],
+      "allHardModeUnlock": "Whore of Babylon"
+    },
+    {
+      "name": "Samson",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Fighting Baby"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Bloody Lust"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Blood Penny"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Blood Rights"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Samson's Lock"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Rage Baby",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Samson's Chains"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Blind Rage",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Lusty Blood",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Stem Cell",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Bloody Crown",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Bloody Gust",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Empty Heart",
+          "availableSince": "Repentance"
+        }
+      ],
+      "allHardModeUnlock": "Bloody Lust"
+    },
+    {
+      "name": "Azazel",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Begotten Baby"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Satanic Bible"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Daemon's Tail"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Nail"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Demon Baby"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Black Baby",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Nail"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Maw of the Void",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Lilith",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Bat Wing",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Devil's Crown",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Lil Abaddon",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Brimstone Bombs",
+          "availableSince": "Repentance"
+        }
+      ],
+      "allHardModeUnlock": "Black Hole"
+    },
+    {
+      "name": "Lazarus",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Wrapped Baby"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Lazarus' Rags"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Store Credit"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Broken Ankh"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Pandora's Box"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Long Baby",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Missing No."
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Empty Vessel",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Key Bum",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Plan C",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Compound Fracture",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Tinytoma",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Astral Projection",
+          "availableSince": "Repentance"
+        }
+      ],
+      "allHardModeUnlock": "Lazarus' Rags"
+    },
+    {
+      "name": "Eden",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Glitch Baby"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Blank Card"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Mysterious Paper"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Book of Secrets"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Mystery Sack"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Yellow Baby",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Undefined"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Eden's Blessing",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "GB Bug",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Metronome",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Eden's Soul",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "'M",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Everything Jar",
+          "availableSince": "Repentance"
+        }
+      ],
+      "allHardModeUnlock": "Birthright"
+    },
+    {
+      "name": "The Lost",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "-0- Baby"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Isaac's Heart"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Body"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Mind"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Soul"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "White Baby",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The D100"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Sworn Protector",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Zodiac",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Dad's Lost Coin",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Holy Card",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Lost Soul",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Hungry Soul",
+          "availableSince": "Repentance"
+        }
+      ],
+      "allHardModeUnlock": "Godhead"
+    },
+    {
+      "name": "Lilith",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Goat Head Baby"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Rune Bag"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Cambion Conception"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Serpent's Kiss"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Succubus"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Big Baby",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Immaculate Conception"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Incubus",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Box of Friends",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Duality",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Euthanasia",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Blood Puppy",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "C Section",
+          "availableSince": "Repentance"
+        }
+      ],
+      "allHardModeUnlock": "Cambion Conception"
+    },
+    {
+      "name": "Keeper",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Super Greed Baby"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Keeper holds Wooden Nickel"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Deep Pockets"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Keeper holds Store Key"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Karma"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Noose Baby",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Sticky Nickels"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Keeper now holds... (Specific unlock not provided in original data)",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Rib of Greed",
+          "availableSince": "Afterbirth"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Eye of Greed",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Crooked Penny",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Keeper's Sack",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Keeper's Box",
+          "availableSince": "Repentance"
+        }
+      ],
+      "allHardModeUnlock": "Keeper's Penny"
+    },
+    {
+      "name": "Apollyon",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Super Greed Baby"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Locust of Wrath"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Locust of Famine"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Locust of Pestilence"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Locust of Death"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Mort Baby",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Locust of Conquest"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Hushy",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Brown Nugget",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Black Rune",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Void",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Lil Portal",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Worm Friend",
+          "availableSince": "Repentance"
+        }
+      ],
+      "allHardModeUnlock": "Void"
+    },
+    {
+      "name": "The Forgotten",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Bound Baby"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Slipped Rib"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Jaw Bone"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Pointy Rib"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Brittle Bones"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Glowing Baby",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Marrow"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Hallowed Ground",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Finger Bone",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Dad's Ring",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Book of the Dead",
+          "availableSince": "Afterbirth †"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Bone Spurs",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Spirit Shackles",
+          "availableSince": "Repentance"
+        }
+      ],
+      "allHardModeUnlock": "Bone Club"
+    },
+    {
+      "name": "Bethany",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Wisp Baby"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Book of Virtues"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Blessed Penny"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Urn of Souls"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Alabaster Box"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Illusion Baby",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Beth's Faith"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Divine Intervention",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Soul Locket",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Vade Retro",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Star of Bethlehem",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Revelation",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Jar of Wisps",
+          "availableSince": "Repentance"
+        }
+      ],
+      "allHardModeUnlock": "Mega Book of Virtues"
+    },
+    {
+      "name": "Jacob and Esau",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Double Baby"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Stairway"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Birthright"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Red Stew"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Damocles"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Mega",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Rock Bottom"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Vanishing Twin",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Inner Child",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Genesis",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Suplex!",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Magic Skin",
+          "availableSince": "Repentance"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Friend Finder",
+          "availableSince": "Repentance"
+        }
+      ],
+      "allHardModeUnlock": "Temporary Tattoo"
+    }
+  ],
+  "challenges": [
+    {
+      "id": 1,
+      "name": "Pitch Black",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": [],
+      "curses": ["Curse of Darkness", "Curse of the Unknown"],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": false
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Rune of Hagalaz"
+    },
+    {
+      "id": 2,
+      "name": "High Brow",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": [
+        "Number One",
+        "E. Coli",
+        "Butt Bombs",
+        "Flush!",
+        "Petrified Poop"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Rune of Jera"
+    },
+    {
+      "id": 3,
+      "name": "Head Trauma",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": [
+        "Tiny Planet",
+        "Soy Milk",
+        "The Small Rock",
+        "Iron Bar"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Rune of Ehwaz"
+    },
+    {
+      "id": 4,
+      "name": "Darkness Falls",
+      "priority": false,
+      "characterAppearance": "Eve",
+      "startingHealth": [{ "type": "red", "amount": 2 }],
+      "startingItems": [
+        "Pentagram",
+        "Dead Bird",
+        "Whore of Babylon",
+        "Razor Blade",
+        "Sacrificial Dagger",
+        "Dark Matter"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Satan",
+      "unlockCriteria": {
+        "default": "Defeat Mom's Heart 11 times and unlock Eve",
+        "repentance": "Defeat Mom's Heart 11 times and defeat ??? as Eve"
+      },
+      "unlockReward": "Rune of Dagaz"
+    },
+    {
+      "id": 5,
+      "name": "The Tank",
+      "priority": false,
+      "characterAppearance": "Custom",
+      "startingHealth": [{ "type": "red", "amount": 4 }],
+      "startingItems": [
+        "Infamy",
+        "Bucket of Lard",
+        "Thunder Thighs",
+        "Yum Heart"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Have 7 or more Red Heart Containers at one time",
+      "unlockReward": "Rune of Ansuz"
+    },
+    {
+      "id": 6,
+      "name": "Solar System",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": [
+        "Distant Admiration",
+        "Forever alone",
+        "Halo of Flies",
+        "Transcendence"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mom's Heart 3 times",
+      "unlockReward": "Rune of Perthro",
+      "specialConditions": ["Blindfolded"]
+    },
+    {
+      "id": 7,
+      "name": "Suicide King",
+      "priority": false,
+      "characterAppearance": "Custom",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": ["Ipecac", "Mr. Mega", "My Reflection", "1 random pill"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Isaac",
+      "unlockCriteria": "Defeat Mom's Heart 11 times and unlock Lazarus",
+      "unlockReward": "Suicide King Card"
+    },
+    {
+      "id": 8,
+      "name": "Cat Got Your Tongue",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        { "type": "red", "amount": 3 },
+        { "type": "black", "amount": 3 },
+        { "type": "soul", "amount": 3 }
+      ],
+      "startingItems": ["Guppy's Hairball", "Guppy's Head", "Guppy's Tail"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Become Guppy",
+      "unlockReward": "Rune of Algiz",
+      "specialConditions": ["Blindfolded"]
+    },
+    {
+      "id": 9,
+      "name": "Demo Man",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": ["Dr. Fetus", "Remote Detonator", "Match Stick"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mom's Heart 9 times",
+      "unlockReward": "Chaos Card"
+    },
+    {
+      "id": 10,
+      "name": "Cursed!",
+      "priority": false,
+      "characterAppearance": "Custom",
+      "startingHealth": [{ "type": "red", "amount": 4 }],
+      "startingItems": [
+        "Blue Map",
+        "The Compass",
+        "Raw Liver",
+        "Treasure Map",
+        "Yum Heart",
+        "Child's Heart"
+      ],
+      "curses": ["Curse of the Cursed"],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Have 7 or more Red Heart Containers at one time",
+      "unlockReward": "Credit Card"
+    },
+    {
+      "id": 11,
+      "name": "Glass Cannon",
+      "priority": false,
+      "characterAppearance": "Judas",
+      "startingHealth": [{ "type": "red", "amount": 1 }],
+      "startingItems": ["Epic Fetus", "Loki's Horns"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Satan",
+      "unlockCriteria": "Beat The Family Man (challenge #19), defeat Lokii, and unlock Judas",
+      "unlockReward": "Rules Card"
+    },
+    {
+      "id": 12,
+      "name": "When Life Gives You Lemons",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": [
+        "9 Volt",
+        "Habit",
+        "Lemon Mishap",
+        "1 Lemon Party pill"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Card Against Humanity"
+    },
+    {
+      "id": 13,
+      "name": "Beans!",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": [
+        "9 Volt",
+        "The Bean",
+        "The Black Bean",
+        "Butt Bombs",
+        "Pyro"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Burnt Penny",
+      "specialConditions": ["Blindfolded"]
+    },
+    {
+      "id": 14,
+      "name": "It's in the Cards",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": [
+        "9 Volt",
+        "The Battery",
+        "Deck of Cards",
+        "Starter Deck",
+        "2 random tarot cards"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "SMB Super Fan"
+    },
+    {
+      "id": 15,
+      "name": "Slow Roll",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": ["Cupid's Arrow", "My Reflection", "Polyphemus"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Swallowed Penny"
+    },
+    {
+      "id": 16,
+      "name": "Computer Savvy",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": ["Spoon Bender", "Technology", "Technology 2"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Robo-Baby 2.0"
+    },
+    {
+      "id": 17,
+      "name": "Waka Waka",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": ["Anti-Gravity", "Strange Attractor"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Death's Touch"
+    },
+    {
+      "id": 18,
+      "name": "The Host",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": ["The Mulligan", "Spiderbaby", "Tick"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Technology 0.5"
+    },
+    {
+      "id": 19,
+      "name": "The Family Man",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": [
+        "BFFS!",
+        "Brother Bobby",
+        "Dad's Key",
+        "Rotten Baby",
+        "Sister Maggy"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Isaac",
+      "unlockCriteria": "Pick up both Key Pieces from the Angels in one run",
+      "unlockReward": "Epic Fetus",
+      "specialConditions": ["Blindfolded"]
+    },
+    {
+      "id": 20,
+      "name": "Purist",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": [],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mom",
+      "unlockReward": "Rune of Berkano"
+    },
+    {
+      "id": 21,
+      "name": "XXXXXXXXL",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": [],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mom",
+      "unlockReward": "Gold Heart",
+      "specialConditions": [
+        "Every floor is the size of an XL Womb floor, but does not combine the floors of each chapter."
+      ],
+      "availableFrom": "Afterbirth"
+    },
+    {
+      "id": 22,
+      "name": "SPEED!",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": [],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mom",
+      "unlockReward": "Get out of Jail Free Card",
+      "specialConditions": [
+        "Everything is sped up like the Broken Watch effect.",
+        "After the game timer reaches 16 minutes, Isaac starts taking damage every 10 seconds."
+      ],
+      "availableFrom": "Afterbirth"
+    },
+    {
+      "id": 23,
+      "name": "Blue Bomber",
+      "priority": false,
+      "characterAppearance": "???",
+      "startingHealth": [{ "type": "soul", "amount": 3 }],
+      "startingItems": ["Brother Bobby", "Kamikaze!", "Pyromaniac", "Mr. Mega"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Satan",
+      "unlockCriteria": "Destroy 10 Tinted Rocks and defeat Mom's Heart 11 times",
+      "unlockReward": "Gold Bomb",
+      "specialConditions": ["Blindfolded"],
+      "availableFrom": "Afterbirth"
+    },
+    {
+      "id": 24,
+      "name": "PAY TO PLAY",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": ["Money = Power", "Sack of Pennies", "50 coins"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Isaac",
+      "unlockCriteria": "Defeat Isaac as Cain and destroy 10 Tinted Rocks",
+      "unlockReward": "2 new pills",
+      "specialConditions": [
+        "Every door costs 1 cent to enter.",
+        "Isaac drops money when hit.",
+        "Isaac dies if he runs out of money."
+      ],
+      "availableFrom": "Afterbirth"
+    },
+    {
+      "id": 25,
+      "name": "Have a Heart",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        { "type": "red", "amount": 1 },
+        { "type": "emptyRed", "amount": 11 }
+      ],
+      "startingItems": ["Charm of the Vampire"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mom",
+      "unlockReward": "2 new pills",
+      "specialConditions": [
+        "Pennies drop instead of Red Hearts.",
+        "Many items that restore Red Hearts have no effect."
+      ],
+      "availableFrom": "Afterbirth"
+    },
+    {
+      "id": 26,
+      "name": "I RULE!",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": [
+        "The Boomerang",
+        "Key Piece 1",
+        "Key Piece 2",
+        "The Ladder",
+        "Mom's Knife",
+        "Trinity Shield"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mega Satan",
+      "unlockCriteria": {
+        "rebirthAndAfterbirth": "Defeat ??? or The Lamb, defeat Satan as Isaac, and unlock The Negative",
+        "afterbirthPlus": "Defeat ??? or The Lamb, and defeat Satan as Isaac",
+        "repentance": "Defeat Mega Satan and unlock The Negative"
+      },
+      "unlockReward": "Poker Chip",
+      "availableFrom": "Afterbirth"
+    },
+    {
+      "id": 27,
+      "name": "BRAINS!",
+      "priority": false,
+      "characterAppearance": "???",
+      "startingHealth": [{ "type": "soul", "amount": 3 }],
+      "startingItems": ["3 Bob's Brain", "Thunder Thighs"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "???",
+      "unlockCriteria": "Defeat Isaac 5 times",
+      "unlockReward": "Stud Finder",
+      "specialConditions": ["Blindfolded"],
+      "availableFrom": "Afterbirth"
+    },
+    {
+      "id": 28,
+      "name": "PRIDE DAY!",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": ["3 Dollar Bill", "Rainbow Baby", "Rainbow Worm"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mom",
+      "unlockReward": "D8",
+      "specialConditions": ["Cannot drop or replace Rainbow Worm"],
+      "availableFrom": "Afterbirth"
+    },
+    {
+      "id": 29,
+      "name": "Onan's Streak",
+      "priority": false,
+      "characterAppearance": "Judas",
+      "startingHealth": [{ "type": "red", "amount": 1 }],
+      "startingItems": ["The Book of Belial", "Chocolate Milk"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Isaac",
+      "unlockCriteria": {
+        "afterbirthAndAfterbirth": "Defeat Mom",
+        "repentance": "Unlock Judas and It Lives"
+      },
+      "unlockReward": "Kidney Stone",
+      "specialConditions": ["Missing a shot deals damage to Judas"],
+      "availableFrom": "Afterbirth"
+    },
+    {
+      "id": 30,
+      "name": "The Guardian",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": [
+        "Holy Grail",
+        "Isaac's Heart",
+        "Punching Bag",
+        "Spear Of Destiny"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mom",
+      "unlockReward": "Blank Rune",
+      "specialConditions": [
+        "Blindfolded",
+        "Isaac's Heart will follow Punching Bag instead of Isaac"
+      ],
+      "availableFrom": "Afterbirth"
+    },
+    {
+      "id": 31,
+      "name": "Backasswards",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": ["8-10 random items"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Basement/Cellar/Burning Basement I",
+      "unlockCriteria": {
+        "afterbirthPlus": "Defeat ??? or The Lamb",
+        "repentance": "Defeat Mega Satan and unlock The Negative"
+      },
+      "unlockReward": "Laz Bleeds More!",
+      "specialConditions": [
+        "All chapters progress in reverse order, losing 1 item and 1 Red Heart container each floor ascended"
+      ],
+      "availableFrom": "Afterbirth+"
+    },
+    {
+      "id": 32,
+      "name": "Aprils Fool",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": [],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mom",
+      "unlockReward": "Maggy Now Holds a Pill!",
+      "specialConditions": [
+        "The minimap displays the floor's layout accurately but displays Isaac's position inaccurately.",
+        "Pedestal items and pickups are not what they appear to be.",
+        "Active items, pills, cards, and rune effects are randomized upon each use.",
+        "Stonies have a chance of being replaced by a Cross Stoney.",
+        "Every boss is The Bloat.",
+        "Isaac's health is not what it appears to be.",
+        "Inventory pickups numbers are accurate."
+      ],
+      "availableFrom": "Afterbirth+"
+    },
+    {
+      "id": 33,
+      "name": "Pokey Mans",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": ["Friendly Ball", "Mom's Eyeshadow"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Isaac",
+      "unlockCriteria": "Defeat Mom's Heart 11 times",
+      "unlockReward": "Charged Key",
+      "specialConditions": [
+        "Each use of Friendly Ball causes a random monster to be spawned.",
+        "Friendly Ball instantly charges once the spawned monster is killed."
+      ],
+      "availableFrom": "Afterbirth+"
+    },
+    {
+      "id": 34,
+      "name": "Ultra Hard",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": ["Key Piece 1", "Key Piece 2"],
+      "curses": [
+        "Curse of the Labyrinth",
+        "Curse of the Blind",
+        "Curse of the Lost",
+        "Curse of the Maze"
+      ],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Mega Satan",
+      "unlockCriteria": {
+        "afterbirthPlus": "Defeat ??? or The Lamb. Possession of The Polaroid / The Negative is required, barring getting to Dark Room through a Sacrifice Room.",
+        "repentance": "Defeat Mega Satan and unlock The Negative"
+      },
+      "unlockReward": "Samson Feels Healthy!",
+      "specialConditions": [
+        "All enemies spawn as champions if possible.",
+        "Boss fights will be double trouble if possible.",
+        "No heart pickups drop."
+      ],
+      "availableFrom": "Afterbirth+"
+    },
+    {
+      "id": 35,
+      "name": "Pong",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": ["Cupid's Arrow", "Rubber Cement"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "???",
+      "unlockCriteria": "Defeat Isaac 5 times",
+      "unlockReward": "Greed's Gullet",
+      "specialConditions": ["Damage fixed at 100", "Tear delay fixed at 150"],
+      "availableFrom": "Afterbirth+"
+    },
+    {
+      "id": 36,
+      "name": "Scat Man",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 4 }],
+      "startingItems": [
+        "The Poop",
+        "9 Volt",
+        "Skatole",
+        "E. Coli",
+        "3 Butt Bombs",
+        "BFFS!",
+        "Thunder Thighs",
+        "Dirty Mind",
+        "Mysterious Candy"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Dirty Mind",
+      "specialConditions": ["Blindfolded"],
+      "availableFrom": "Repentance"
+    },
+    {
+      "id": 37,
+      "name": "Bloody Mary",
+      "priority": false,
+      "characterAppearance": "Bethany",
+      "startingHealth": [{ "type": "red", "amount": 4 }],
+      "startingItems": [
+        "The Book of Belial",
+        "Blood Bag",
+        "Anemic",
+        "Blood Oath",
+        "Child's Heart"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Satan",
+      "unlockCriteria": "Unlock Bethany, Blood Bag, and It Lives!",
+      "unlockReward": "Sigil of Baphomet",
+      "specialConditions": ["4 soul charges"],
+      "availableFrom": "Repentance"
+    },
+    {
+      "id": 38,
+      "name": "Baptism by Fire",
+      "priority": false,
+      "characterAppearance": "Bethany",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": [
+        "Urn of Souls",
+        "Schoolbag",
+        "Guppy's Paw",
+        "Maggy's Faith"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Isaac",
+      "unlockCriteria": "Defeat Satan as Bethany, defeat Mom's Heart 11 times, and unlock Maggy's Faith",
+      "unlockReward": "Purgatory",
+      "specialConditions": ["Blindfolded"],
+      "availableFrom": "Repentance"
+    },
+    {
+      "id": 39,
+      "name": "Isaac's Awakening",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": ["Spirit Sword", "Trinity Shield", "Mom's Bracelet"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mother",
+      "unlockCriteria": "Defeat Mother",
+      "unlockReward": "Spirit Sword",
+      "availableFrom": "Repentance"
+    },
+    {
+      "id": 40,
+      "name": "Seeing Double",
+      "priority": false,
+      "characterAppearance": "Jacob",
+      "startingHealth": [
+        { "type": "red", "amount": 4 },
+        { "type": "soul", "amount": 1 }
+      ],
+      "startingItems": ["Jacob: 20/20", "Esau: 20/20", "X-Ray Vision"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mother",
+      "unlockReward": "Broken Glasses",
+      "specialConditions": ["All enemies and bosses are doubled"],
+      "availableFrom": "Repentance"
+    },
+    {
+      "id": 41,
+      "name": "Pica Run",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": ["Mom's Box", "Marbles", "Mom's Purse"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Isaac",
+      "unlockCriteria": "Defeat Mom's Heart 11 times and unlock Marbles",
+      "unlockReward": "Ice Cube",
+      "specialConditions": [
+        "All items are replaced by random trinkets",
+        "Marbles activates on every hit"
+      ],
+      "availableFrom": "Repentance"
+    },
+    {
+      "id": 42,
+      "name": "Hot Potato",
+      "priority": false,
+      "characterAppearance": "Tainted Forgotten",
+      "startingHealth": [{ "type": "soul", "amount": 3 }],
+      "startingItems": [],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Satan",
+      "unlockCriteria": "Use Red Key (etc.) to open the hidden closet in Home as The Forgotten",
+      "unlockReward": "The Chariot",
+      "specialConditions": [
+        "The Forgotten cannot fire tears and explodes every 2.5 seconds",
+        "Explosion timer resets upon entering a room or picking up an item",
+        "Blindfolded"
+      ],
+      "availableFrom": "Repentance"
+    },
+    {
+      "id": 43,
+      "name": "Cantripped!",
+      "priority": false,
+      "characterAppearance": "Tainted Cain",
+      "startingHealth": [{ "type": "red", "amount": 2 }],
+      "startingItems": [],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Use Red Key (etc.) to open the hidden closet in Home as Cain",
+      "unlockReward": "Justice",
+      "specialConditions": [
+        "All cards and pills are replaced with item cards",
+        "Enemies have a chance of dropping an item card when killed",
+        "The Bag of Crafting initially holds a maximum of 3 item cards at once",
+        "Each item card shows a preview of a random Active Item that, when used, activates the effect",
+        "All boss item drops are replaced with Starter Deck, which increases the max card limit by 1 and drops 3 item cards"
+      ],
+      "availableFrom": "Repentance"
+    },
+    {
+      "id": 44,
+      "name": "Red Redemption",
+      "priority": false,
+      "characterAppearance": "Tainted Jacob",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": ["Dad's Key", "Red Key"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Mother",
+      "unlockCriteria": "Use Red Key (etc.) to open the hidden closet in Home as Jacob and Esau",
+      "unlockReward": "The Hermit",
+      "specialConditions": [
+        "The starting room spawns with no rooms connected to it",
+        "Rooms spawn in clusters around the map and must be found via the Red Key",
+        "The Red Key can be used an infinite number of times, but has 20 uses before Dark Esau spawns",
+        "Each subsequent 5 uses will spawn another Dark Esau if Tainted Jacob has yet to turn into his lost form",
+        "The Red Key cannot be used to open doors to I AM ERROR rooms",
+        "Each floor generates as a Curse of the Labyrinth floor, with one shop, and two item and boss rooms, except the fourth floor, which has only one boss room",
+        "All rooms may be from any floor of the current chapter"
+      ],
+      "availableFrom": "Repentance"
+    },
+    {
+      "id": 45,
+      "name": "DELETE THIS",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [{ "type": "red", "amount": 3 }],
+      "startingItems": ["TMTRAINER"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Unspecified",
+      "unlockCriteria": "Unspecified",
+      "unlockReward": "Unspecified",
+      "specialConditions": [
+        "All items are randomly generated due to TMTRAINER",
+        "The theme of each area, its obstacles per area, and music are randomized",
+        "Some obstacle sprites are randomized even within a level and sometimes the music may be missing altogether",
+        "Occasionally, even the floor texture might glitch out, replacing it with a plain color",
+        "Shop item prices range from 1 cent to 99",
+        "The challenge itself appears under the challenge list without any text, effectively rendering it invisible"
+      ],
+      "availableFrom": "Repentance"
+    }
+  ]
+}
