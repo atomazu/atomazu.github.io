@@ -37,3 +37,9 @@ Each challenge object contains:
 - `unlockReward`: String describing the reward for completing the challenge
 - `specialConditions`: (Optional) Array of special conditions for the challenge
 - `availableFrom`: (Optional) String indicating which game version introduced this challenge
+
+# Icon Links
+Contains links to icons mapped to names. Mainly used in `/src/js/isaac.js`.
+
+## Credit
+Icons have been taken from the [official Isaac wiki](https://bindingofisaacrebirth.fandom.com/wiki/Binding_of_Isaac:_Rebirth_Wiki).

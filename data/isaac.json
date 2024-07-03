@@ -1726,7 +1726,7 @@
           "boss": "Mega Satan",
           "completed": false,
           "hardModeCompleted": false,
-          "unlock": "Mega",
+          "unlock": "Illusion Baby",
           "availableSince": "Repentance"
         },
         {
@@ -1785,7 +1785,1673 @@
           "availableSince": "Repentance"
         }
       ],
-      "allHardModeUnlock": "Temporary Tattoo"
+      "allHardModeUnlock": "Solomon's Baby"
+    },
+    {
+      "name": "Tainted Isaac",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Soul of Isaac"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Mom's Lock"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Dice Bag"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Mom's Lock"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Dice Bag"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Mega Chest"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Stars"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Stars"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Spindown Dice"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Spindown Dice"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Spindown Dice"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Glitched Crown"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Glitched Crown"
+        }
+      ],
+      "allHardModeUnlock": "Birthright"
+    },
+    {
+      "name": "Tainted Magdalene",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Soul of Magdalene"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Holy Crown"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Mother's Kiss"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Holy Crown"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Mother's Kiss"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Queen of Hearts"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Lovers"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Lovers"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Hypercoagulation"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Hypercoagulation"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Hypercoagulation"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Belly Jelly"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Belly Jelly"
+        }
+      ],
+      "allHardModeUnlock": "Yum Heart"
+    },
+    {
+      "name": "Tainted Cain",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Soul of Cain"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Gilded Key"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Lucky Sack"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Gilded Key"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Lucky Sack"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Gold Pill"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Wheel of Fortune"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Wheel of Fortune"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Bag of Crafting"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Bag of Crafting"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Bag of Crafting"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Blue Key"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Blue Key"
+        }
+      ],
+      "allHardModeUnlock": "Bag of Crafting"
+    },
+    {
+      "name": "Tainted Judas",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Soul of Judas"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Your Soul"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Number Magnet"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Your Soul"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Number Magnet"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Black Sack"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Magician"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Magician"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Dark Arts"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Dark Arts"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Dark Arts"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Sanguine Bond"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Sanguine Bond"
+        }
+      ],
+      "allHardModeUnlock": "Dark Arts"
+    },
+    {
+      "name": "Tainted ???",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Soul of ???"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Dingle Berry"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Ring Cap"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Dingle Berry"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Ring Cap"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Charming Poop"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Emperor"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Emperor"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "IBS"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "IBS"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "IBS"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Swarm"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Swarm"
+        }
+      ],
+      "allHardModeUnlock": "Hold"
+    },
+    {
+      "name": "Tainted Eve",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Soul of Eve"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Strange Key"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Lil Clot"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Strange Key"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Lil Clot"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Horse Pill"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Empress"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Empress"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Sumptorium"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Sumptorium"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Sumptorium"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Heartbreak"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Heartbreak"
+        }
+      ],
+      "allHardModeUnlock": "Sumptorium"
+    },
+    {
+      "name": "Tainted Samson",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Soul of Samson"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Temporary Tattoo"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Swallowed M80"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Temporary Tattoo"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Swallowed M80"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Crane Game"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Strength"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Strength"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Berserk!"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Berserk!"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Berserk!"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Larynx"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Larynx"
+        }
+      ],
+      "allHardModeUnlock": "Berserk!"
+    },
+    {
+      "name": "Tainted Azazel",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Soul of Azazel"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Wicked Crown"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Azazel's Stump"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Wicked Crown"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Azazel's Stump"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Hell Game"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Devil"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Devil"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Hemoptysis"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Hemoptysis"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Hemoptysis"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Azazel's Rage"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Azazel's Rage"
+        }
+      ],
+      "allHardModeUnlock": "Hemoptysis"
+    },
+    {
+      "name": "Tainted Lazarus",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Soul of Lazarus"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Torn Pocket"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Torn Card"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Torn Pocket"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Torn Card"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Wooden Chest"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Judgement"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Judgement"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Flip"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Flip"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Flip"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Salvation"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Salvation"
+        }
+      ],
+      "allHardModeUnlock": "Flip"
+    },
+    {
+      "name": "Tainted Eden",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Soul of Eden"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Nuh Uh!"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Modeling Clay"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Nuh Uh!"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Modeling Clay"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Wild Card"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The World"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The World"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Corrupted Data"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Corrupted Data"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Corrupted Data"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "TMTRAINER"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "TMTRAINER"
+        }
+      ],
+      "allHardModeUnlock": "Corrupted Data"
+    },
+    {
+      "name": "Tainted Lost",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Soul of the Lost"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Kid's Drawing"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Crystal Key"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Kid's Drawing"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Crystal Key"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Haunted Chest"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Fool"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Fool"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Ghost Bombs"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Ghost Bombs"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Ghost Bombs"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Sacred Orb"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Sacred Orb"
+        }
+      ],
+      "allHardModeUnlock": "Holy Card"
+    },
+    {
+      "name": "Tainted Lilith",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Soul of Lilith"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Twins"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Adoption Papers"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Twins"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Adoption Papers"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Fool's Gold"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The High Priestess"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The High Priestess"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Gello"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Gello"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Gello"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Twisted Pair"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Twisted Pair"
+        }
+      ],
+      "allHardModeUnlock": "Gello"
+    },
+    {
+      "name": "Tainted Keeper",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Soul of the Keeper"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Keeper's Bargain"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Cursed Penny"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Keeper's Bargain"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Cursed Penny"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Golden Penny"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Hanged Man"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Hanged Man"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Keeper's Kin"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Keeper's Kin"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Keeper's Kin"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Strawman"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Strawman"
+        }
+      ],
+      "allHardModeUnlock": "Keeper's Kin"
+    },
+    {
+      "name": "Tainted Apollyon",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Soul of Apollyon"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Cricket Leg"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Apollyon's Best Friend"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Cricket Leg"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Apollyon's Best Friend"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Rotten Beggar"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Tower"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Tower"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Abyss"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Abyss"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Abyss"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Echo Chamber"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Echo Chamber"
+        }
+      ],
+      "allHardModeUnlock": "Abyss"
+    },
+    {
+      "name": "Tainted Forgotten",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Soul of the Forgotten"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Polished Bone"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Hollow Heart"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Polished Bone"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Hollow Heart"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Golden Battery"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Death"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Death"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Decap Attack"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Decap Attack"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Decap Attack"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Isaac's Tomb"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Isaac's Tomb"
+        }
+      ],
+      "allHardModeUnlock": "Bone Club"
+    },
+    {
+      "name": "Tainted Bethany",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Soul of Bethany"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Expansion Pack"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Beth's Essence"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Expansion Pack"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Beth's Essence"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Confessional"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Hierophant"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Hierophant"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Lemegeton"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Lemegeton"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Lemegeton"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Vengeful Spirit"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Vengeful Spirit"
+        }
+      ],
+      "allHardModeUnlock": "Lemegeton"
+    },
+    {
+      "name": "Tainted Jacob",
+      "priorities": [],
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Soul of Jacob and Esau"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "RC Remote"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Found Soul"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "RC Remote"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Found Soul"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Golden Trinket"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Sun and the Moon"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "The Sun and the Moon"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Anima Sola"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Anima Sola"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Anima Sola"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Esau Jr."
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "completed": false,
+          "hardModeCompleted": false,
+          "unlock": "Esau Jr."
+        }
+      ],
+      "allHardModeUnlock": "Anima Sola"
     }
   ],
   "challenges": [

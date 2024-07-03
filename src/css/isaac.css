@@ -1,105 +1,132 @@
-/* isaac.css */
-
-.content-full-width {
-    width: 95%;
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 30px;
+img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  object-fit: contain;
+  margin-right: 4px;
 }
 
-.card {
-    border-radius: 15px;
-    overflow: hidden;
-    transition: box-shadow 0.3s ease;
-    margin-bottom: 1rem;
+.completion-mark-icon {
+  width: 28px;
+  height: 28px;
 }
 
-.card:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.item-text,
+.curse-text,
+.item-pool-text {
+  display: inline-block;
+  padding: 2px 4px;
+  background-color: #e2e8f0;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  margin-right: 4px;
+  white-space: nowrap;
 }
 
-.card-header {
-    background-color: var(--card-bg);
-    border-bottom: 1px solid var(--card-border);
-    padding: 1rem 1.5rem;
-    cursor: pointer;
+.item-pool-text {
+  background-color: #edf2f7;
 }
 
-.card-header h2 {
-    margin: 0;
-    font-size: 1.5rem;
-    color: var(--text-color);
+.curse-text {
+  background-color: #fed7d7;
 }
 
-.card-body {
-    padding: 1.5rem;
+#characters-accordion .character-item > div:nth-child(2) {
+  scrollbar-width: thin;
+  scrollbar-color: #718096 #cbd5e0;
 }
 
-.completion-mark, .challenge-item {
-    margin-bottom: 1rem;
+#characters-accordion .character-item > div:nth-child(2)::-webkit-scrollbar {
+  width: 8px;
 }
 
-.completion-mark .form-check, .challenge-item .form-check {
-    margin-bottom: 0.5rem;
+#characters-accordion
+  .character-item
+  > div:nth-child(2)::-webkit-scrollbar-track {
+  background: #cbd5e0;
 }
 
-.completion-mark small, .challenge-item small {
-    margin-left: 1.5rem;
+#characters-accordion
+  .character-item
+  > div:nth-child(2)::-webkit-scrollbar-thumb {
+  background-color: #718096;
+  border-radius: 4px;
+  border: 2px solid #cbd5e0;
 }
 
-.section {
-    border-radius: 20px;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    height: 100%;
+#challenges-accordion .challenge-item p {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-.characters-section {
-    border-left: 10px solid rgba(52, 152, 219, 0.3); /* Subtle blue */
+#challenges-accordion .challenge-item p strong {
+  margin-right: 8px;
 }
 
-.challenges-section {
-    border-left: 10px solid rgba(231, 76, 60, 0.3); /* Subtle red */
+.character-item,
+.challenge-item {
+  margin-bottom: 1rem;
+}
+
+.completion-mark {
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.completion-mark:hover {
+  background-color: #e5e7eb;
+}
+
+.completion-mark.completed {
+  background-color: #d1fae5;
+}
+
+.completion-mark.priority {
+  border-left: 4px solid #fbbf24;
+}
+
+.stat-item {
+  background-color: #f3f4f6;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+#search-input,
+#filter-select {
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
 }
 
 #reset-all {
-    font-size: 1rem;
-    padding: 0.4rem 0.8rem;
-    background-color: rgba(220, 53, 69, 0.1);
-    border: 1px solid rgba(220, 53, 69, 0.3);
-    color: var(--text-color);
+  background-color: #ef4444;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-#overall-completion {
-    font-weight: bold;
-    font-size: 1.3rem;
+#reset-all:hover {
+  background-color: #dc2626;
 }
 
-/* Dark mode specific styles */
-[data-theme="dark"] .card-header {
-    background-color: var(--secondary-background-color);
-}
+@media (max-width: 640px) {
+  .item-pool-icon,
+  .health-icon,
+  .item-icon,
+  .curse-icon {
+    width: 20px;
+    height: 20px;
+  }
 
-[data-theme="dark"] .section {
-    background-color: rgba(255, 255, 255, 0.05);
-}
-
-[data-theme="dark"] #reset-all {
-    background-color: rgba(220, 53, 69, 0.2);
-    border-color: rgba(220, 53, 69, 0.4);
-}
-
-@media (max-width: 992px) {
-    .content-full-width {
-        width: 100%;
-        padding: 15px;
-    }
-    
-    .section {
-        padding: 1.5rem;
-    }
-    
-    .card-header h2 {
-        font-size: 1.3rem;
-    }
+  .item-text,
+  .curse-text,
+  .item-pool-text {
+    font-size: 0.75rem;
+  }
 }

@@ -1,71 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>atomazu.github.io / isaac</title>
-    <script>
-      (function () {
-        document.documentElement.setAttribute(
-          "data-theme",
-          localStorage.getItem("theme") || "light"
-        );
-      })();
-    </script>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/src/css/styles.css">
-    <link rel="stylesheet" href="/src/css/isaac.css">
-</head>
-<body>
-    <nav class="navbar navbar-light justify-content-center">
-        <a class="navbar-brand" href="#" id="themeToggle" data-toggle="tooltip" data-placement="bottom" title="Click me to change theme!">atomazu.github.io / isaac</a>
-    </nav>
-
-    <div class="content-full-width">
-        <a href="/index.html" class="btn btn-secondary mb-4 fade-scroll">Back to Home</a>
-
-        <div id="overview" class="card mb-4 fade-scroll">
-            <div class="card-body text-center">
-                <h1 class="card-title">The Binding of Isaac: Repentance Tracker</h1>
-                <p class="lead">Track your progress through the game!</p>
-                <div id="stats" class="mb-3">
-                    <p>Overall Completion: <span id="overall-completion">0%</span></p>
-                    <button id="reset-all" class="btn btn-danger btn-sm">Reset All Progress</button>
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Binding of Isaac: Repentance Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/src/css/isaac.css" />
+  </head>
+  <body class="bg-gray-100">
+    <header class="bg-gray-800 text-white p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">
+          The Binding of Isaac: Repentance Tracker
+        </h1>
+        <nav>
+          <ul class="flex space-x-4">
+            <li>
+              <a
+                href="/index.html"
+                class="text-white hover:text-gray-300 transition duration-150 ease-in-out"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="/src/html/not_found.html"
+                class="text-white hover:text-gray-300 transition duration-150 ease-in-out"
+                >Kanji Wizard (WIP)</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="isaac-tracker" class="container mx-auto mt-8 p-4">
+      <div
+        class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4 rounded-md shadow-md"
+        role="alert"
+      >
+        <p class="font-bold">Loading...</p>
+        <p>
+          If you see this message for more than a few seconds, please check the
+          console for errors.
+        </p>
+        <div class="mt-3">
+          <div
+            class="animate-spin rounded-full h-8 w-8 border-b-2 border-yellow-700 mx-auto"
+          ></div>
         </div>
-
-        <div class="row">
-            <div class="col-lg-6 mb-4">
-                <div class="section characters-section fade-scroll">
-                    <h2 class="text-center mb-3">Characters</h2>
-                    <div id="characters-container" class="accordion">
-                        <!-- Character cards will be dynamically inserted here -->
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 mb-4">
-                <div class="section challenges-section fade-scroll">
-                    <h2 class="text-center mb-3">Challenges</h2>
-                    <div id="challenges-container" class="accordion">
-                        <!-- Challenge cards will be dynamically inserted here -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <p class="gradient_bottom fixed-bottom"></p>
-
-    <footer class="bottom centered-footer">
-        <p>&copy; 2024 atomazu. This project is open source and available under the <a class="footer-copy" href="https://opensource.org/license/apache-2-0" target="_blank" rel="noopener noreferrer">Apache-2.0 License</a>.</p>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="/src/js/theme-toggle.js"></script>
-    <script src="/src/js/fade-effect.js"></script>
+      </div>
+    </main>
     <script src="/src/js/isaac.js"></script>
-</body>
+  </body>
 </html>
