@@ -3064,7 +3064,7 @@
         "treasureRoom": true,
         "shop": false
       },
-      "boss": "Mom",
+      "boss": "Mom's Foot",
       "unlockCriteria": "Default",
       "unlockReward": "Rune of Hagalaz",
       "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_32.png",
@@ -3094,7 +3094,7 @@
         "treasureRoom": false,
         "shop": true
       },
-      "boss": "Mom",
+      "boss": "Mom's Foot",
       "unlockCriteria": "Default",
       "unlockReward": "Rune of Jera",
       "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_33.png",
@@ -3123,7 +3123,7 @@
         "treasureRoom": false,
         "shop": true
       },
-      "boss": "Mom",
+      "boss": "Mom's Foot",
       "unlockCriteria": "Default",
       "unlockReward": "Rune of Ehwaz",
       "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_34.png",
@@ -3186,7 +3186,7 @@
         "treasureRoom": false,
         "shop": true
       },
-      "boss": "Mom",
+      "boss": "Mom's Foot",
       "unlockCriteria": "Have 7 or more Red Heart Containers at one time",
       "unlockReward": "Rune of Ansuz",
       "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_36.png",
@@ -3272,7 +3272,7 @@
         "treasureRoom": false,
         "shop": true
       },
-      "boss": "Mom",
+      "boss": "Mom's Foot",
       "unlockCriteria": "Become Guppy",
       "unlockReward": "Rune of Algiz",
       "specialConditions": ["Blindfolded"],
@@ -3328,7 +3328,7 @@
         "treasureRoom": true,
         "shop": true
       },
-      "boss": "Mom",
+      "boss": "Mom's Foot",
       "unlockCriteria": "Have 7 or more Red Heart Containers at one time",
       "unlockReward": "Credit Card",
       "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_43.png",
@@ -3381,7 +3381,7 @@
         "treasureRoom": false,
         "shop": true
       },
-      "boss": "Mom",
+      "boss": "Mom's Foot",
       "unlockCriteria": "Default",
       "unlockReward": "Card Against Humanity",
       "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_45.png",
@@ -3411,7 +3411,7 @@
         "treasureRoom": false,
         "shop": true
       },
-      "boss": "Mom",
+      "boss": "Mom's Foot",
       "unlockCriteria": "Default",
       "unlockReward": "Burnt Penny",
       "specialConditions": ["Blindfolded"],
@@ -3442,7 +3442,7 @@
         "treasureRoom": false,
         "shop": true
       },
-      "boss": "Mom",
+      "boss": "Mom's Foot",
       "unlockCriteria": "Default",
       "unlockReward": "SMB Super Fan",
       "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_189.png",
@@ -3466,7 +3466,7 @@
         "treasureRoom": false,
         "shop": true
       },
-      "boss": "Mom",
+      "boss": "Mom's Foot",
       "unlockCriteria": "Default",
       "unlockReward": "Swallowed Penny",
       "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_1.png",
@@ -3490,7 +3490,7 @@
         "treasureRoom": false,
         "shop": true
       },
-      "boss": "Mom",
+      "boss": "Mom's Foot",
       "unlockCriteria": "Default",
       "unlockReward": "Robo-Baby 2.0",
       "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_267.png",
@@ -3514,7 +3514,7 @@
         "treasureRoom": false,
         "shop": true
       },
-      "boss": "Mom",
+      "boss": "Mom's Foot",
       "unlockCriteria": "Default",
       "unlockReward": "Death's Touch",
       "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_237.png",
@@ -3538,7 +3538,7 @@
         "treasureRoom": false,
         "shop": true
       },
-      "boss": "Mom",
+      "boss": "Mom's Foot",
       "unlockCriteria": "Default",
       "unlockReward": "Technology 0.5",
       "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_152.png",
@@ -3914,7 +3914,7 @@
         "treasureRoom": false,
         "shop": true
       },
-      "boss": "Basement/Cellar/Burning Basement I",
+      "boss": "Reach 1st floor",
       "unlockCriteria": {
         "afterbirthPlus": "Defeat ??? or The Lamb",
         "repentance": "Defeat Mega Satan and unlock The Negative"
@@ -4082,7 +4082,7 @@
         "treasureRoom": false,
         "shop": true
       },
-      "boss": "Mom",
+      "boss": "Mom's Foot",
       "unlockCriteria": "Default",
       "unlockReward": "Dirty Mind",
       "specialConditions": ["Blindfolded"],
@@ -4285,7 +4285,7 @@
         "treasureRoom": false,
         "shop": true
       },
-      "boss": "Mom",
+      "boss": "Mom's Foot",
       "unlockCriteria": "Use Red Key (etc.) to open the hidden closet in Home as Cain",
       "unlockReward": "Justice?",
       "specialConditions": [

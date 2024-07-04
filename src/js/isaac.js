@@ -136,7 +136,26 @@ function renderChallenges() {
 
       const character = findCharacter(challenge.characterAppearance);
       const characterIconUrl = character ? character.characterIconUri : "";
-      console.log(character);
+
+      const renderStartingItems = (items) => {
+        if (!items || items.length === 0) {
+          return "None";
+        }
+        return items
+          .map(
+            (item) => `
+          <a href="https://bindingofisaacrebirth.fandom.com/wiki/${encodeURIComponent(
+            item
+          )}" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             class="inline-flex items-center mr-2 mb-1 text-blue-500 dark:text-blue-400 hover:underline">
+            ${item}
+          </a>
+        `
+          )
+          .join("");
+      };
 
       return `
           <div class="challenge-item glass-card mb-4" data-challenge="${challenge.name.toLowerCase()}" data-challenge-id="${
@@ -166,9 +185,9 @@ function renderChallenges() {
               <div id="challenge-content-${index}" class="hidden p-4 border-t border-gray-200 dark:border-gray-700">
                   <p class="mb-2 flex items-center">
                     <strong class="mr-2">Character:</strong>
-                    <a href="https://bindingofisaacrebirth.fandom.com/wiki/Special:Search?search=${encodeURIComponent(
+                    <a href="https://bindingofisaacrebirth.fandom.com/wiki/${encodeURIComponent(
                       challenge.characterAppearance
-                    )}&go=Search" 
+                    )}" 
                        target="_blank" 
                        rel="noopener noreferrer" 
                        class="flex items-center text-blue-500 dark:text-blue-400 hover:underline">
@@ -180,16 +199,16 @@ function renderChallenges() {
                       ${challenge.characterAppearance}
                     </a>
                   </p>
-                  <p class="mb-2"><strong>Boss:</strong> <a href="https://bindingofisaacrebirth.fandom.com/wiki/Special:Search?search=${encodeURIComponent(
-                    challenge.boss
-                  )}&go=Search" target="_blank" rel="noopener noreferrer" class="text-blue-500 dark:text-blue-400 hover:underline">${
+                  <p class="mb-2"><strong>Goal:</strong> <a href="https://bindingofisaacrebirth.fandom.com/wiki/${encodeURIComponent(
+                    challenge.name
+                  )}" target="_blank" rel="noopener noreferrer" class="text-blue-500 dark:text-blue-400 hover:underline">${
         challenge.boss
       }</a></p>
                   <p class="mb-2 flex items-center">
                       <strong class="mr-2">Unlock:</strong>
-                      <a href="https://bindingofisaacrebirth.fandom.com/wiki/Special:Search?search=${encodeURIComponent(
+                      <a href="https://bindingofisaacrebirth.fandom.com/wiki/${encodeURIComponent(
                         challenge.unlockReward
-                      )}&go=Search" target="_blank" rel="noopener noreferrer" class="flex items-center hover:underline">
+                      )}" target="_blank" rel="noopener noreferrer" class="flex items-center hover:underline">
                           ${
                             challenge.unlockRewardIconUrl
                               ? `<img src="${challenge.unlockRewardIconUrl}" alt="${challenge.unlockReward}" class="w-6 h-6 mr-2">`
@@ -282,7 +301,14 @@ function renderCurses(curses) {
     : "None";
 }
 
+const itemPoolLinks = {
+  treasureRoom: "/wiki/Treasure_Room",
+  shop: "/wiki/Shop_(Item_Pool)",
+};
+
 function renderItemPools(itemPool) {
+  const baseUrl = "https://bindingofisaacrebirth.fandom.com";
+
   const pools = Object.entries(itemPool)
     .filter(([_, value]) => value === true)
     .map(([key, _]) => {
@@ -293,13 +319,15 @@ function renderItemPools(itemPool) {
           .replace(/([A-Z])/g, " $1")
           .trim();
       const iconSrc = iconLinks[iconName];
+
+      const wikiPath =
+        itemPoolLinks[key] ||
+        `/wiki/${encodeURIComponent(key)}_(Item_Pool)?so=search`;
+      const url = `${baseUrl}${wikiPath}`;
+
       return iconSrc
-        ? `<a href="https://bindingofisaacrebirth.fandom.com/wiki/Special:Search?search=${encodeURIComponent(
-            key
-          )}+Pool&go=Search" target="_blank" rel="noopener noreferrer"><img src="${iconSrc}" alt="${key}" title="${key}" class="item-pool-icon w-6 h-6 mr-2 mb-2"></a>`
-        : `<a href="https://bindingofisaacrebirth.fandom.com/wiki/Special:Search?search=${encodeURIComponent(
-            key
-          )}+Pool&go=Search" target="_blank" rel="noopener noreferrer" class="item-pool-text bg-blue-200 dark:bg-blue-900 px-2 py-1 rounded mr-2 mb-2 hover:underline">${key}</a>`;
+        ? `<a href="${url}" target="_blank" rel="noopener noreferrer"><img src="${iconSrc}" alt="${key}" title="${key}" class="item-pool-icon w-6 h-6 mr-2 mb-2"></a>`
+        : `<a href="${url}" target="_blank" rel="noopener noreferrer" class="item-pool-text bg-blue-200 dark:bg-blue-900 px-2 py-1 rounded mr-2 mb-2 hover:underline">${key}</a>`;
     });
 
   return pools.length > 0
