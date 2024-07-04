@@ -1,0 +1,4371 @@
+{
+  "gameVersion": "Repentance",
+  "lastUpdated": "2024-06-30",
+  "characters": [
+    {
+      "name": "Isaac",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Lost Baby",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a8/010_baby_lost.png"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Isaac's Tears",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_323.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "D20",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_166.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Mom's Knife",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_114.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Missing Poster",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_23.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Cry Baby",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/88/032_baby_cry.png"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Isaac's Head",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_276.png"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Fart Baby",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_404.png"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Lil' Chest",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_362.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "D1",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_476.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "D infinity",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_489.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Meat Cleaver",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_631.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Options?",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_670.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a9/Character_Isaac_icon.png",
+      "allHardModeUnlock": "Buddy Baby",
+      "allHardModeUnlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f8/041_baby_buddy.png"
+    },
+    {
+      "name": "Magdalene",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Cute Baby",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d5/011_baby_cute.png"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "A Cross",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/85/Collectible_The_Relic_icon.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Celtic Cross",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_162.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Guardian Angel",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_112.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Maggy's Faith",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_55.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Red Baby",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1c/028_baby_red.png"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Maggy's Bow",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_312.png"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Purity",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_407.png"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Censer",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_387.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Glyph of Balance",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_464.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Eucharist",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_499.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Yuck Heart",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_639.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Candy Heart",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_671.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/47/Character_Magdalene_icon.png",
+      "allHardModeUnlock": "Colorful Baby",
+      "allHardModeUnlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/62/042_baby_colorful.png"
+    },
+    {
+      "name": "Cain",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Glass Baby",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1c/014_baby_glass.png"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Sack of Pennies",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f3/Collectible_Sack_of_Pennies_icon.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Cain's Eye",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_59.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Sack of Bombs",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f3/Collectible_Sack_of_Pennies_icon.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Abel",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_188.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Green Baby",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/29/035_baby_green.png"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Cain's Other Eye",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_319.png"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "D12",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_386.png"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Evil Eye",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_410.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Sack of Sacks",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_500.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Silver Dollar",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_110.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Guppy's Eye",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_665.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "A Pound of Flesh",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_672.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/44/Character_Cain_icon.png",
+      "allHardModeUnlock": "Picky Baby",
+      "allHardModeUnlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/91/049_baby_picky.png"
+    },
+    {
+      "name": "Judas",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Shadow Baby",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a9/013_baby_shadow.png"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Guillotine",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_206.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Left Hand",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_61.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Judas' Tongue",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_56.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Curved Horn",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_35.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Brown Baby",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a2/038_baby_brown.png"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Judas' Shadow",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_311.png"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Betrayal",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_391.png"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "My Shadow",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_433.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Eye of Belial",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_462.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Dark Prince's Crown",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_442.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Akeldama",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_641.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Redemption",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_673.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/13/Character_Judas_icon.png",
+      "allHardModeUnlock": "Belial Baby",
+      "allHardModeUnlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/62/207_baby_belial.png"
+    },
+    {
+      "name": "???",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Dead Baby",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/89/022_baby_dead.png"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "The D6",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/Collectible_The_D6_icon.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Fate",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_179.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Forget Me Now",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_127.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "???'s Soul",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_57.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Blue Baby",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7e/030_baby_blue.png"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "???'s Only Friend",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_320.png"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Fate's Reward",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_361.png"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Cracked Dice",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_67.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Meconium",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_91.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "King Baby",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/78/259_baby_king.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Eternal D6",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_609.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Montezuma's Revenge",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_680.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/19/Character_%3F%3F%3F_%28Character%29_icon.png",
+      "allHardModeUnlock": "Hive Baby",
+      "allHardModeUnlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/44/040_baby_hive.png"
+    },
+    {
+      "name": "Eve",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Crow Baby",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b5/012_baby_crow.png"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Eve's Bird Foot",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_60.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Sacrificial Dagger",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_172.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Razor Blade",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/70/Collectible_Razor_Blade_icon.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Black Lipstick",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_17.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Lil' Baby",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4f/036_baby_lil.png"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Eve's Mascara",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_310.png"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Athame",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_408.png"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Black Feather",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_80.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Crow Heart",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_107.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Dull Razor",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_486.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Bird Cage",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_610.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Cracked Orb",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_675.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e1/Character_Eve_icon.png",
+      "allHardModeUnlock": "Whore Baby",
+      "allHardModeUnlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/0c/043_baby_whore.png"
+    },
+    {
+      "name": "Samson",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Fighting Baby",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/05/023_baby_fighting.png"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Bloody Lust",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_157.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Blood Penny",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_49.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Blood Rights",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_186.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Samson's Lock",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_58.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Rage Baby",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e2/031_baby_rage.png"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Samson's Chains",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_321.png"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Blind Rage",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_81.png"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Lusty Blood",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_411.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Stem Cell",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_176.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Bloody Crown",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_111.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Bloody Gust",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_695.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Empty Heart",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_676.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/dc/Character_Samson_icon.png",
+      "allHardModeUnlock": "Revenge Baby",
+      "allHardModeUnlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b6/050_baby_revenge.png"
+    },
+    {
+      "name": "Azazel",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Begotten Baby",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c0/021_baby_begotten.png"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Satanic Bible",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_292.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Daemon's Tail",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f6/Collectible_Abaddon_icon.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "The Nail",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_22.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Demon Baby",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_113.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Black Baby",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/53/027_baby_black.png"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "The Nail",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3c/Collectible_The_Nail_icon.png"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Maw of the Void",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_399.png"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Lilith",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a8/Character_Lilith_appearance.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Bat Wing",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_118.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Devil's Crown",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_146.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Lil Abaddon",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_679.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Brimstone Bombs",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_646.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3d/Character_Azazel_icon.png",
+      "allHardModeUnlock": "Sucky Baby",
+      "allHardModeUnlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/01/047_baby_sucky.png"
+    },
+    {
+      "name": "Lazarus",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Wrapped Baby",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1b/020_baby_wrapped.png"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Lazarus' Rags",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_332.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Store Credit",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_13.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Broken Ankh",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_28.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Pandora's Box",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_297.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Long Baby",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ec/034_baby_long.png"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Missing No.",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_258.png"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Empty Vessel",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_409.png"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Key Bum",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_388.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Plan C",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_475.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Compound Fracture",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_453.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Tinytoma",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_645.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Astral Projection",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_677.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/ca/Character_Lazarus_icon.png",
+      "allHardModeUnlock": "Dripping Baby",
+      "allHardModeUnlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3e/045_baby_dripping.png"
+    },
+    {
+      "name": "Eden",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Glitch Baby",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fb/025_baby_glitch.png"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Blank Card",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_286.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Mysterious Paper",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_21.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Book of Secrets",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_287.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Mystery Sack",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_271.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Yellow Baby",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/32/033_baby_yellow.png"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Undefined",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_324.png"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Eden's Blessing",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_381.png"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "GB Bug",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_405.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Metronome",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_488.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Eden's Soul",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_490.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "'M",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_138.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Everything Jar",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_720.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a5/Character_Eden_icon.png",
+      "allHardModeUnlock": "Cracked Baby",
+      "allHardModeUnlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7b/044_baby_cracked.png"
+    },
+    {
+      "name": "The Lost",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "-0- Baby",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a1/024_baby_0.png"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Isaac's Heart",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_276.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "The Body",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/44/Collectible_The_Body_icon.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "The Mind",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/22/Collectible_The_Mind_icon.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Soul",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_588.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "White Baby",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/70/029_baby_white.png"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "D100",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_283.png"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Sworn Protector",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_363.png"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Zodiac",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_392.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Dad's Lost Coin",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_455.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Holy Card",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/22/Pickup_Holy_Card_icon.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Lost Soul",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_612.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Hungry Soul",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_684.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/55/Character_The_Lost_icon.png",
+      "allHardModeUnlock": "Godhead",
+      "allHardModeUnlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_331.png"
+    },
+    {
+      "name": "Lilith",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Goat Head Baby",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/18/053_baby_goatbaby.png"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Rune Bag",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_389.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Cambion Conception",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_412.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Serpent's Kiss",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_393.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Succubus",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_417.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Big Baby",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/14/037_baby_big.png"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Immaculate Conception",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_413.png"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Incubus",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_360.png"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Box of Friends",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_357.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Duality",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_498.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Euthanasia",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_496.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Blood Puppy",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_565.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "C Section",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_678.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d7/Character_Lilith_icon.png",
+      "allHardModeUnlock": "Dark Baby ",
+      "allHardModeUnlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/6f/243_baby_dark.png"
+    },
+    {
+      "name": "Keeper",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Super Greed Baby",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8e/054_baby_supergreedbaby.png"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Wooden Nickel",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/ba/Collectible_Wooden_Nickel_icon.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Deep Pockets",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_416.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Store Key",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2d/Trinket_Store_Key_icon.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Karma",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_85.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Noose Baby",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b2/039_baby_noose.png"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Sticky Nickels",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/00/Nickel.png"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Keeper now holds... A Penny!",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fc/Achievement_Keeper_now_holds..._A_Penny%21_icon.png/"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Rib of Greed",
+          "availableSince": "Afterbirth",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_84.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Eye of Greed",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_450.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Crooked Penny",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_485.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Keeper's Sack",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_716.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Keeper's Box",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_719.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/12/Character_Keeper_icon.png",
+      "allHardModeUnlock": "Sale Baby",
+      "allHardModeUnlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/39/052_baby_sale.png"
+    },
+    {
+      "name": "Apollyon",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Smelter",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fe/Collectible_Smelter_icon.png"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Locust of Wrath",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_116.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Locust of Famine",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_115.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Locust of Pestilence",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_114.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Locust of Death",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_116.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Mort Baby",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e0/055_baby_mort.png"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Locust of Conquest",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_117.png"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Hushy",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_470.png"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Brown Nugget",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_504.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Black Rune",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/13/Pickup_Black_Rune_icon.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Void",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_477.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Lil Portal",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_681.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Worm Friend",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_682.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/32/Character_Apollyon_icon.png",
+      "allHardModeUnlock": "Apollyon Baby",
+      "allHardModeUnlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/df/056_baby_apollyon.png"
+    },
+    {
+      "name": "The Forgotten",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Bound Baby",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/10/058_baby_bound.png"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Slipped Rib",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_542.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Jaw Bone",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_548.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Pointy Rib",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_544.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Brittle Bones",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_549.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Glowing Baby",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ee/066_baby_glowing.png"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Marrow",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_541.png"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Hallowed Ground",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_543.png"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Finger Bone",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_128.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Dad's Ring",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_546.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Book of the Dead",
+          "availableSince": "Afterbirth /u00e2/u20ac/u00a0",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_545.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Bone Spurs",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_683.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Spirit Shackles",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_674.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f6/Character_The_Forgotten_icon.png",
+      "allHardModeUnlock": "Bone Baby",
+      "allHardModeUnlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9e/057_baby_boner.png"
+    },
+    {
+      "name": "Bethany",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Wisp Baby",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/33/064_baby_wisp.png"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Book of Virtues",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_584.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Blessed Penny",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_131.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Urn of Souls",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_640.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Alabaster Box",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_585.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Glowing Baby",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/ee/066_baby_glowing.png"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Beth's Faith",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_142.png"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Divine Intervention",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_568.png"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Soul Locket",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_686.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Vade Retro",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_653.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Star of Bethlehem",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_651.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Revelation",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_643.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Jar of Wisps",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_685.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a2/Character_Bethany_icon.png",
+      "allHardModeUnlock": "Hope Baby",
+      "allHardModeUnlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d5/068_baby_hope.png"
+    },
+    {
+      "name": "Jacob and Esau",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Double Baby",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2f/065_baby_double.png"
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Stairway",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_586.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Birthright",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_619.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Red Stew",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_621.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Damocles",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_577.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Illusion Baby",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/ff/067_baby_illusion.png"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Rock Bottom",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_562.png"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Vanishing Twin",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_697.png"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Inner Child",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_688.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Genesis",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_622.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Suplex!",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_709.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Magic Skin",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_642.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Friend Finder",
+          "availableSince": "Repentance",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_687.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fa/Character_Jacob_and_Esau_icon.png",
+      "allHardModeUnlock": "Solomon's Baby",
+      "allHardModeUnlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fa/069_baby_solomon_a.png"
+    },
+    {
+      "name": "Tainted Isaac",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "None",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Mom's Lock 1/4",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_153.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Mom's Lock 2/4",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_153.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Mom's Lock 3/4",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_153.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Mom's Lock 4/4",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_153.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Mega Chest",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b6/Mega_Chest.png"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "The Stars 1/2",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a1/Pickup_Soul_of_Isaac_icon.png"
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Soul of Isaac 2/2",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a1/Pickup_Soul_of_Isaac_icon.png"
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "None",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "The Stars",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/52/Pickup_XVII_-_The_Stars%3F_icon.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Spindown Dice",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fc/Collectible_Spindown_Dice_icon.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Dice Bag",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a4/Trinket_Dice_Bag_icon.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Glitched Crown",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_689.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/96/Character_Tainted_Isaac_icon.png",
+      "allHardModeUnlock": "None",
+      "allHardModeUnlockIconUrl": null
+    },
+    {
+      "name": "Tainted Magdalene",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Soul of Magdalene",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Holy Crown",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_155.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Mother's Kiss",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_156.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Holy Crown",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_155.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Mother's Kiss",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_156.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Queen of Hearts",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Lovers",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Lovers",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Hypercoagulation",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_724.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Hypercoagulation",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_724.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Hypercoagulation",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_724.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Belly Jelly",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_690.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Belly Jelly",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_690.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/47/Character_Tainted_Magdalene_icon.png",
+      "allHardModeUnlock": "None",
+      "allHardModeUnlockIconUrl": null
+    },
+    {
+      "name": "Tainted Cain",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Soul of Cain",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Gilded Key",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_159.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Lucky Sack",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_266.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Gilded Key",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_159.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Lucky Sack",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_266.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Gold Pill",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Wheel of Fortune",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Wheel of Fortune",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Bag of Crafting",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_710.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Bag of Crafting",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_710.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Bag of Crafting",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_710.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Blue Key",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_150.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Blue Key",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_150.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/04/Character_Tainted_Cain_icon.png",
+      "allHardModeUnlock": "None",
+      "allHardModeUnlockIconUrl": null
+    },
+    {
+      "name": "Tainted Judas",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Soul of Judas",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Your Soul",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_173.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Number Magnet",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_174.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Your Soul",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_173.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Number Magnet",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_174.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Black Sack",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_160.png"
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Magician",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Magician",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Dark Arts",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_705.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Dark Arts",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_705.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Dark Arts",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_705.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Sanguine Bond",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_692.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Sanguine Bond",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_692.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/97/Character_Tainted_Judas_icon.png",
+      "allHardModeUnlock": "None",
+      "allHardModeUnlockIconUrl": null
+    },
+    {
+      "name": "Tainted ???",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Soul of ???",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Dingle Berry",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_163.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Ring Cap",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_164.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Dingle Berry",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_163.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Ring Cap",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_164.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Charming Poop",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Emperor",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Emperor",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "IBS",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_725.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "IBS",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_725.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "IBS",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_725.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Swarm",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Swarm",
+          "unlockIconUrl": null
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d8/Character_Tainted_%3F%3F%3F_icon.png",
+      "allHardModeUnlock": "None",
+      "allHardModeUnlockIconUrl": null
+    },
+    {
+      "name": "Tainted Eve",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Soul of Eve",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Strange Key",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_175.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Lil Clot",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_176.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Strange Key",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_175.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Lil Clot",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_176.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Horse Pill",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Empress",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Empress",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Sumptorium",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_713.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Sumptorium",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_713.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Sumptorium",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_713.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Heartbreak",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_694.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Heartbreak",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_694.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9d/Character_Tainted_Eve_icon.png",
+      "allHardModeUnlock": "None",
+      "allHardModeUnlockIconUrl": null
+    },
+    {
+      "name": "Tainted Samson",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Soul of Samson",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Temporary Tattoo",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_177.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Swallowed M80",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_178.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Temporary Tattoo",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_177.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Swallowed M80",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_178.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Crane Game",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Strength",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Strength",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Berserk!",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_704.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Berserk!",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_704.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Berserk!",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_704.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Larynx",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_611.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Larynx",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_611.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/97/Character_Tainted_Samson_icon.png",
+      "allHardModeUnlock": "None",
+      "allHardModeUnlockIconUrl": null
+    },
+    {
+      "name": "Tainted Azazel",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Soul of Azazel",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Wicked Crown",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_161.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Azazel's Stump",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_162.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Wicked Crown",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_161.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Azazel's Stump",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_162.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Hell Game",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Devil",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Devil",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Hemoptysis",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_726.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Hemoptysis",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_726.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Hemoptysis",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_726.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Azazel's Rage",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_699.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Azazel's Rage",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_699.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/1f/Character_Tainted_Azazel_icon.png",
+      "allHardModeUnlock": "None",
+      "allHardModeUnlockIconUrl": null
+    },
+    {
+      "name": "Tainted Lazarus",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Soul of Lazarus",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Torn Pocket",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_158.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Torn Card",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_157.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Torn Pocket",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_158.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Torn Card",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_157.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Wooden Chest",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Judgement",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Judgement",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Flip",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_711.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Flip",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_711.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Flip",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_711.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Salvation",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_696.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Salvation",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_696.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7d/Character_Tainted_Lazarus_icon.png",
+      "allHardModeUnlock": "None",
+      "allHardModeUnlockIconUrl": null
+    },
+    {
+      "name": "Tainted Eden",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Soul of Eden",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Nuh Uh!",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_165.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Modeling Clay",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_166.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Nuh Uh!",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_165.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Modeling Clay",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_166.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Wild Card",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "World",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "World",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Corrupted Data",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Corrupted Data",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Corrupted Data",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "TMTRAINER",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_721.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "TMTRAINER",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_721.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/60/Character_Tainted_Eden_icon.png",
+      "allHardModeUnlock": "None",
+      "allHardModeUnlockIconUrl": null
+    },
+    {
+      "name": "Tainted Lost",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Soul of the Lost",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Kid's Drawing",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_169.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Crystal Key",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_170.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Kid's Drawing",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_169.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Crystal Key",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_170.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Haunted Chest",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Fool",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Fool",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Ghost Bombs",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_727.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Ghost Bombs",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_727.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Ghost Bombs",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_727.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Sacred Orb",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_691.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Sacred Orb",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_691.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/a/a3/Character_Tainted_Lost_icon.png",
+      "allHardModeUnlock": "None",
+      "allHardModeUnlockIconUrl": null
+    },
+    {
+      "name": "Tainted Lilith",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Soul of Lilith",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Twins",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Adoption Papers",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_184.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Twins",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Adoption Papers",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_184.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Fool's Gold",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "High Priestess",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "High Priestess",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Gello",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_728.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Gello",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_728.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Gello",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_728.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Twisted Pair",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_698.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Twisted Pair",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_698.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/2d/Character_Tainted_Lilith_icon.png",
+      "allHardModeUnlock": "None",
+      "allHardModeUnlockIconUrl": null
+    },
+    {
+      "name": "Tainted Keeper",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Soul of the Keeper",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Keeper's Bargain",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_171.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Cursed Penny",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_316.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Keeper's Bargain",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_171.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Cursed Penny",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_316.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Golden Penny",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Hanged Man",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Hanged Man",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Keeper's Kin",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_717.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Keeper's Kin",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_717.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Keeper's Kin",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_717.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Strawman",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_667.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Strawman",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_667.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/57/Character_Tainted_Keeper_icon.png",
+      "allHardModeUnlock": "none",
+      "allHardModeUnlockIconUrl": null
+    },
+    {
+      "name": "Tainted Apollyon",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Soul of Apollyon",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Cricket Leg",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_185.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Apollyon's Best Friend",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_186.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Cricket Leg",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_185.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Apollyon's Best Friend",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_186.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Rotten Beggar",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Tower",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Tower",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Abyss",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_706.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Abyss",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_706.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Abyss",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_706.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Echo Chamber",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_700.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Echo Chamber",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_700.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4e/Character_Tainted_Apollyon_icon.png",
+      "allHardModeUnlock": "None",
+      "allHardModeUnlockIconUrl": null
+    },
+    {
+      "name": "Tainted Forgotten",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Soul of the Forgotten",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Polished Bone",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_167.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Hollow Heart",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_168.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Polished Bone",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_167.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Hollow Heart",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_168.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Golden Battery",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Death",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Death",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Decap Attack",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_729.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Decap Attack",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_729.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Decap Attack",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_729.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Isaac's Tomb",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_701.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Isaac's Tomb",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_701.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/13/Character_Tainted_Forgotten_icon.png",
+      "allHardModeUnlock": "None",
+      "allHardModeUnlockIconUrl": null
+    },
+    {
+      "name": "Tainted Bethany",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Soul of Bethany",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "Expansion Pack",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_181.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Beth's Essence",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_182.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "Expansion Pack",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_181.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Beth's Essence",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_182.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Confessional",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Hierophant",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Hierophant",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Lemegeton",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_712.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Lemegeton",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_712.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Lemegeton",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_712.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Vengeful Spirit",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_702.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Vengeful Spirit",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_702.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/60/Character_Tainted_Bethany_icon.png",
+      "allHardModeUnlock": "None",
+      "allHardModeUnlockIconUrl": null
+    },
+    {
+      "name": "Tainted Jacob",
+      "completionMarks": [
+        {
+          "name": "Heart",
+          "boss": "Mom's Heart or It Lives",
+          "unlock": "Soul of Jacob and Esau",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cross",
+          "boss": "Isaac",
+          "unlock": "RC Remote",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_179.png"
+        },
+        {
+          "name": "Polaroid",
+          "boss": "???",
+          "unlock": "Found Soul",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_180.png"
+        },
+        {
+          "name": "Inverted Cross",
+          "boss": "Satan",
+          "unlock": "RC Remote",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_179.png"
+        },
+        {
+          "name": "Negative",
+          "boss": "The Lamb",
+          "unlock": "Found Soul",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_180.png"
+        },
+        {
+          "name": "Brimstone",
+          "boss": "Mega Satan",
+          "unlock": "Golden Trinket",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Star",
+          "boss": "Boss Rush",
+          "unlock": "Sun and the Moon",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Hush's Face",
+          "boss": "Hush",
+          "unlock": "Sun and the Moon",
+          "unlockIconUrl": null
+        },
+        {
+          "name": "Cent Sign",
+          "boss": "Ultra Greed",
+          "unlock": "Anima Sola",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_722.png"
+        },
+        {
+          "name": "Cent Sign (Greedier)",
+          "boss": "Ultra Greedier",
+          "unlock": "Anima Sola",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_722.png"
+        },
+        {
+          "name": "Wrinkled Paper",
+          "boss": "Delirium",
+          "unlock": "Anima Sola",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_722.png"
+        },
+        {
+          "name": "Knife",
+          "boss": "Mother",
+          "unlock": "Esau Jr.",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_703.png"
+        },
+        {
+          "name": "Dad's Note",
+          "boss": "The Beast",
+          "unlock": "Esau Jr.",
+          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_703.png"
+        }
+      ],
+      "characterIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/12/Character_Tainted_Jacob_icon.png",
+      "allHardModeUnlock": "None",
+      "allHardModeUnlockIconUrl": null
+    }
+  ],
+  "challenges": [
+    {
+      "id": 1,
+      "name": "Pitch Black",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": [],
+      "curses": ["Curse of Darkness", "Curse of the Unknown"],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": false
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Rune of Hagalaz",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_32.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/b8/Achievement_Rune_of_Hagalaz_icon.png",
+      "unlockRewardType": "card/rune"
+    },
+    {
+      "id": 2,
+      "name": "High Brow",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": [
+        "Number One",
+        "E. Coli",
+        "Butt Bombs",
+        "Flush!",
+        "Petrified Poop"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Rune of Jera",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_33.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/58/Achievement_Rune_of_Jera_icon.png",
+      "unlockRewardType": "card/rune"
+    },
+    {
+      "id": 3,
+      "name": "Head Trauma",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": [
+        "Tiny Planet",
+        "Soy Milk",
+        "The Small Rock",
+        "Iron Bar"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Rune of Ehwaz",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_34.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/09/Achievement_Rune_of_Ehwaz_icon.png",
+      "unlockRewardType": "card/rune"
+    },
+    {
+      "id": 4,
+      "name": "Darkness Falls",
+      "priority": false,
+      "characterAppearance": "Eve",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 2
+        }
+      ],
+      "startingItems": [
+        "Pentagram",
+        "Dead Bird",
+        "Whore of Babylon",
+        "Razor Blade",
+        "Sacrificial Dagger",
+        "Dark Matter"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Satan",
+      "unlockCriteria": {
+        "default": "Defeat Mom's Heart 11 times and unlock Eve",
+        "repentance": "Defeat Mom's Heart 11 times and defeat ??? as Eve"
+      },
+      "unlockReward": "Rune of Dagaz",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_35.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/64/Achievement_Rune_of_Dagaz_icon.png",
+      "unlockRewardType": "card/rune"
+    },
+    {
+      "id": 5,
+      "name": "The Tank",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 4
+        }
+      ],
+      "startingItems": [
+        "Infamy",
+        "Bucket of Lard",
+        "Thunder Thighs",
+        "Yum Heart"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Have 7 or more Red Heart Containers at one time",
+      "unlockReward": "Rune of Ansuz",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_36.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/32/Achievement_Rune_of_Ansuz_icon.png",
+      "unlockRewardType": "card/rune"
+    },
+    {
+      "id": 6,
+      "name": "Solar System",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": [
+        "Distant Admiration",
+        "Forever alone",
+        "Halo of Flies",
+        "Transcendence"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mom's Heart 3 times",
+      "unlockReward": "Rune of Perthro",
+      "specialConditions": ["Blindfolded"],
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_37.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/0/08/Achievement_Rune_of_Perthro_icon.png",
+      "unlockRewardType": "card/rune"
+    },
+    {
+      "id": 7,
+      "name": "Suicide King",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": ["Ipecac", "Mr. Mega", "My Reflection", "1 random pill"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Isaac",
+      "unlockCriteria": "Defeat Mom's Heart 11 times and unlock Lazarus",
+      "unlockReward": "Suicide King Card",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_46.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/91/Achievement_Suicide_King_icon.png",
+      "unlockRewardType": "card/rune"
+    },
+    {
+      "id": 8,
+      "name": "Cat Got Your Tongue",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        },
+        {
+          "type": "black",
+          "amount": 3
+        },
+        {
+          "type": "soul",
+          "amount": 3
+        }
+      ],
+      "startingItems": ["Guppy's Hairball", "Guppy's Head", "Guppy's Tail"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Become Guppy",
+      "unlockReward": "Rune of Algiz",
+      "specialConditions": ["Blindfolded"],
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_39.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/24/Achievement_Rune_of_Algiz_icon.png",
+      "unlockRewardType": "card/rune"
+    },
+    {
+      "id": 9,
+      "name": "Demo Man",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": ["Dr. Fetus", "Remote Detonator", "Match Stick"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mom's Heart 9 times",
+      "unlockReward": "Chaos Card",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_42.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/7b/Achievement_Chaos_Card_icon.png",
+      "unlockRewardType": "card/rune"
+    },
+    {
+      "id": 10,
+      "name": "Cursed!",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 4
+        }
+      ],
+      "startingItems": [
+        "Blue Map",
+        "The Compass",
+        "Raw Liver",
+        "Treasure Map",
+        "Yum Heart",
+        "Child's Heart"
+      ],
+      "curses": ["Curse of the Cursed"],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Have 7 or more Red Heart Containers at one time",
+      "unlockReward": "Credit Card",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_43.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f9/Achievement_Credit_Card_icon.png",
+      "unlockRewardType": "card/rune"
+    },
+    {
+      "id": 11,
+      "name": "Glass Cannon",
+      "priority": false,
+      "characterAppearance": "Judas",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 1
+        }
+      ],
+      "startingItems": ["Epic Fetus", "Loki's Horns"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Satan",
+      "unlockCriteria": "Beat The Family Man (challenge #19), defeat Lokii, and unlock Judas",
+      "unlockReward": "Rules Card",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_44.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/58/Achievement_Rules_Card_icon.png",
+      "unlockRewardType": "card/rune"
+    },
+    {
+      "id": 12,
+      "name": "When Life Gives You Lemons",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": [
+        "9 Volt",
+        "Habit",
+        "Lemon Mishap",
+        "1 Lemon Party pill"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Card Against Humanity",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_45.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/89/Achievement_Card_Against_Humanity_icon.png",
+      "unlockRewardType": "card/rune"
+    },
+    {
+      "id": 13,
+      "name": "Beans!",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": [
+        "9 Volt",
+        "The Bean",
+        "The Black Bean",
+        "Butt Bombs",
+        "Pyro"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Burnt Penny",
+      "specialConditions": ["Blindfolded"],
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_50.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cd/Achievement_Burnt_Penny_icon.png",
+      "unlockRewardType": "trinket"
+    },
+    {
+      "id": 14,
+      "name": "It's in the Cards",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": [
+        "9 Volt",
+        "The Battery",
+        "Deck of Cards",
+        "Starter Deck",
+        "2 random tarot cards"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "SMB Super Fan",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_189.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/85/Achievement_SMB_Super_Fan_icon.png",
+      "unlockRewardType": "item"
+    },
+    {
+      "id": 15,
+      "name": "Slow Roll",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": ["Cupid's Arrow", "My Reflection", "Polyphemus"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Swallowed Penny",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_1.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/c7/Achievement_Swallowed_Penny_icon.png",
+      "unlockRewardType": "trinket"
+    },
+    {
+      "id": 16,
+      "name": "Computer Savvy",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": ["Spoon Bender", "Technology", "Technology 2"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Robo-Baby 2.0",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_267.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e4/Achievement_Robo-Baby_2.0_icon.png",
+      "unlockRewardType": "item"
+    },
+    {
+      "id": 17,
+      "name": "Waka Waka",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": ["Anti-Gravity", "Strange Attractor"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Death's Touch",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_237.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/14/Achievement_Death%27s_Touch_icon.png",
+      "unlockRewardType": "item"
+    },
+    {
+      "id": 18,
+      "name": "The Host",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": ["The Mulligan", "Spiderbaby", "Tick"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Technology 0.5",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_152.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/81/Achievement_Technology_.5_icon.png",
+      "unlockRewardType": "item"
+    },
+    {
+      "id": 19,
+      "name": "The Family Man",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": [
+        "BFFS!",
+        "Brother Bobby",
+        "Dad's Key",
+        "Rotten Baby",
+        "Sister Maggy"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Isaac",
+      "unlockCriteria": "Pick up both Key Pieces from the Angels in one run",
+      "unlockReward": "Epic Fetus",
+      "specialConditions": ["Blindfolded"],
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_168.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f5/Achievement_The_Family_Man_icon.png",
+      "unlockRewardType": "item"
+    },
+    {
+      "id": 20,
+      "name": "Purist",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": [],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mom",
+      "unlockReward": "Rune of Berkano",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_38.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/50/Achievement_Rune_of_Berkano_icon.png",
+      "unlockRewardType": "card/rune"
+    },
+    {
+      "id": 21,
+      "name": "XXXXXXXXL",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": [],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mom",
+      "unlockReward": "Gold Heart",
+      "specialConditions": [
+        "Every floor is the size of an XL Womb floor, but does not combine the floors of each chapter."
+      ],
+      "availableFrom": "Afterbirth",
+      "unlockRewardIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/dc/Gold_Heart.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d6/Achievement_Gold_Heart_icon.png",
+      "unlockRewardType": "pick-up"
+    },
+    {
+      "id": 22,
+      "name": "SPEED!",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": [],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mom",
+      "unlockReward": "Get out of Jail Free Card",
+      "specialConditions": [
+        "Everything is sped up like the Broken Watch effect.",
+        "After the game timer reaches 16 minutes, Isaac starts taking damage every 10 seconds."
+      ],
+      "availableFrom": "Afterbirth",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_47.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/db/Achievement_Get_out_of_Jail_Free_Card_icon.png",
+      "unlockRewardType": "card/rune"
+    },
+    {
+      "id": 23,
+      "name": "Blue Bomber",
+      "priority": false,
+      "characterAppearance": "???",
+      "startingHealth": [
+        {
+          "type": "soul",
+          "amount": 3
+        }
+      ],
+      "startingItems": ["Brother Bobby", "Kamikaze!", "Pyromaniac", "Mr. Mega"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Satan",
+      "unlockCriteria": "Destroy 10 Tinted Rocks and defeat Mom's Heart 11 times",
+      "unlockReward": "Gold Bomb",
+      "specialConditions": ["Blindfolded"],
+      "availableFrom": "Afterbirth",
+      "unlockRewardIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/be/Golden_Bomb.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/cd/Achievement_Gold_Bomb_icon.png",
+      "unlockRewardType": "pick-up"
+    },
+    {
+      "id": 24,
+      "name": "PAY TO PLAY",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": ["Money = Power", "Sack of Pennies", "50 coins"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Isaac",
+      "unlockCriteria": "Defeat Isaac as Cain and destroy 10 Tinted Rocks",
+      "unlockReward": "</a><a href='https://bindingofisaacrebirth.fandom.com/wiki/Pills#Percs!'>2 new pills</a>",
+      "specialConditions": [
+        "Every door costs 1 cent to enter.",
+        "Isaac drops money when hit.",
+        "Isaac dies if he runs out of money."
+      ],
+      "availableFrom": "Afterbirth",
+      "unlockRewardIconUrl": "/assets/images/pill.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/e/e7/Achievement_2_new_pills_icon.png",
+      "unlockRewardType": "pick-up"
+    },
+    {
+      "id": 25,
+      "name": "Have a Heart",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 1
+        },
+        {
+          "type": "emptyRed",
+          "amount": 11
+        }
+      ],
+      "startingItems": ["Charm of the Vampire"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mom",
+      "unlockReward": "</a><a href='https://bindingofisaacrebirth.fandom.com/wiki/Pills#Percs!'>2 new pills</a>",
+      "specialConditions": [
+        "Pennies drop instead of Red Hearts.",
+        "Many items that restore Red Hearts have no effect."
+      ],
+      "availableFrom": "Afterbirth",
+      "unlockRewardIconUrl": "/assets/images/pill.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/32/Achievement_2_new_pills_2_icon.png",
+      "unlockRewardType": "pick-up"
+    },
+    {
+      "id": 26,
+      "name": "I RULE!",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": [
+        "The Boomerang",
+        "Key Piece 1",
+        "Key Piece 2",
+        "The Ladder",
+        "Mom's Knife",
+        "Trinity Shield"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mega Satan",
+      "unlockCriteria": {
+        "rebirthAndAfterbirth": "Defeat ??? or The Lamb, defeat Satan as Isaac, and unlock The Negative",
+        "afterbirthPlus": "Defeat ??? or The Lamb, and defeat Satan as Isaac",
+        "repentance": "Defeat Mega Satan and unlock The Negative"
+      },
+      "unlockReward": "Poker Chip",
+      "availableFrom": "Afterbirth",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_76.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/df/Achievement_Poker_Chip_icon.png",
+      "unlockRewardType": "trinket"
+    },
+    {
+      "id": 27,
+      "name": "BRAINS!",
+      "priority": false,
+      "characterAppearance": "???",
+      "startingHealth": [
+        {
+          "type": "soul",
+          "amount": 3
+        }
+      ],
+      "startingItems": ["3 Bob's Brain", "Thunder Thighs"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "???",
+      "unlockCriteria": "Defeat Isaac 5 times",
+      "unlockReward": "Stud Finder",
+      "specialConditions": ["Blindfolded"],
+      "availableFrom": "Afterbirth",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_74.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/d/d8/Achievement_Stud_Finder_icon.png",
+      "unlockRewardType": "trinket"
+    },
+    {
+      "id": 28,
+      "name": "PRIDE DAY!",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": ["3 Dollar Bill", "Rainbow Baby", "Rainbow Worm"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mom",
+      "unlockReward": "D8",
+      "specialConditions": ["Cannot drop or replace Rainbow Worm"],
+      "availableFrom": "Afterbirth",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_406.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9d/Achievement_D8_icon.png",
+      "unlockRewardType": "item"
+    },
+    {
+      "id": 29,
+      "name": "Onan's Streak",
+      "priority": false,
+      "characterAppearance": "Judas",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 1
+        }
+      ],
+      "startingItems": ["The Book of Belial", "Chocolate Milk"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Isaac",
+      "unlockCriteria": {
+        "afterbirthAndAfterbirth": "Defeat Mom",
+        "repentance": "Unlock Judas and It Lives"
+      },
+      "unlockReward": "Kidney Stone",
+      "specialConditions": ["Missing a shot deals damage to Judas"],
+      "availableFrom": "Afterbirth",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_440.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f8/Achievement_Blank_Rune_icon.png",
+      "unlockRewardType": "item"
+    },
+    {
+      "id": 30,
+      "name": "The Guardian",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": [
+        "Holy Grail",
+        "Isaac's Heart",
+        "Punching Bag",
+        "Spear Of Destiny"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mom",
+      "unlockReward": "Blank Rune",
+      "specialConditions": [
+        "Blindfolded",
+        "Isaac's Heart will follow Punching Bag instead of Isaac"
+      ],
+      "availableFrom": "Afterbirth",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/cards-runes/card_rune_40.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/1/19/Achievement_Kidney_Stone_icon.png",
+      "unlockRewardType": "card/rune"
+    },
+    {
+      "id": 31,
+      "name": "Backasswards",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": ["8-10 random items"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Basement/Cellar/Burning Basement I",
+      "unlockCriteria": {
+        "afterbirthPlus": "Defeat ??? or The Lamb",
+        "repentance": "Defeat Mega Satan and unlock The Negative"
+      },
+      "unlockReward": "Laz Bleeds More!",
+      "specialConditions": [
+        "All chapters progress in reverse order, losing 1 item and 1 Red Heart container each floor ascended"
+      ],
+      "availableFrom": "Afterbirth+",
+      "unlockRewardIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/3a/Character_Lazarus_Risen_appearance.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/50/Achievement_Laz_Bleeds_More%21_icon.png",
+      "unlockRewardType": "character-upgrade"
+    },
+    {
+      "id": 32,
+      "name": "Aprils Fool",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": [],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mom",
+      "unlockReward": "Maggy Now Holds a Pill!",
+      "specialConditions": [
+        "The minimap displays the floor's layout accurately but displays Isaac's position inaccurately.",
+        "Pedestal items and pickups are not what they appear to be.",
+        "Active items, pills, cards, and rune effects are randomized upon each use.",
+        "Stonies have a chance of being replaced by a Cross Stoney.",
+        "Every boss is The Bloat.",
+        "Isaac's health is not what it appears to be.",
+        "Inventory pickups numbers are accurate."
+      ],
+      "availableFrom": "Afterbirth+",
+      "unlockRewardIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/b/bf/Character_Magdalene_appearance.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/92/Achievement_Maggy_Now_Holds_a_Pill%21_icon.png",
+      "unlockRewardType": "character-upgrade"
+    },
+    {
+      "id": 33,
+      "name": "Pokey Mans",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": ["Friendly Ball", "Mom's Eyeshadow"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Isaac",
+      "unlockCriteria": "Defeat Mom's Heart 11 times",
+      "unlockReward": "Charged Key",
+      "specialConditions": [
+        "Each use of Friendly Ball causes a random monster to be spawned.",
+        "Friendly Ball instantly charges once the spawned monster is killed."
+      ],
+      "availableFrom": "Afterbirth+",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_147.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/5b/Achievement_Charged_Key_icon.png",
+      "unlockRewardType": "trinket"
+    },
+    {
+      "id": 34,
+      "name": "Ultra Hard",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": ["Key Piece 1", "Key Piece 2"],
+      "curses": [
+        "Curse of the Labyrinth",
+        "Curse of the Blind",
+        "Curse of the Lost",
+        "Curse of the Maze"
+      ],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Mega Satan",
+      "unlockCriteria": {
+        "afterbirthPlus": "Defeat ??? or The Lamb. Possession of The Polaroid / The Negative is required, barring getting to Dark Room through a Sacrifice Room.",
+        "repentance": "Defeat Mega Satan and unlock The Negative"
+      },
+      "unlockReward": "Samson Feels Healthy!",
+      "specialConditions": [
+        "All enemies spawn as champions if possible.",
+        "Boss fights will be double trouble if possible.",
+        "No heart pickups drop."
+      ],
+      "availableFrom": "Afterbirth+",
+      "unlockRewardIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8c/Character_Samson_appearance.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/56/Achievement_Samson_Feels_Healthy%21_icon.png",
+      "unlockRewardType": "character-upgrade"
+    },
+    {
+      "id": 35,
+      "name": "Pong",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": ["Cupid's Arrow", "Rubber Cement"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "???",
+      "unlockCriteria": "Defeat Isaac 5 times",
+      "unlockReward": "Greed's Gullet",
+      "specialConditions": ["Damage fixed at 100", "Tear delay fixed at 150"],
+      "availableFrom": "Afterbirth+",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_501.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/48/Achievement_Greed%27s_Gullet_icon.png",
+      "unlockRewardType": "item"
+    },
+    {
+      "id": 36,
+      "name": "Scat Man",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 4
+        }
+      ],
+      "startingItems": [
+        "The Poop",
+        "9 Volt",
+        "Skatole",
+        "E. Coli",
+        "3 Butt Bombs",
+        "BFFS!",
+        "Thunder Thighs",
+        "Dirty Mind",
+        "Mysterious Candy"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Default",
+      "unlockReward": "Dirty Mind",
+      "specialConditions": ["Blindfolded"],
+      "availableFrom": "Repentance",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_576.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/71/Achievement_Dirty_Mind_icon.png",
+      "unlockRewardType": "item"
+    },
+    {
+      "id": 37,
+      "name": "Bloody Mary",
+      "priority": false,
+      "characterAppearance": "Bethany",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 4
+        }
+      ],
+      "startingItems": [
+        "The Book of Belial",
+        "Blood Bag",
+        "Anemic",
+        "Blood Oath",
+        "Child's Heart"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Satan",
+      "unlockCriteria": "Unlock Bethany, Blood Bag, and It Lives!",
+      "unlockReward": "Sigil of Baphomet",
+      "specialConditions": ["4 soul charges"],
+      "availableFrom": "Repentance",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_189.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/6/64/Achievement_Sigil_of_Baphomet_icon.png",
+      "unlockRewardType": "trinket"
+    },
+    {
+      "id": 38,
+      "name": "Baptism by Fire",
+      "priority": false,
+      "characterAppearance": "Bethany",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": [
+        "Urn of Souls",
+        "Schoolbag",
+        "Guppy's Paw",
+        "Maggy's Faith"
+      ],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Isaac",
+      "unlockCriteria": "Defeat Satan as Bethany, defeat Mom's Heart 11 times, and unlock Maggy's Faith",
+      "unlockReward": "Purgatory",
+      "specialConditions": ["Blindfolded"],
+      "availableFrom": "Repentance",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_634.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/39/Achievement_Purgatory_icon.png",
+      "unlockRewardType": "item"
+    },
+    {
+      "id": 39,
+      "name": "Isaac's Awakening",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": ["Spirit Sword", "Trinity Shield", "Mom's Bracelet"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mother",
+      "unlockCriteria": "Defeat Mother",
+      "unlockReward": "Spirit Sword",
+      "availableFrom": "Repentance",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_579.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/f1/Achievement_Spirit_Sword_icon.png",
+      "unlockRewardType": "item"
+    },
+    {
+      "id": 40,
+      "name": "Seeing Double",
+      "priority": false,
+      "characterAppearance": "Jacob",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 4
+        },
+        {
+          "type": "soul",
+          "amount": 1
+        }
+      ],
+      "startingItems": ["Jacob: 20/20", "Esau: 20/20", "X-Ray Vision"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Mom's Heart",
+      "unlockCriteria": "Defeat Mother",
+      "unlockReward": "Broken Glasses",
+      "specialConditions": ["All enemies and bosses are doubled"],
+      "availableFrom": "Repentance",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_187.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/90/Achievement_Broken_Glasses_icon.png",
+      "unlockRewardType": "trinket"
+    },
+    {
+      "id": 41,
+      "name": "Pica Run",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": ["Mom's Box", "Marbles", "Mom's Purse"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Isaac",
+      "unlockCriteria": "Defeat Mom's Heart 11 times and unlock Marbles",
+      "unlockReward": "Ice Cube",
+      "specialConditions": [
+        "All items are replaced by random trinkets",
+        "Marbles activates on every hit"
+      ],
+      "availableFrom": "Repentance",
+      "unlockRewardIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_188.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/47/Achievement_Ice_Cube_icon.png",
+      "unlockRewardType": "trinket"
+    },
+    {
+      "id": 42,
+      "name": "Hot Potato",
+      "priority": false,
+      "characterAppearance": "Tainted Forgotten",
+      "startingHealth": [
+        {
+          "type": "soul",
+          "amount": 3
+        }
+      ],
+      "startingItems": [],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Satan",
+      "unlockCriteria": "Use Red Key (etc.) to open the hidden closet in Home as The Forgotten",
+      "unlockReward": "The Chariot?",
+      "specialConditions": [
+        "The Forgotten cannot fire tears and explodes every 2.5 seconds",
+        "Explosion timer resets upon entering a room or picking up an item",
+        "Blindfolded"
+      ],
+      "availableFrom": "Repentance",
+      "unlockRewardIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/3/34/Pickup_VII_-_The_Chariot%3F_icon.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/71/Achievement_The_Chariot_icon.png",
+      "unlockRewardType": "card/rune"
+    },
+    {
+      "id": 43,
+      "name": "Cantripped!",
+      "priority": false,
+      "characterAppearance": "Tainted Cain",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 2
+        }
+      ],
+      "startingItems": [],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": false,
+        "shop": true
+      },
+      "boss": "Mom",
+      "unlockCriteria": "Use Red Key (etc.) to open the hidden closet in Home as Cain",
+      "unlockReward": "Justice?",
+      "specialConditions": [
+        "All cards and pills are replaced with item cards",
+        "Enemies have a chance of dropping an item card when killed",
+        "The Bag of Crafting initially holds a maximum of 3 item cards at once",
+        "Each item card shows a preview of a random Active Item that, when used, activates the effect",
+        "All boss item drops are replaced with Starter Deck, which increases the max card limit by 1 and drops 3 item cards"
+      ],
+      "availableFrom": "Repentance",
+      "unlockRewardIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fb/Pickup_VIII_-_Justice%3F_icon.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8a/Achievement_Justice_icon.png",
+      "unlockRewardType": "card/rune"
+    },
+    {
+      "id": 44,
+      "name": "Red Redemption",
+      "priority": false,
+      "characterAppearance": "Tainted Jacob",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": ["Dad's Key", "Red Key"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "Mother",
+      "unlockCriteria": "Use Red Key (etc.) to open the hidden closet in Home as Jacob and Esau",
+      "unlockReward": "The Hermit?",
+      "specialConditions": [
+        "The starting room spawns with no rooms connected to it",
+        "Rooms spawn in clusters around the map and must be found via the Red Key",
+        "The Red Key can be used an infinite number of times, but has 20 uses before Dark Esau spawns",
+        "Each subsequent 5 uses will spawn another Dark Esau if Tainted Jacob has yet to turn into his lost form",
+        "The Red Key cannot be used to open doors to I AM ERROR rooms",
+        "Each floor generates as a Curse of the Labyrinth floor, with one shop, and two item and boss rooms, except the fourth floor, which has only one boss room",
+        "All rooms may be from any floor of the current chapter"
+      ],
+      "availableFrom": "Repentance",
+      "unlockRewardIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/2/24/Pickup_IX_-_The_Hermit%3F_icon.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/8/8a/Achievement_The_Hermit_icon.png",
+      "unlockRewardType": "card/rune"
+    },
+    {
+      "id": 45,
+      "name": "DELETE THIS",
+      "priority": false,
+      "characterAppearance": "Isaac",
+      "startingHealth": [
+        {
+          "type": "red",
+          "amount": 3
+        }
+      ],
+      "startingItems": ["TMTRAINER"],
+      "curses": [],
+      "itemPool": {
+        "treasureRoom": true,
+        "shop": true
+      },
+      "boss": "???",
+      "unlockCriteria": "Use Red Key (etc.) to open the hidden closet in Home as Eden",
+      "unlockReward": "Unspecified",
+      "specialConditions": [
+        "All items are randomly generated due to TMTRAINER",
+        "The theme of each area, its obstacles per area, and music are randomized",
+        "Some obstacle sprites are randomized even within a level and sometimes the music may be missing altogether",
+        "Occasionally, even the floor texture might glitch out, replacing it with a plain color",
+        "Shop item prices range from 1 cent to 99",
+        "The challenge itself appears under the challenge list without any text, effectively rendering it invisible"
+      ],
+      "availableFrom": "Repentance",
+      "unlockRewardIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/5/56/Pickup_XIV_-_Temperance%3F_icon.png",
+      "achievementIconUri": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/c/ce/Achievement_Temperance_icon.png",
+      "unlockRewardType": "card/rune"
+    }
+  ]
+}

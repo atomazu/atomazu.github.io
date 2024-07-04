@@ -10,7 +10,7 @@ This JSON contains information about The Binding of Isaac game, including game v
 ## Character Object Structure
 Each character object contains:
 - `name`: Character's name
-- `priorityMarks`: Array of integers indicating the indices of priority completion marks
+- `priorities`: Array of integers indicating the indices of priority completion marks
 - `completionMarks`: Array of completion mark objects
 - `allHardModeUnlock`: String describing the unlock for completing all marks on hard mode
 

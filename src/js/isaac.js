@@ -4,7 +4,7 @@ let iconLinks;
 async function loadIsaacData() {
   try {
     const [isaacResponse, iconResponse] = await Promise.all([
-      fetch("/data/isaac.json"),
+      fetch("/data/isaac_v2.json"),
       fetch("/data/icon_links.json"),
     ]);
 
@@ -67,7 +67,16 @@ function renderCharacters() {
           <div class="character-item glass-card mb-4" data-character="${character.name.toLowerCase()}">
               <div class="p-4 cursor-pointer" onclick="toggleCharacterContent(${index})">
                   <div class="flex items-center justify-between">
-                      <span class="font-bold text-lg">${character.name}</span>
+                      <div class="flex items-center">
+                          ${
+                            character.characterIconUri
+                              ? `<img src="${character.characterIconUri}" alt="${character.name}" class="w-8 h-8 mr-2">`
+                              : `<div class="w-8 h-8 mr-2"></div>`
+                          } <!-- Placeholder if no icon -->
+                          <span class="font-bold text-lg">${
+                            character.name
+                          }</span>
+                      </div>
                       <span class="text-sm completion-percentage">${calculateCharacterCompletion(
                         character
                       )}% Complete</span>
@@ -75,6 +84,31 @@ function renderCharacters() {
               </div>
               <div id="character-content-${index}" class="hidden p-4 border-t border-gray-200 dark:border-gray-700">
                   ${renderCompletionMarks(character)}
+                  ${
+                    character.allHardModeUnlock
+                      ? `
+                  <div class="mt-4">
+                      <strong>All Hard Mode Unlock:</strong>
+                      <div class="flex items-center mt-2">
+                          ${
+                            character.allHardModeUnlockIconUrl
+                              ? `<img src="${character.allHardModeUnlockIconUrl}" alt="${character.allHardModeUnlock}" class="w-6 h-6 mr-2">`
+                              : ""
+                          }
+                          <a href="https://bindingofisaacrebirth.fandom.com/wiki/Special:Search?search=${encodeURIComponent(
+                            character.allHardModeUnlock
+                          )}&go=Search
+                          )}" 
+                             target="_blank" 
+                             rel="noopener noreferrer" 
+                             class="text-blue-500 dark:text-blue-400 hover:underline mr-2">
+                            ${character.allHardModeUnlock}
+                          </a>
+                      </div>
+                  </div>
+                  `
+                      : ""
+                  }
               </div>
           </div>
       `
@@ -90,14 +124,36 @@ function toggleCharacterContent(index) {
 function renderChallenges() {
   const container = document.getElementById("challenges-accordion");
   container.innerHTML = isaacData.challenges
-    .map(
-      (challenge, index) => `
+    .map((challenge, index) => {
+      const findCharacter = (appearance) => {
+        const appearanceLower = appearance.toLowerCase();
+        return isaacData.characters.find(
+          (char) =>
+            char.name.toLowerCase().includes(appearanceLower) ||
+            appearanceLower.includes(char.name.toLowerCase())
+        );
+      };
+
+      const character = findCharacter(challenge.characterAppearance);
+      const characterIconUrl = character ? character.characterIconUri : "";
+      console.log(character);
+
+      return `
           <div class="challenge-item glass-card mb-4" data-challenge="${challenge.name.toLowerCase()}" data-challenge-id="${
         challenge.id
       }">
               <div class="p-4 cursor-pointer" onclick="toggleChallengeContent(${index})">
                   <div class="flex items-center justify-between">
-                      <span class="font-bold text-lg">${challenge.name}</span>
+                      <div class="flex items-center">
+                          ${
+                            challenge.achievementIconUri
+                              ? `<img src="${challenge.achievementIconUri}" alt="${challenge.name}" class="w-8 h-8 mr-2">`
+                              : `<div class="w-8 h-8 mr-2"></div>`
+                          }
+                          <span class="font-bold text-lg">${
+                            challenge.name
+                          }</span>
+                      </div>
                       <span class="text-sm ${
                         isChallengeCompleted(challenge.id)
                           ? "text-green-500 dark:text-green-400"
@@ -108,15 +164,45 @@ function renderChallenges() {
                   </div>
               </div>
               <div id="challenge-content-${index}" class="hidden p-4 border-t border-gray-200 dark:border-gray-700">
-                  <p class="mb-2"><strong>Character:</strong> ${
-                    challenge.characterAppearance
-                  }</p>
-                  <p class="mb-2"><strong>Boss:</strong> ${challenge.boss}</p>
-                  <p class="mb-2"><strong>Unlock:</strong> <a href="https://bindingofisaacrebirth.fandom.com/wiki/Special:Search?search=${encodeURIComponent(
-                    challenge.unlockReward
+                  <p class="mb-2 flex items-center">
+                    <strong class="mr-2">Character:</strong>
+                    <a href="https://bindingofisaacrebirth.fandom.com/wiki/Special:Search?search=${encodeURIComponent(
+                      challenge.characterAppearance
+                    )}&go=Search" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       class="flex items-center text-blue-500 dark:text-blue-400 hover:underline">
+                      ${
+                        characterIconUrl
+                          ? `<img src="${characterIconUrl}" alt="${challenge.characterAppearance}" class="w-6 h-6 mr-2">`
+                          : ""
+                      }
+                      ${challenge.characterAppearance}
+                    </a>
+                  </p>
+                  <p class="mb-2"><strong>Boss:</strong> <a href="https://bindingofisaacrebirth.fandom.com/wiki/Special:Search?search=${encodeURIComponent(
+                    challenge.boss
                   )}&go=Search" target="_blank" rel="noopener noreferrer" class="text-blue-500 dark:text-blue-400 hover:underline">${
-        challenge.unlockReward
+        challenge.boss
       }</a></p>
+                  <p class="mb-2 flex items-center">
+                      <strong class="mr-2">Unlock:</strong>
+                      <a href="https://bindingofisaacrebirth.fandom.com/wiki/Special:Search?search=${encodeURIComponent(
+                        challenge.unlockReward
+                      )}&go=Search" target="_blank" rel="noopener noreferrer" class="flex items-center hover:underline">
+                          ${
+                            challenge.unlockRewardIconUrl
+                              ? `<img src="${challenge.unlockRewardIconUrl}" alt="${challenge.unlockReward}" class="w-6 h-6 mr-2">`
+                              : ""
+                          }
+                          <span class="text-blue-500 dark:text-blue-400">${
+                            challenge.unlockReward
+                          }</span>
+                      </a>
+                  </p>
+                  <p class="mb-2"><strong>Reward Type:</strong> ${
+                    challenge.unlockRewardType
+                  }</p>
                   <p class="flex items-center flex-wrap mb-2"><strong class="mr-2">Starting Health:</strong> ${renderStartingHealth(
                     challenge.startingHealth
                   )}</p>
@@ -150,8 +236,8 @@ function renderChallenges() {
                   </button>
               </div>
           </div>
-      `
-    )
+        `;
+    })
     .join("");
 }
 
@@ -159,7 +245,7 @@ function renderStartingHealth(health) {
   return health
     .map((h) => {
       const icon = renderHealthIcon(h.type);
-      return `<span class="inline-flex items-center mr-2 mb-2">${icon} ${h.amount}</span>`;
+      return `<span class="inline-flex items-center mr-2 mb-2">${h.amount} x ${icon}</span>`;
     })
     .join("");
 }
@@ -178,7 +264,7 @@ function renderStartingItems(items) {
       const iconSrc = iconLinks["Key Icon"];
       return iconSrc
         ? `<img src="${iconSrc}" alt="${item}" title="${item}" class="item-icon w-6 h-6 mr-2 mb-2">`
-        : `<span class="item-text bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded mr-2 mb-2">${item}</span>`;
+        : `<a href="https://bindingofisaacrebirth.fandom.com/wiki/Special:Search?search=${item}" class="glass-link item-link">${item}</a>`;
     })
     .join("");
 }
@@ -190,7 +276,7 @@ function renderCurses(curses) {
         .map((curse) =>
           curseIconSrc
             ? `<img src="${curseIconSrc}" alt="${curse}" title="${curse}" class="curse-icon w-6 h-6 mr-2 mb-2">`
-            : `<a href="https://bindingofisaacrebirth.fandom.com/wiki/Curses" class="curse-text bg-red-200 dark:bg-red-900 px-2 py-1 rounded mr-2 mb-2">${curse}</a>`
+            : `<a href="https://bindingofisaacrebirth.fandom.com/wiki/Curses" class="glass-link curse-link">${curse}</a>`
         )
         .join("")
     : "None";
@@ -208,8 +294,12 @@ function renderItemPools(itemPool) {
           .trim();
       const iconSrc = iconLinks[iconName];
       return iconSrc
-        ? `<img src="${iconSrc}" alt="${key}" title="${key}" class="item-pool-icon w-6 h-6 mr-2 mb-2">`
-        : `<span class="item-pool-text bg-blue-200 dark:bg-blue-900 px-2 py-1 rounded mr-2 mb-2">${key}</span>`;
+        ? `<a href="https://bindingofisaacrebirth.fandom.com/wiki/Special:Search?search=${encodeURIComponent(
+            key
+          )}+Pool&go=Search" target="_blank" rel="noopener noreferrer"><img src="${iconSrc}" alt="${key}" title="${key}" class="item-pool-icon w-6 h-6 mr-2 mb-2"></a>`
+        : `<a href="https://bindingofisaacrebirth.fandom.com/wiki/Special:Search?search=${encodeURIComponent(
+            key
+          )}+Pool&go=Search" target="_blank" rel="noopener noreferrer" class="item-pool-text bg-blue-200 dark:bg-blue-900 px-2 py-1 rounded mr-2 mb-2 hover:underline">${key}</a>`;
     });
 
   return pools.length > 0
@@ -533,46 +623,45 @@ function renderCompletionMarks(character) {
       const iconName = mark.name;
       const iconSrc = iconLinks[iconName] || "";
       const completed = isCompleted(character.name, mark.name);
+      const unlockIconSrc = mark.unlockIconUrl || null;
+      const unlockIcon = unlockIconSrc
+        ? `<img src="${unlockIconSrc}" alt="${mark.unlock}" title="${mark.unlock}" class="unlock-icon mr-2 w-6 h-6 inline-block">`
+        : "";
       return `
-          <div class="completion-mark mb-2 p-2 rounded cursor-pointer ${
-            completed ? "completed" : ""
-          }" 
-               onclick="toggleCompletionMark(this)"
-               data-character="${character.name}"
-               data-mark="${mark.name}"
-               data-index="${index}">
-            <div class="flex items-center">
-              <img src="${iconSrc}" alt="${mark.name}" title="${
+        <div class="completion-mark mb-2 p-2 rounded cursor-pointer ${
+          completed ? "completed" : ""
+        }"
+          onclick="toggleCompletionMark(this)"
+          data-character="${character.name}"
+          data-mark="${mark.name}"
+          data-index="${index}">
+          <div class="flex items-center">
+            <img src="${iconSrc}" alt="${mark.name}" title="${
         mark.name
       }" class="completion-mark-icon mr-2 w-6 h-6">
-              <div class="flex-grow">
-                <div class="flex items-center justify-between">
-                  <span class="font-semibold">${mark.name} (${mark.boss})</span>
-                  <span class="text-sm ${
-                    completed
-                      ? "text-green-500 dark:text-green-400"
-                      : "text-gray-400 dark:text-gray-500"
-                  }">
-                    ${completed ? "✓" : "○"}
-                  </span>
-                </div>
-                <div class="text-sm mt-1">
-                  <div><strong>Unlock:</strong> <a href="https://bindingofisaacrebirth.fandom.com/wiki/Special:Search?search=${encodeURIComponent(
-                    mark.unlock
-                  )}&go=Search" 
-                       target="_blank" rel="noopener noreferrer" class="text-blue-500 dark:text-blue-400 hover:underline">${
-                         mark.unlock
-                       }</a></div>
-                  ${
-                    mark.availableSince
-                      ? `<div><strong>Available since:</strong> ${mark.availableSince}</div>`
-                      : ""
-                  }
-                </div>
+            <div class="flex-grow">
+              <div class="flex items-center justify-between">
+                <span class="font-semibold">${mark.name} (${mark.boss})</span>
+                <span class="text-sm flex items-center"> 
+                    <span class="${
+                      completed
+                        ? "text-green-500 dark:text-green-400"
+                        : "text-gray-400 dark:text-gray-500"
+                    }">${completed ? "✓" : "○"}</span>
+                </span> 
+              </div>
+              <span class="text-sm flex items-center">${unlockIcon} 
+              <div class="text-sm mt-1"> 
+                <div><strong>Unlock:</strong> <a href="https://bindingofisaacrebirth.fandom.com/wiki/Special:Search?search=${encodeURIComponent(
+                  mark.unlock
+                )}&go=Search" target="_blank" rel="noopener noreferrer" class="text-blue-500 dark:text-blue-400 hover:underline">${
+        mark.unlock
+      }</a></div>
               </div>
             </div>
           </div>
-        `;
+        </div>
+      `;
     })
     .join("");
 }

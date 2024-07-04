@@ -236,13 +236,48 @@ body.dark .item-pool-text {
   color: #e2e8f0;
 }
 
+.glass-link {
+  display: inline-block;
+  padding: 3px 7px;
+  margin: 0 2px 2px 0;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.curse-link {
+  background: rgba(255, 0, 0, 0.1);
+  color: #ff3333;
+}
+
+.curse-link:hover {
+  background: rgba(255, 0, 0, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(255, 0, 0, 0.37);
+}
+
+.item-link {
+  background: rgba(0, 128, 255, 0.1);
+  color: #0080ff;
+}
+
+.item-link:hover {
+  background: rgba(0, 128, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(0, 128, 255, 0.37);
+}
+
 .item-pool-icon,
 .health-icon,
 .item-icon,
 img,
 .curse-icon {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 8px;
 }
 
 @media (max-width: 640px) {
