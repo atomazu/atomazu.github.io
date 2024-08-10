@@ -785,12 +785,7 @@ function isCompleted(character, mark) {
   return localStorage.getItem(`${character}-${mark}`) === "true";
 }
 
-// Make sure to expose toggleCompletionMark to the global scope
-window.toggleCompletionMark = toggleCompletionMark;
-
 document.addEventListener("DOMContentLoaded", loadIsaacData);
-
-// Expose necessary functions to the global scope
 window.toggleCharacterContent = toggleCharacterContent;
 window.toggleCompletionMark = toggleCompletionMark;
 window.toggleChallengeContent = toggleChallengeContent;
