@@ -1584,7 +1584,7 @@
       "allHardModeUnlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/f/fa/069_baby_solomon_a.png"
     },
     {
-      "name": "Tainted Isaac",
+      "name": "Tainted Isaac (inaccurate)",
       "completionMarks": [
         {
           "name": "Heart",
@@ -1670,7 +1670,7 @@
       "allHardModeUnlockIconUrl": null
     },
     {
-      "name": "Tainted Magdalene",
+      "name": "Tainted Magdalene (inaccurate)",
       "completionMarks": [
         {
           "name": "Heart",
@@ -1756,7 +1756,7 @@
       "allHardModeUnlockIconUrl": null
     },
     {
-      "name": "Tainted Cain",
+      "name": "Tainted Cain (inaccurate)",
       "completionMarks": [
         {
           "name": "Heart",
@@ -1842,7 +1842,7 @@
       "allHardModeUnlockIconUrl": null
     },
     {
-      "name": "Tainted Judas",
+      "name": "Tainted Judas (inaccurate)",
       "completionMarks": [
         {
           "name": "Heart",
@@ -1928,7 +1928,7 @@
       "allHardModeUnlockIconUrl": null
     },
     {
-      "name": "Tainted ???",
+      "name": "Tainted ??? (inaccurate)",
       "completionMarks": [
         {
           "name": "Heart",
@@ -2014,7 +2014,7 @@
       "allHardModeUnlockIconUrl": null
     },
     {
-      "name": "Tainted Eve",
+      "name": "Tainted Eve (inaccurate)",
       "completionMarks": [
         {
           "name": "Heart",
@@ -2100,7 +2100,7 @@
       "allHardModeUnlockIconUrl": null
     },
     {
-      "name": "Tainted Samson",
+      "name": "Tainted Samson (inaccurate)",
       "completionMarks": [
         {
           "name": "Heart",
@@ -2186,7 +2186,7 @@
       "allHardModeUnlockIconUrl": null
     },
     {
-      "name": "Tainted Azazel",
+      "name": "Tainted Azazel (inaccurate)",
       "completionMarks": [
         {
           "name": "Heart",
@@ -2272,7 +2272,7 @@
       "allHardModeUnlockIconUrl": null
     },
     {
-      "name": "Tainted Lazarus",
+      "name": "Tainted Lazarus (inaccurate)",
       "completionMarks": [
         {
           "name": "Heart",
@@ -2358,7 +2358,7 @@
       "allHardModeUnlockIconUrl": null
     },
     {
-      "name": "Tainted Eden",
+      "name": "Tainted Eden (inaccurate)",
       "completionMarks": [
         {
           "name": "Heart",
@@ -2449,62 +2449,62 @@
         {
           "name": "Heart",
           "boss": "Mom's Heart or It Lives",
-          "unlock": "Soul of the Lost",
+          "unlock": "None",
           "unlockIconUrl": null
         },
         {
           "name": "Cross",
           "boss": "Isaac",
-          "unlock": "Kid's Drawing",
+          "unlock": "Kid's Drawing (1/4)",
           "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_169.png"
         },
         {
           "name": "Polaroid",
           "boss": "???",
-          "unlock": "Crystal Key",
+          "unlock": "Kid's Drawing (2/4)",
           "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_170.png"
         },
         {
           "name": "Inverted Cross",
           "boss": "Satan",
-          "unlock": "Kid's Drawing",
+          "unlock": "Kid's Drawing (3/4)",
           "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_169.png"
         },
         {
           "name": "Negative",
           "boss": "The Lamb",
-          "unlock": "Crystal Key",
+          "unlock": "Kid's Drawing (4/4)",
           "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/trinkets/trinket_170.png"
         },
         {
           "name": "Brimstone",
           "boss": "Mega Satan",
           "unlock": "Haunted Chest",
-          "unlockIconUrl": null
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/7/78/Haunted_Chest.png/revision/latest?cb=20210824102630"
         },
         {
           "name": "Star",
           "boss": "Boss Rush",
-          "unlock": "Fool",
+          "unlock": "Soul of the Lost (1/2)",
           "unlockIconUrl": null
         },
         {
           "name": "Hush's Face",
           "boss": "Hush",
-          "unlock": "Fool",
+          "unlock": "Soul of the Lost (2/2",
           "unlockIconUrl": null
         },
         {
           "name": "Cent Sign",
           "boss": "Ultra Greed",
-          "unlock": "Ghost Bombs",
-          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_727.png"
+          "unlock": "None",
+          "unlockIconUrl": null
         },
         {
           "name": "Cent Sign (Greedier)",
           "boss": "Ultra Greedier",
-          "unlock": "Ghost Bombs",
-          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_727.png"
+          "unlock": "The Fool",
+          "unlockIconUrl": null
         },
         {
           "name": "Wrinkled Paper",
@@ -2515,8 +2515,8 @@
         {
           "name": "Knife",
           "boss": "Mother",
-          "unlock": "Sacred Orb",
-          "unlockIconUrl": "https://raw.githubusercontent.com/Corentints/isaac-cheatsheet/main/public/images/items/item_691.png"
+          "unlock": "Crystal Key",
+          "unlockIconUrl": "https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/4/4f/Achievement_Crystal_Key_icon.png"
         },
         {
           "name": "Dad's Note",
@@ -2530,7 +2530,7 @@
       "allHardModeUnlockIconUrl": null
     },
     {
-      "name": "Tainted Lilith",
+      "name": "Tainted Lilith (inaccurate)",
       "completionMarks": [
         {
           "name": "Heart",
@@ -2616,7 +2616,7 @@
       "allHardModeUnlockIconUrl": null
     },
     {
-      "name": "Tainted Keeper",
+      "name": "Tainted Keeper (inaccurate)",
       "completionMarks": [
         {
           "name": "Heart",
@@ -2702,7 +2702,7 @@
       "allHardModeUnlockIconUrl": null
     },
     {
-      "name": "Tainted Apollyon",
+      "name": "Tainted Apollyon (inaccurate)",
       "completionMarks": [
         {
           "name": "Heart",
@@ -2788,7 +2788,7 @@
       "allHardModeUnlockIconUrl": null
     },
     {
-      "name": "Tainted Forgotten",
+      "name": "Tainted Forgotten (inaccurate)",
       "completionMarks": [
         {
           "name": "Heart",
@@ -2874,7 +2874,7 @@
       "allHardModeUnlockIconUrl": null
     },
     {
-      "name": "Tainted Bethany",
+      "name": "Tainted Bethany (inaccurate)",
       "completionMarks": [
         {
           "name": "Heart",
@@ -2960,7 +2960,7 @@
       "allHardModeUnlockIconUrl": null
     },
     {
-      "name": "Tainted Jacob",
+      "name": "Tainted Jacob (inaccurate)",
       "completionMarks": [
         {
           "name": "Heart",
