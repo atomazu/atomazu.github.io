@@ -1,4 +1,5 @@
 # atomazu.github.io
+## !Big chances planned, see current website as outdated!
 
 Welcome to the source code repository for [atomazu.github.io](https://atomazu.github.io), a personal website serving as a digital portfolio and information hub. This is sort of my playground, heh.
 
