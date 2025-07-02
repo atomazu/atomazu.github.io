@@ -33,6 +33,7 @@ body {
   border: var(--border-width) solid var(--border-color-dark);
   margin-top: var(--spacing);
   border-radius: var(--radius);
+  transition: height 2s;
 }
 
 h1 {
@@ -44,12 +45,43 @@ header {
   border-bottom: var(--border-width) solid var(--border-color-light);
 }
 
+.post-list {
+  padding: var(--spacing);
+  padding-top: 0;
+  margin-top: var(--spacing);
+  margin-bottom: var(--spacing);
+  border: var(--border-width) solid var(--border-color-light);
+  border-radius: var(--radius);
+  transition: background-color 0.3s;
+}
+
+.post-list:hover {
+  background-color: #151515;
+  transition: background-color 0.3s;
+}
+
 article {
   margin-top: var(--spacing);
+  margin-bottom: var(--spacing);
   padding: var(--spacing);
-  padding-top: 0px;
   border: var(--border-width) solid var(--border-color-medium);
   border-radius: var(--radius);
+}
+
+.back-button {
+  margin-top: var(--spacing);
+}
+
+#content {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.post-title {
+  margin-top: 20px;
 }
 
 h2 {
@@ -69,12 +101,21 @@ footer p {
   margin: 0;
 }
 
+button {
+  background-color: var(--color-bg-primary);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Navigation */
+
 nav {
   display: flex;
   width: 100%;
 }
 
-nav ul {
+nav ul, header ul {
   display: flex;
   list-style-type: none;
   justify-content: flex-end;
@@ -83,18 +124,29 @@ nav ul {
   flex: 1;
 }
 
-nav li {
+header ul {
+  justify-content: left;
+  margin-bottom: var(--spacing);
+}
+
+nav li, header li {
   margin-right: var(--spacing);
 }
 
-nav a {
+nav a, header a {
   color: var(--color-text-primary);
   text-decoration: none;
+}
+
+header a {
+  text-decoration: underline;
 }
 
 nav a:hover {
   color: var(--color-text-hover);
 }
+
+/* Loading */
 
 @keyframes rotate {
   0% {
@@ -112,3 +164,5 @@ nav a:hover {
   animation: rotate 2s linear infinite;
   font-size: 20px;
 }
+
+
