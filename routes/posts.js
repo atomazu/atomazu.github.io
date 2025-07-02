@@ -30,6 +30,8 @@ const createRouter = ({ authMiddleware, POSTS_DIR }) => {
                     title: data.title,
                     date: data.date,
                     by: data.by,
+                    likes: data.likes || 0,
+                    views: data.views || 0,
                     markdownContent: content
                 };
             });
@@ -43,26 +45,61 @@ const createRouter = ({ authMiddleware, POSTS_DIR }) => {
             title: post.title,
             date: post.date,
             by: post.by,
+            likes: post.likes,
+            views: post.views,
         }));
         res.json(summaries);
     });
 
     router.get('/:slug', (req, res) => {
         const { slug } = req.params;
-        const allPosts = getPosts();
-        const post = allPosts.find(p => p.slug === slug);
+        const { first_view } = req.query;
+        const filePath = path.join(POSTS_DIR, `${slug}.md`);
 
-        if (!post) {
+        if (!fs.existsSync(filePath)) {
             return res.status(404).json({ error: 'Post not found' });
         }
 
-        const htmlContent = marked.parse(post.markdownContent);
+        const fileContent = fs.readFileSync(filePath, 'utf8');
+        const { data, content } = matter(fileContent);
+
+        if (first_view === 'true') {
+            data.views = (data.views || 0) + 1;
+            const updatedFileContent = matter.stringify(content, data);
+            fs.writeFileSync(filePath, updatedFileContent, 'utf8');
+        }
+
+        const htmlContent = marked.parse(content);
         res.json({
-            slug: post.slug,
-            title: post.title,
-            date: post.date,
-            by: post.by,
+            slug: slug,
+            title: data.title,
+            date: data.date,
+            by: data.by,
+            views: data.views,
+            likes: data.likes || 0,
             content: htmlContent
+        });
+    });
+
+    router.post('/:slug/like', (req, res) => {
+        const { slug } = req.params;
+        const filePath = path.join(POSTS_DIR, `${slug}.md`);
+
+        if (!fs.existsSync(filePath)) {
+            return res.status(404).json({ error: 'Post not found' });
+        }
+
+        const fileContent = fs.readFileSync(filePath, 'utf8');
+        const { data, content } = matter(fileContent);
+
+        data.likes = (data.likes || 0) + 1;
+
+        const updatedFileContent = matter.stringify(content, data);
+        fs.writeFileSync(filePath, updatedFileContent, 'utf8');
+
+        res.json({
+            slug,
+            likes: data.likes
         });
     });
 
@@ -79,7 +116,7 @@ const createRouter = ({ authMiddleware, POSTS_DIR }) => {
             return res.status(409).json({ error: `A post with slug '${newSlug}' already exists.` });
         }
 
-        const newPostData = { title, by, date: new Date().toISOString() };
+        const newPostData = { title, by, date: new Date().toISOString(), likes: 0, views: 0 };
         const fileContent = matter.stringify(markdownContent, newPostData);
         
         fs.writeFileSync(newFilePath, fileContent, 'utf8');
@@ -108,6 +145,8 @@ const createRouter = ({ authMiddleware, POSTS_DIR }) => {
             title,
             by,
             date: postToUpdate.date,
+            likes: postToUpdate.likes,
+            views: postToUpdate.views,
         };
         
         const fileContent = matter.stringify(markdownContent, updatedFrontMatter);

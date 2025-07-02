@@ -53,6 +53,10 @@ async function getPosts() {
                <span>By: ${post.by}</span>
                <span>${post.date}</span>
              </div>
+             <div>
+                <span>Views: ${post.views}</span>
+                <span>Likes: ${post.likes}</span>
+             </div>
            </div>
          </div>`
       ).join('');
@@ -74,8 +78,11 @@ async function loadPost(slug) {
   const contentEl = document.getElementById("content");
   try {
     contentEl.innerHTML = '<p id="loadElm" class="loading-symbol">ᕕ(ᐛ)ᕗ</p>';
+
+    const viewedPosts = JSON.parse(localStorage.getItem('viewedPosts')) || [];
+    const isFirstView = !viewedPosts.includes(slug);
     
-    const response = await fetch(BASE_URL + `posts/${slug}`, {
+    const response = await fetch(BASE_URL + `posts/${slug}?first_view=${isFirstView}`, {
       method: 'GET'
     });
     
@@ -83,6 +90,14 @@ async function loadPost(slug) {
     
     let finalHTML = '';
     if (response.ok) {
+      if (isFirstView) {
+        viewedPosts.push(slug);
+        localStorage.setItem('viewedPosts', JSON.stringify(viewedPosts));
+      }
+
+      const likedPosts = JSON.parse(localStorage.getItem('likedPosts')) || [];
+      const isLiked = likedPosts.includes(slug);
+
       finalHTML = `
         <button class="back-button" onclick="getPosts()">← Back to Posts</button>
         <article>
@@ -92,8 +107,13 @@ async function loadPost(slug) {
             <span>${postData.date}</span>
           </div>
           <div>
+            <span>Views: ${postData.views}</span>
+            <span id="likes-count">Likes: ${postData.likes}</span>
+          </div>
+          <div>
             ${postData.content}
           </div>
+          <button id="like-btn" onclick="likePost('${slug}')" ${isLiked ? 'disabled' : ''}>Like</button>
         </article>
       `;
     } else {
@@ -118,6 +138,31 @@ async function loadPost(slug) {
     `;
     setContentWithFade(contentEl, errorHTML);
   }
+}
+
+async function likePost(slug) {
+    const likedPosts = JSON.parse(localStorage.getItem('likedPosts')) || [];
+    if (likedPosts.includes(slug)) {
+        return;
+    }
+
+    try {
+        const response = await fetch(BASE_URL + `posts/${slug}/like`, {
+            method: 'POST'
+        });
+        const responseData = await response.json();
+        if (response.ok) {
+            document.getElementById('likes-count').innerText = `Likes: ${responseData.likes}`;
+            likedPosts.push(slug);
+            localStorage.setItem('likedPosts', JSON.stringify(likedPosts));
+            document.getElementById('like-btn').disabled = true;
+        } else {
+            alert(`Error: ${responseData.error}`);
+        }
+    } catch (error) {
+        console.error("An error occurred:", error);
+        alert("An error occurred while liking the post.");
+    }
 }
 
 document.getElementById("loginBtn").addEventListener("click", async function(event) {
