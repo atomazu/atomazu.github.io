@@ -83,6 +83,8 @@ const createRouter = ({ authMiddleware, POSTS_DIR }) => {
 
     router.post('/:slug/like', (req, res) => {
         const { slug } = req.params;
+        const { liked } = req.body;
+
         const filePath = path.join(POSTS_DIR, `${slug}.md`);
 
         if (!fs.existsSync(filePath)) {
@@ -92,7 +94,11 @@ const createRouter = ({ authMiddleware, POSTS_DIR }) => {
         const fileContent = fs.readFileSync(filePath, 'utf8');
         const { data, content } = matter(fileContent);
 
-        data.likes = (data.likes || 0) + 1;
+        if (liked) {
+            data.likes = (data.likes || 0) + 1;
+        } else {
+            data.likes = (data.likes || 1) - 1;
+        }
 
         const updatedFileContent = matter.stringify(content, data);
         fs.writeFileSync(filePath, updatedFileContent, 'utf8');

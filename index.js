@@ -101,7 +101,10 @@ async function loadPost(slug) {
       finalHTML = `
         <button class="back-button" onclick="getPosts()">← Back to Posts</button>
         <article>
-          <h1>${postData.title}</h1>
+          <div class="title-container">
+            <h1>${postData.title}</h1>
+            <span id="like-btn" class="like-btn" onclick="toggleLike('${slug}')">${isLiked ? '好き' : '結婚'}</span>
+          </div>
           <div>
             <span>By: ${postData.by}</span>
             <span>${postData.date}</span>
@@ -113,7 +116,6 @@ async function loadPost(slug) {
           <div>
             ${postData.content}
           </div>
-          <button id="like-btn" onclick="likePost('${slug}')" ${isLiked ? 'disabled' : ''}>Like</button>
         </article>
       `;
     } else {
@@ -140,22 +142,31 @@ async function loadPost(slug) {
   }
 }
 
-async function likePost(slug) {
+async function toggleLike(slug) {
     const likedPosts = JSON.parse(localStorage.getItem('likedPosts')) || [];
-    if (likedPosts.includes(slug)) {
-        return;
-    }
+    const isLiked = likedPosts.includes(slug);
 
     try {
         const response = await fetch(BASE_URL + `posts/${slug}/like`, {
-            method: 'POST'
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ liked: !isLiked })
         });
         const responseData = await response.json();
         if (response.ok) {
             document.getElementById('likes-count').innerText = `Likes: ${responseData.likes}`;
-            likedPosts.push(slug);
+            const likeBtn = document.getElementById('like-btn');
+            if (isLiked) {
+                const index = likedPosts.indexOf(slug);
+                likedPosts.splice(index, 1);
+                likeBtn.innerHTML = '好き';
+            } else {
+                likedPosts.push(slug);
+                likeBtn.innerHTML = '結婚';
+            }
             localStorage.setItem('likedPosts', JSON.stringify(likedPosts));
-            document.getElementById('like-btn').disabled = true;
         } else {
             alert(`Error: ${responseData.error}`);
         }
