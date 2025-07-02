@@ -1,4 +1,7 @@
 :root {
+  --icon-liked: '♡';
+  --icon-unliked: 'Like';
+
   /* Spacing & Sizing */
   --spacing: 20px;
   --padding-sm: 5px;
@@ -149,6 +152,14 @@ nav a:hover {
 .like-btn {
   cursor: pointer;
   font-size: 24px;
+}
+
+.like-btn::before {
+  content: var(--icon-unliked);
+}
+
+.like-btn[data-liked="true"]::before {
+  content: var(--icon-liked);
 }
 
 .title-container {

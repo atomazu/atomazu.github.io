@@ -103,7 +103,7 @@ async function loadPost(slug) {
         <article>
           <div class="title-container">
             <h1>${postData.title}</h1>
-            <span id="like-btn" class="like-btn" onclick="toggleLike('${slug}')">${isLiked ? '好き' : '結婚'}</span>
+            <span id="like-btn" class="like-btn" onclick="likePost('${slug}')" data-liked="${isLiked}"></span>
           </div>
           <div>
             <span>By: ${postData.by}</span>
@@ -142,45 +142,29 @@ async function loadPost(slug) {
   }
 }
 
-async function toggleLike(slug) {
+async function likePost(slug) {
     const likeBtn = document.getElementById('like-btn');
-    if (likeBtn.disabled) {
-        return; // Prevent action if already processing
+    if (likeBtn.dataset.liked === 'true') {
+        return;
     }
-    likeBtn.disabled = true;
-
-    const likedPosts = JSON.parse(localStorage.getItem('likedPosts')) || [];
-    const isLiked = likedPosts.includes(slug);
 
     try {
         const response = await fetch(BASE_URL + `posts/${slug}/like`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ liked: !isLiked })
+            method: 'POST'
         });
         const responseData = await response.json();
         if (response.ok) {
             document.getElementById('likes-count').innerText = `Likes: ${responseData.likes}`;
-            
-            if (isLiked) {
-                const index = likedPosts.indexOf(slug);
-                likedPosts.splice(index, 1);
-                likeBtn.innerHTML = '♡';
-            } else {
-                likedPosts.push(slug);
-                likeBtn.innerHTML = '♥';
-            }
+            const likedPosts = JSON.parse(localStorage.getItem('likedPosts')) || [];
+            likedPosts.push(slug);
             localStorage.setItem('likedPosts', JSON.stringify(likedPosts));
+            likeBtn.dataset.liked = 'true';
         } else {
             alert(`Error: ${responseData.error}`);
         }
     } catch (error) {
         console.error("An error occurred:", error);
         alert("An error occurred while liking the post.");
-    } finally {
-        likeBtn.disabled = false;
     }
 }
 
