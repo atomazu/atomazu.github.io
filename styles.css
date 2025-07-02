@@ -146,6 +146,17 @@ nav a:hover {
   color: var(--color-text-hover);
 }
 
+.like-btn {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* Loading */
 
 @keyframes rotate {

@@ -143,6 +143,12 @@ async function loadPost(slug) {
 }
 
 async function toggleLike(slug) {
+    const likeBtn = document.getElementById('like-btn');
+    if (likeBtn.disabled) {
+        return; // Prevent action if already processing
+    }
+    likeBtn.disabled = true;
+
     const likedPosts = JSON.parse(localStorage.getItem('likedPosts')) || [];
     const isLiked = likedPosts.includes(slug);
 
@@ -157,14 +163,14 @@ async function toggleLike(slug) {
         const responseData = await response.json();
         if (response.ok) {
             document.getElementById('likes-count').innerText = `Likes: ${responseData.likes}`;
-            const likeBtn = document.getElementById('like-btn');
+            
             if (isLiked) {
                 const index = likedPosts.indexOf(slug);
                 likedPosts.splice(index, 1);
-                likeBtn.innerHTML = '好き';
+                likeBtn.innerHTML = '♡';
             } else {
                 likedPosts.push(slug);
-                likeBtn.innerHTML = '結婚';
+                likeBtn.innerHTML = '♥';
             }
             localStorage.setItem('likedPosts', JSON.stringify(likedPosts));
         } else {
@@ -173,6 +179,8 @@ async function toggleLike(slug) {
     } catch (error) {
         console.error("An error occurred:", error);
         alert("An error occurred while liking the post.");
+    } finally {
+        likeBtn.disabled = false;
     }
 }
 
