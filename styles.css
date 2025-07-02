@@ -1,6 +1,6 @@
 :root {
-  --icon-liked: '♡';
-  --icon-unliked: 'Like';
+  --icon-liked: '⼼ (liked)';
+  --icon-unliked: '〇';
 
   /* Spacing & Sizing */
   --spacing: 20px;
