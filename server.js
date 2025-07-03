@@ -1,7 +1,17 @@
+const fs = require('fs');
+const POSTS = process.env.POSTS;
+
+if (!POSTS) {
+  console.warn("No POSTS environment variable defined, falling back to ./posts");
+}
+
+const POSTS_DIR = POSTS || path.join(__dirname, 'posts');
+fs.mkdirSync(POSTS_DIR, { recursive: true });
+
+
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
-const fs = require('fs');
 const createPostsRouter = require('./routes/posts');
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -10,11 +20,6 @@ const TOKEN = process.env.TOKEN;
 if (!TOKEN) {
     console.error("TOKEN environment variable is required!");
     process.exit(1);
-}
-const POSTS_DIR = path.join(__dirname, 'posts');
-
-if (!fs.existsSync(POSTS_DIR)) {
-    fs.mkdirSync(POSTS_DIR);
 }
 
 app.use(cors());
