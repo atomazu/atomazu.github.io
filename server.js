@@ -3,10 +3,10 @@ const cors = require('cors');
 const path = require('path');
 const fs = require('fs');
 const createPostsRouter = require('./routes/posts');
-
 const app = express();
 const PORT = process.env.PORT || 3000;
 const TOKEN = process.env.TOKEN;
+
 if (!TOKEN) {
     console.error("TOKEN environment variable is required!");
     process.exit(1);
@@ -17,27 +17,7 @@ if (!fs.existsSync(POSTS_DIR)) {
     fs.mkdirSync(POSTS_DIR);
 }
 
-const allowedOrigins = [
-    'http://127.0.0.1:8080',
-    'http://localhost:8080',
-    'https://atomazu.org',
-    'https://atomazu.github.io'
-];
-
-const corsOptions = {
-    origin: function (origin, callback) {
-        if (!origin || allowedOrigins.indexOf(origin) !== -1) {
-            callback(null, true);
-        } else {
-            callback(new Error('This origin is not allowed by CORS'));
-        }
-    },
-    allowedHeaders: ['Content-Type', 'Authorization'],
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
-};
-
-app.use(cors(corsOptions));
-app.options('*', cors(corsOptions));
+app.use(cors());
 app.use(express.json());
 
 const authMiddleware = (req, res, next) => {

@@ -18,7 +18,7 @@ function setContentWithFade(element, newHtml) {
     }, 10);  }
 }
 
-const BASE_URL = "http://api.atomazu.org/";
+const BASE_URL = "https://api.atomazu.org/";
 
 document.addEventListener("DOMContentLoaded", function() {
   document.getElementById("postBtn").innerHTML = "";
@@ -184,7 +184,7 @@ document.getElementById("loginBtn").addEventListener("click", async function(eve
   }
 
   // const VALIDATE_URL = 'http://localhost:3000/auth/validate';
-  const VALIDATE_URL = 'http://api.atomazu.org/auth/validate';
+  const VALIDATE_URL = 'https://api.atomazu.org/auth/validate';
   const headers = {
     'Authorization': `Bearer ${token}`
   };
