@@ -46,7 +46,7 @@ async function getPosts() {
     
     if (response.ok) {
       const postsHTML = responseData.map(post => 
-        `<div class="post-list" onclick="loadPost('${post.slug}')" style="cursor: pointer;">
+        `<div class="post-list" onclick="window.location.href = '?post=' + '${post.slug}'" style="cursor: pointer;">
            <div>
              <h3>${post.title}</h3>
              <div>
@@ -99,17 +99,17 @@ async function loadPost(slug) {
       const isLiked = likedPosts.includes(slug);
 
       finalHTML = `
-        <button class="back-button" onclick="getPosts()">← Back to Posts</button>
+        <button class="back-button" onclick="window.location.href = '/'">← Back to Posts</button>
         <article>
           <div class="title-container">
             <h1>${postData.title}</h1>
             <span id="like-btn" class="like-btn" onclick="likePost('${slug}')" data-liked="${isLiked}"></span>
           </div>
-          <div>
+          <div class="post-meta">
             <span>By: ${postData.by}</span>
             <span>${postData.date}</span>
           </div>
-          <div>
+          <div class="post-meta">
             <span>Views: ${postData.views}</span>
             <span id="likes-count">Likes: ${postData.likes}</span>
           </div>
@@ -123,7 +123,7 @@ async function loadPost(slug) {
       finalHTML = `
         <div class="error">
           <p>Couldn't load post: ${errorMessage}</p>
-          <button onclick="getPosts()">← Back to Posts</button>
+          <button onclick="window.location.href = '/'">← Back to Posts</button>
         </div>
       `;
     }
@@ -135,7 +135,7 @@ async function loadPost(slug) {
     const errorHTML = `
       <div class="error">
         <p>An error occurred: ${error.message}</p>
-        <button onclick="getPosts()">← Back to Posts</button>
+        <button onclick="window.location.href = '/'">← Back to Posts</button>
       </div>
     `;
     setContentWithFade(contentEl, errorHTML);

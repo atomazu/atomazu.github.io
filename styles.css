@@ -1,6 +1,6 @@
 :root {
-  --icon-liked: '⼼';
-  --icon-unliked: '〇';
+  --icon-liked: 'Liked ⼼';
+  --icon-unliked: 'Like 〇';
 
   --spacing: 20px;
   --padding-sm: 5px;
@@ -12,10 +12,10 @@
   --border-color-medium: #999;
   --border-color-light: #aaa;
 
-  --color-bg-primary: #101010;
+  --color-bg-primary: #121212;
   --color-bg-secondary: #222;
   --color-bg-tertiary: #151515;
-  --color-text-primary: white;
+  --color-text-primary: #ddd;
   --color-text-secondary: #aaa;
   --color-text-hover: lightgray;
   --color-link: lightblue;
@@ -44,6 +44,10 @@ body {
   padding: var(--spacing);
   border: var(--border-width) solid var(--border-color-dark);
   border-radius: var(--radius);
+}
+
+.post-meta {
+  color: var(--color-text-secondary);
 }
 
 h1 {
@@ -204,7 +208,7 @@ article img {
 
 /* --- Mobile Styles --- */
 @media (max-width: 850px) {
-  body {
+  .main {
     padding: 0;
   }
 
@@ -213,28 +217,30 @@ article img {
     min-width: unset;
     max-width: unset;
     margin: 0;
-    padding: var(--spacing);
+    padding: var(--spacing) 10px;
     border: none;
-    border-radius: 0;
-  }
-
-  nav ul {
-    justify-content: center;
   }
 
   header ul {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  article {
+    border: none;
+    background-color: transparent;
+    margin: 10px;
+    padding: 0;
   }
 
   header li {
-    margin-right: 0;
+    margin-right: 10px;
     margin-bottom: var(--padding-md);
   }
 
   .title-container {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: flex-end;
   }
 
   .title-container .like-btn {
@@ -245,3 +251,4 @@ article img {
     text-align: center;
   }
 }
+
