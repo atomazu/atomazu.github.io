@@ -267,8 +267,7 @@ form .action-button[type="submit"] {
 
 .loading-symbol {
   text-align: center;
-  margin-bottom: 0;
-  margin-top: 40px;
+  margin: 40px;
   animation: rotate var(--transition-speed-slow) linear infinite;
   font-size: var(--font-size-md);
 }
