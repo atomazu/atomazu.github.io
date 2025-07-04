@@ -51,12 +51,12 @@ export function renderPost(postData, slug) {
     return `
         <div class="action-buttons-container">
           <button class="action-button" onclick="window.location.href = '/'">Back</button>
+          <button id="like-btn" class="action-button" data-liked="${isLiked}" ${isLiked ? 'disabled' : ''}>Like</button>
           ${adminButtons}
         </div>
         <div class="post-header">
             <div class="title-container">
                 <h1>${postData.title}</h1>
-                <span id="like-btn" class="like-btn" data-liked="${isLiked}"></span>
             </div>
             <div class="post-meta">
                 <span>By: ${postData.by}</span>
