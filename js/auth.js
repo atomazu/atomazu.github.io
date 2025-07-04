@@ -1,11 +1,11 @@
 import * as api from './api.js';
+import { setLoginState } from './state.js';
 
 export function handleLogin() {
     if (sessionStorage.getItem("token")) {
         if (confirm("Do you want to logout?")) {
-            document.getElementById("loginBtn").innerHTML = "Login";
-            document.getElementById("postBtn").innerHTML = "";
             sessionStorage.removeItem("token");
+            setLoginState(false, null);
         }
         return;
     }
@@ -25,8 +25,7 @@ async function validateToken(token) {
 
         if (response.ok) {
             sessionStorage.setItem("token", token);
-            document.getElementById("loginBtn").innerHTML = "Logout";
-            document.getElementById("postBtn").innerHTML = "Post";
+            setLoginState(true, token);
         } else {
             const errorMessage = responseData.message || response.status;
             alert(`Authentication failed: ${errorMessage}`);

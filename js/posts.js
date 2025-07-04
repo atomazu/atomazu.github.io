@@ -1,5 +1,6 @@
 import * as api from './api.js';
 import * as ui from './ui.js';
+import { state } from './state.js';
 
 const contentEl = document.getElementById("content");
 
@@ -42,7 +43,7 @@ export async function loadPost(slug) {
             finalHTML = ui.renderPost(postData, slug);
             ui.setContentWithFade(contentEl, finalHTML, () => {
                 document.getElementById('like-btn').addEventListener('click', () => likePostHandler(slug));
-                if (sessionStorage.getItem("token")) {
+                if (state.isLoggedIn) {
                     document.getElementById('editBtn').addEventListener('click', () => showEditForm(slug));
                     document.getElementById('deleteBtn').addEventListener('click', () => deletePostHandler(slug));
                 }
@@ -105,15 +106,14 @@ async function handlePostSubmission(event) {
     const title = document.getElementById("postTitle").value;
     const by = document.getElementById("postBy").value;
     const markdownContent = document.getElementById("postContent").value;
-    const token = sessionStorage.getItem("token");
 
-    if (!token) {
+    if (!state.isLoggedIn) {
         alert("You must be logged in to post.");
         return;
     }
 
     try {
-        const response = await api.createPost({ title, by, markdownContent }, token);
+        const response = await api.createPost({ title, by, markdownContent }, state.token);
         const responseData = await response.json();
 
         if (response.ok) {
@@ -128,14 +128,13 @@ async function handlePostSubmission(event) {
 }
 
 async function showEditForm(slug) {
-    const token = sessionStorage.getItem("token");
-    if (!token) {
+    if (!state.isLoggedIn) {
         alert("You must be logged in to edit posts.");
         return;
     }
 
     try {
-        const response = await api.fetchRawPost(slug, token);
+        const response = await api.fetchRawPost(slug, state.token);
         const postData = await response.json();
 
         if (response.ok) {
@@ -157,15 +156,14 @@ async function handlePostUpdate(event, slug) {
     const title = document.getElementById("postTitle").value;
     const by = document.getElementById("postBy").value;
     const markdownContent = document.getElementById("postContent").value;
-    const token = sessionStorage.getItem("token");
 
-    if (!token) {
+    if (!state.isLoggedIn) {
         alert("You must be logged in to update posts.");
         return;
     }
 
     try {
-        const response = await api.updatePost(slug, { title, by, markdownContent }, token);
+        const response = await api.updatePost(slug, { title, by, markdownContent }, state.token);
         const responseData = await response.json();
 
         if (response.ok) {
@@ -184,14 +182,13 @@ async function deletePostHandler(slug) {
         return;
     }
 
-    const token = sessionStorage.getItem("token");
-    if (!token) {
+    if (!state.isLoggedIn) {
         alert("You must be logged in to delete posts.");
         return;
     }
 
     try {
-        const response = await api.deletePost(slug, token);
+        const response = await api.deletePost(slug, state.token);
         if (response.ok) {
             window.location.href = '/';
         } else {

@@ -1,3 +1,5 @@
+import { state } from './state.js';
+
 export function setContentWithFade(element, newHtml, callback) {
     const hasContent = element.innerHTML.trim() !== '';
 
@@ -41,29 +43,31 @@ export function renderPost(postData, slug) {
     const likedPosts = JSON.parse(localStorage.getItem('likedPosts')) || [];
     const isLiked = likedPosts.includes(slug);
 
-    const adminButtons = sessionStorage.getItem("token") ? `
-        <div class="admin-buttons">
-          <button id="editBtn">Edit</button>
-          <button id="deleteBtn">Delete</button>
-        </div>
+    const adminButtons = state.isLoggedIn ? `
+          <button id="editBtn" class="action-button">Edit</button>
+          <button id="deleteBtn" class="action-button">Delete</button>
     ` : '';
 
     return `
-        <button class="back-button" onclick="window.location.href = '/'">← Back to Posts</button>
-        ${adminButtons}
+        <div class="action-buttons-container">
+          <button class="action-button" onclick="window.location.href = '/'">Back</button>
+          ${adminButtons}
+        </div>
+        <div class="post-header">
+            <div class="title-container">
+                <h1>${postData.title}</h1>
+                <span id="like-btn" class="like-btn" data-liked="${isLiked}"></span>
+            </div>
+            <div class="post-meta">
+                <span>By: ${postData.by}</span>
+                <span>${postData.date}</span>
+            </div>
+            <div class="post-meta">
+                <span>Views: ${postData.views}</span>
+                <span id="likes-count">Likes: ${postData.likes}</span>
+            </div>
+        </div>
         <article>
-          <div class="title-container">
-            <h1>${postData.title}</h1>
-            <span id="like-btn" class="like-btn" data-liked="${isLiked}"></span>
-          </div>
-          <div class="post-meta">
-            <span>By: ${postData.by}</span>
-            <span>${postData.date}</span>
-          </div>
-          <div class="post-meta">
-            <span>Views: ${postData.views}</span>
-            <span id="likes-count">Likes: ${postData.likes}</span>
-          </div>
           <div>
             ${postData.content}
           </div>
@@ -73,7 +77,6 @@ export function renderPost(postData, slug) {
 
 export function renderPostForm() {
     return `
-        <button class="back-button" onclick="window.location.href = '/'">← Back to Posts</button>
         <form id="newPostForm">
           <h2>Create a New Post</h2>
           <div class="form-group">
@@ -88,14 +91,16 @@ export function renderPostForm() {
             <label for="postContent">Content (Markdown)</label>
             <textarea id="postContent" rows="15" required></textarea>
           </div>
-          <button type="submit">Create Post</button>
+          <button type="submit" class="action-button">Create Post</button>
         </form>
+        <div class="action-buttons-container">
+            <button class="action-button" onclick="window.location.href = '/'">← Back to Posts</button>
+        </div>
     `;
 }
 
 export function renderEditForm(postData, slug) {
     return `
-        <button class="back-button" onclick="window.location.href = '?post=${slug}'">← Cancel</button>
         <form id="editPostForm">
           <h2>Edit Post</h2>
           <div class="form-group">
@@ -110,7 +115,10 @@ export function renderEditForm(postData, slug) {
             <label for="postContent">Content (Markdown)</label>
             <textarea id="postContent" rows="15" required>${postData.markdownContent}</textarea>
           </div>
-          <button type="submit">Update Post</button>
+          <button type="submit" class="action-button">Update Post</button>
         </form>
+        <div class="action-buttons-container">
+            <button class="action-button" onclick="window.location.href = '?post=${slug}'">← Cancel</button>
+        </div>
     `;
 }

@@ -137,6 +137,8 @@ article {
   padding: var(--spacing);
   border: var(--border-width) solid var(--border-color-medium);
   border-radius: var(--radius);
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 article a {
@@ -156,6 +158,14 @@ article img {
   color: var(--color-text-secondary);
 }
 
+.post-header {
+  background-color: var(--color-bg-tertiary);
+  margin-top: var(--spacing);
+  padding: var(--spacing);
+  border: var(--border-width) solid var(--border-color-medium);
+  border-radius: var(--radius);
+}
+
 .title-container {
   display: flex;
   justify-content: space-between;
@@ -170,10 +180,6 @@ button {
   cursor: pointer;
 }
 
-.back-button {
-  margin-top: var(--spacing);
-}
-
 .like-btn {
   cursor: pointer;
   font-size: var(--font-size-lg);
@@ -185,6 +191,69 @@ button {
 
 .like-btn[data-liked="true"]::before {
   content: var(--icon-liked);
+}
+
+.action-buttons-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--padding-md);
+  margin-top: var(--spacing);
+}
+
+.action-button {
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin-top: var(--spacing);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  padding: var(--padding-md) var(--spacing);
+  border-radius: var(--radius);
+  border: var(--border-width) solid var(--border-color-light);
+  font-size: var(--font-size-md);
+  cursor: pointer;
+  line-height: 1;
+}
+
+.action-button:hover {
+    background-color: var(--color-bg-secondary);
+    color: var(--color-text-hover);
+}
+
+/* --- FORMS --- */
+form {
+  background-color: var(--color-bg-tertiary);
+  margin-top: var(--spacing);
+  margin-bottom: var(--spacing);
+  padding: var(--spacing);
+  border: var(--border-width) solid var(--border-color-medium);
+  border-radius: var(--radius);
+}
+
+.form-group {
+  margin-bottom: var(--spacing);
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: var(--padding-md);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: var(--padding-md);
+  background-color: var(--color-bg-secondary);
+  color: var(--color-text-primary);
+  border: var(--border-width) solid var(--border-color-medium);
+  border-radius: var(--radius);
+  font-family: var(--font-family-mono);
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+form .action-button[type="submit"] {
+  width: 100%;
 }
 
 /* --- ANIMATIONS & TRANSITIONS --- */
@@ -213,6 +282,166 @@ button {
   }
 }
 
+/* --- MARKDOWN STYLES --- */
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  margin-top: var(--spacing);
+  margin-bottom: var(--padding-md);
+  padding-bottom: var(--padding-sm);
+  border-bottom: var(--border-width) solid var(--border-color-dark);
+}
+
+article h1 {
+  font-size: 1.8em;
+}
+
+article h2 {
+  font-size: 1.5em;
+  text-decoration: none; /* override global h2 style */
+}
+
+article h2::before {
+    content: "## ";
+    color: var(--color-text-secondary);
+}
+
+article h3 {
+  font-size: 1.2em;
+  border-bottom: none;
+}
+
+article h3::before {
+    content: "### ";
+    color: var(--color-text-secondary);
+}
+
+article h4,
+article h5,
+article h6 {
+    font-size: 1em;
+    border-bottom: none;
+    font-style: italic;
+    color: var(--color-text-secondary);
+}
+
+article p {
+  line-height: 1.6;
+  margin-bottom: var(--spacing);
+}
+
+article blockquote {
+  margin: var(--spacing) 0;
+  padding: var(--padding-md) var(--spacing);
+  background-color: var(--color-bg-secondary);
+  border-left: 5px solid var(--border-color-medium);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  color: var(--color-text-secondary);
+}
+
+article blockquote p {
+  padding: 0;
+  margin: 0;
+}
+
+article ul,
+article ol {
+  padding-left: calc(var(--spacing) * 2);
+}
+
+article li {
+  margin-bottom: var(--padding-md);
+}
+
+article ul li::marker {
+  content: '» ';
+  color: var(--color-link);
+}
+
+article ol {
+    list-style-type: decimal;
+}
+
+article ol li::marker {
+    color: var(--color-link);
+}
+
+article pre {
+  background-color: var(--color-bg-secondary);
+  padding: var(--spacing);
+  border-radius: var(--radius);
+  border: var(--border-width) solid var(--border-color-dark);
+  overflow-x: auto;
+  white-space: pre;
+}
+
+article code {
+  font-family: var(--font-family-mono);
+  background-color: var(--color-bg-secondary);
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+article pre code {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  font-size: 1em;
+}
+
+article hr {
+  border: 0;
+  height: var(--border-width);
+  background-color: var(--border-color-medium);
+  margin: var(--spacing) 0;
+  background-image: linear-gradient(to right, var(--border-color-medium), var(--border-color-medium), transparent);
+}
+
+article strong {
+  color: var(--color-text-hover);
+  font-weight: bold;
+}
+
+article em {
+  color: var(--color-text-hover);
+  font-style: italic;
+}
+
+article del {
+    color: var(--color-text-secondary);
+    text-decoration-color: var(--border-color-light);
+}
+
+article table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: var(--spacing) 0;
+}
+
+article th,
+article td {
+    padding: var(--padding-md);
+    border: var(--border-width) solid var(--border-color-medium);
+    text-align: left;
+}
+
+article th {
+    background-color: var(--color-bg-secondary);
+    font-weight: bold;
+}
+
+article tbody tr:nth-child(odd) {
+    background-color: var(--color-bg-tertiary);
+}
+
+article tbody tr:hover {
+    background-color: var(--color-bg-secondary);
+}
+
 /* --- MOBILE STYLES --- */
 @media (max-width: 850px) {
   .main {
@@ -231,13 +460,6 @@ button {
   header ul {
     flex-direction: row;
     align-items: flex-end;
-  }
-
-  article {
-    border: none;
-    background-color: transparent;
-    margin: 10px;
-    padding: 0;
   }
 
   header li {
