@@ -85,6 +85,8 @@ async function likePostHandler(slug) {
             likedPosts.push(slug);
             localStorage.setItem('likedPosts', JSON.stringify(likedPosts));
             likeBtn.dataset.liked = 'true';
+            likeBtn.textContent = 'Liked 心';
+            likeBtn.disabled = true;
         } else {
             alert(`Error: ${responseData.error}`);
         }
