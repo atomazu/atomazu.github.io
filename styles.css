@@ -1,3 +1,4 @@
+/* --- VARIABLES --- */
 :root {
   --icon-liked: 'Liked ⼼';
   --icon-unliked: 'Like 〇';
@@ -28,6 +29,7 @@
   --transition-speed-slow: 2s;
 }
 
+/* --- GENERAL --- */
 body {
   margin: 0;
   padding: var(--spacing) 0;
@@ -46,57 +48,10 @@ body {
   border-radius: var(--radius);
 }
 
-.post-meta {
-  color: var(--color-text-secondary);
-}
-
+/* --- TYPOGRAPHY --- */
 h1 {
   margin: 0;
   padding: 0;
-}
-
-header {
-  border-bottom: var(--border-width) solid var(--border-color-light);
-}
-
-.post-list {
-  padding: var(--spacing);
-  padding-top: 0;
-  margin-top: var(--spacing);
-  margin-bottom: var(--spacing);
-  border: var(--border-width) solid var(--border-color-light);
-  border-radius: var(--radius);
-  transition: background-color var(--transition-speed-fast);
-}
-
-.post-list:hover {
-  background-color: var(--color-bg-tertiary);
-  transition: background-color var(--transition-speed-fast);
-}
-
-article {
-  background-color: var(--color-bg-tertiary);
-  margin-top: var(--spacing);
-  margin-bottom: var(--spacing);
-  padding: var(--spacing);
-  border: var(--border-width) solid var(--border-color-medium);
-  border-radius: var(--radius);
-}
-
-.back-button {
-  margin-top: var(--spacing);
-}
-
-#content {
-  transition: opacity var(--transition-speed-fast) ease-in-out;
-}
-
-.fade-out {
-  opacity: 0;
-}
-
-.post-title {
-  margin-top: 20px;
 }
 
 h2 {
@@ -110,19 +65,18 @@ time {
   padding: var(--padding-sm) var(--padding-md);
 }
 
+/* --- LAYOUT --- */
+header {
+  border-bottom: var(--border-width) solid var(--border-color-light);
+}
+
 footer p {
   color: var(--color-text-secondary);
   text-align: right;
   margin: 0;
 }
 
-button {
-  background-color: var(--color-bg-primary);
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
+/* --- NAVIGATION --- */
 nav {
   display: flex;
   width: 100%;
@@ -152,12 +106,72 @@ nav a, header a {
   text-decoration: none;
 }
 
+nav a:hover {
+  color: var(--color-text-hover);
+}
+
 header a {
   text-decoration: underline;
 }
 
-nav a:hover {
-  color: var(--color-text-hover);
+/* --- POSTS --- */
+.post-list {
+  padding: var(--spacing);
+  padding-top: 0;
+  margin-top: var(--spacing);
+  margin-bottom: var(--spacing);
+  border: var(--border-width) solid var(--border-color-light);
+  border-radius: var(--radius);
+  transition: background-color var(--transition-speed-fast);
+}
+
+.post-list:hover {
+  background-color: var(--color-bg-tertiary);
+  transition: background-color var(--transition-speed-fast);
+}
+
+article {
+  background-color: var(--color-bg-tertiary);
+  margin-top: var(--spacing);
+  margin-bottom: var(--spacing);
+  padding: var(--spacing);
+  border: var(--border-width) solid var(--border-color-medium);
+  border-radius: var(--radius);
+}
+
+article a {
+  color: var(--color-link);
+}
+
+article img {
+  width: 100%;
+  border-radius: var(--radius);
+}
+
+.post-title {
+  margin-top: 20px;
+}
+
+.post-meta {
+  color: var(--color-text-secondary);
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* --- UI ELEMENTS --- */
+button {
+  background-color: var(--color-bg-primary);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.back-button {
+  margin-top: var(--spacing);
 }
 
 .like-btn {
@@ -173,10 +187,21 @@ nav a:hover {
   content: var(--icon-liked);
 }
 
-.title-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* --- ANIMATIONS & TRANSITIONS --- */
+#content {
+  transition: opacity var(--transition-speed-fast) ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.loading-symbol {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 40px;
+  animation: rotate var(--transition-speed-slow) linear infinite;
+  font-size: var(--font-size-md);
 }
 
 @keyframes rotate {
@@ -188,25 +213,7 @@ nav a:hover {
   }
 }
 
-.loading-symbol {
-  text-align: center;
-  margin-bottom: 0;
-  margin-top: 40px;
-  animation: rotate var(--transition-speed-slow) linear infinite;
-  font-size: var(--font-size-md);
-}
-
-article a {
-  color: var(--color-link);
-}
-
-article img {
-  width: 100%;
-  border-radius: var(--radius);
-}
-
-
-/* --- Mobile Styles --- */
+/* --- MOBILE STYLES --- */
 @media (max-width: 850px) {
   .main {
     padding: 0;
@@ -251,4 +258,3 @@ article img {
     text-align: center;
   }
 }
-
