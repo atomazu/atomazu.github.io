@@ -34,6 +34,10 @@ html {
   box-sizing: border-box;
 }
 
+.mobile-break {
+  display: none;
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -188,19 +192,6 @@ button {
   color: white;
   border: none;
   cursor: pointer;
-}
-
-.like-btn {
-  cursor: pointer;
-  font-size: var(--font-size-lg);
-}
-
-.like-btn::before {
-  content: var(--icon-unliked);
-}
-
-.like-btn[data-liked="true"]::before {
-  content: var(--icon-liked);
 }
 
 .action-buttons-container {
@@ -453,26 +444,50 @@ article tbody tr:hover {
 
 /* --- MOBILE STYLES --- */
 @media (max-width: 850px) {
+  body {
+    padding: 0;
+  }
+
   .container {
-    width: auto;
+    width: 100%;
     min-width: unset;
     max-width: unset;
     margin: 0;
+    padding: var(--spacing);
     border: none;
+    border-radius: 0;
+  }
+
+  header {
+    text-align: center;
   }
 
   header ul {
-    flex-direction: row;
-    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--padding-sm);
   }
 
   header li {
-    margin-right: 10px;
-    margin-bottom: var(--padding-md);
+    margin-right: 0;
+  }
+
+  .post-header {
+    text-align: center;
   }
 
   .title-container {
-    flex-direction: row;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--padding-md);
+  }
+
+  .action-buttons-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .mobile-break {
+    display: inline;
   }
 }

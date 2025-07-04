@@ -26,11 +26,11 @@ export function renderPostList(posts) {
         `<div class="post-list" onclick="window.location.href = '?post=' + '${post.slug}'" style="cursor: pointer;">
            <div>
              <h3>${post.title}</h3>
-             <div>
+             <div class="post-list-meta">
                <span>By: ${post.by}</span>
                <span>${post.date}</span>
              </div>
-             <div>
+             <div class="post-list-stats">
                 <span>Views: ${post.views}</span>
                 <span>Likes: ${post.likes}</span>
              </div>
@@ -42,6 +42,7 @@ export function renderPostList(posts) {
 export function renderPost(postData, slug) {
     const likedPosts = JSON.parse(localStorage.getItem('likedPosts')) || [];
     const isLiked = likedPosts.includes(slug);
+    const likeButtonText = isLiked ? 'Liked 心' : 'Like 〇';
 
     const adminButtons = state.isLoggedIn ? `
           <button id="editBtn" class="action-button">Edit</button>
@@ -51,7 +52,7 @@ export function renderPost(postData, slug) {
     return `
         <div class="action-buttons-container">
           <button class="action-button" onclick="window.location.href = '/'">Back</button>
-          <button id="like-btn" class="action-button" data-liked="${isLiked}" ${isLiked ? 'disabled' : ''}>Like</button>
+          <button id="like-btn" class="action-button" data-liked="${isLiked}" ${isLiked ? 'disabled' : ''}>${likeButtonText}</button>
           ${adminButtons}
         </div>
         <div class="post-header">
